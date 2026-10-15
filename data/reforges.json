@@ -1,0 +1,765 @@
+{
+  "armour": {
+    "Wonderful": {
+      "1": {
+        "dex": 2,
+        "agi": 2,
+        "str": 2,
+        "int": 2
+      },
+      "2": {
+        "dex": 2,
+        "agi": 2,
+        "str": 2,
+        "int": 2
+      },
+      "3": {
+        "dex": 2,
+        "agi": 2,
+        "str": 2,
+        "int": 2
+      },
+      "4": {
+        "dex": 3,
+        "agi": 3,
+        "str": 3,
+        "int": 3
+      },
+      "5": {
+        "dex": 3,
+        "agi": 3,
+        "str": 3,
+        "int": 3
+      },
+      "6": {
+        "dex": 3,
+        "agi": 3,
+        "str": 3,
+        "int": 3
+      },
+      "7": {
+        "dex": 3,
+        "agi": 3,
+        "str": 3,
+        "int": 3
+      },
+      "8": {
+        "dex": 4,
+        "agi": 4,
+        "str": 4,
+        "int": 4
+      }
+    },
+    "Heavyweight": {
+      "1": {
+        "def": 4,
+        "agi": -3
+      },
+      "2": {
+        "def": 5,
+        "agi": -3
+      },
+      "3": {
+        "def": 5,
+        "agi": -4
+      },
+      "4": {
+        "def": 6,
+        "agi": -4
+      },
+      "5": {
+        "def": 6,
+        "agi": -5
+      },
+      "6": {
+        "def": 7,
+        "agi": -5
+      },
+      "7": {
+        "def": 7,
+        "agi": -6
+      },
+      "8": {
+        "def": 8,
+        "agi": -6
+      }
+    },
+    "Calm": {
+      "1": {
+        "def": 4,
+        "str": -3
+      },
+      "2": {
+        "def": 5,
+        "str": -3
+      },
+      "3": {
+        "def": 5,
+        "str": -4
+      },
+      "4": {
+        "def": 6,
+        "str": -4
+      },
+      "5": {
+        "def": 6,
+        "str": -5
+      },
+      "6": {
+        "def": 7,
+        "str": -5
+      },
+      "7": {
+        "def": 7,
+        "str": -6
+      },
+      "8": {
+        "def": 8,
+        "str": -6
+      }
+    },
+    "Dull": {
+      "1": {
+        "def": 4,
+        "int": -3
+      },
+      "2": {
+        "def": 5,
+        "int": -3
+      },
+      "3": {
+        "def": 5,
+        "int": -4
+      },
+      "4": {
+        "def": 6,
+        "int": -4
+      },
+      "5": {
+        "def": 6,
+        "int": -5
+      },
+      "6": {
+        "def": 7,
+        "int": -5
+      },
+      "7": {
+        "def": 7,
+        "int": -6
+      },
+      "8": {
+        "def": 8,
+        "int": -5
+      }
+    },
+    "Lightweight": {
+      "1": {
+        "agi": 4,
+        "def": -3
+      },
+      "2": {
+        "agi": 5,
+        "def": -3
+      },
+      "3": {
+        "agi": 5,
+        "def": -4
+      },
+      "4": {
+        "agi": 6,
+        "def": -4
+      },
+      "5": {
+        "agi": 6,
+        "def": -5
+      },
+      "6": {
+        "agi": 7,
+        "def": -5
+      },
+      "7": {
+        "agi": 7,
+        "def": -6
+      },
+      "8": {
+        "agi": 8,
+        "def": -6
+      }
+    },
+    "Angry": {
+      "1": {
+        "str": 4,
+        "def": -3
+      },
+      "2": {
+        "str": 5,
+        "def": -3
+      },
+      "3": {
+        "str": 5,
+        "def": -4
+      },
+      "4": {
+        "str": 6,
+        "def": -4
+      },
+      "5": {
+        "str": 6,
+        "def": -5
+      },
+      "6": {
+        "str": 7,
+        "def": -5
+      },
+      "7": {
+        "str": 7,
+        "def": -6
+      },
+      "8": {
+        "str": 8,
+        "def": -6
+      }
+    },
+    "Vivid": {
+      "1": {
+        "int": 4,
+        "def": -3
+      },
+      "2": {
+        "int": 5,
+        "def": -3
+      },
+      "3": {
+        "int": 5,
+        "def": -4
+      },
+      "4": {
+        "int": 6,
+        "def": -4
+      },
+      "5": {
+        "int": 6,
+        "def": -5
+      },
+      "6": {
+        "int": 7,
+        "def": -5
+      },
+      "7": {
+        "int": 7,
+        "def": -6
+      },
+      "8": {
+        "int": 8,
+        "def": -5
+      }
+    },
+    "Fragile": {
+      "1": {
+        "dex": 4,
+        "def": -3
+      },
+      "2": {
+        "dex": 5,
+        "def": -3
+      },
+      "3": {
+        "dex": 5,
+        "def": -4
+      },
+      "4": {
+        "dex": 6,
+        "def": -4
+      },
+      "5": {
+        "dex": 6,
+        "def": -5
+      },
+      "6": {
+        "dex": 7,
+        "def": -5
+      },
+      "7": {
+        "dex": 7,
+        "def": -6
+      },
+      "8": {
+        "dex": 8,
+        "def": -6
+      }
+    },
+    "Spiky": {
+      "1": {
+        "str": 2
+      },
+      "2": {
+        "str": 3
+      },
+      "3": {
+        "str": 3
+      },
+      "4": {
+        "str": 4
+      },
+      "5": {
+        "str": 4
+      },
+      "6": {
+        "str": 5
+      },
+      "7": {
+        "str": 5
+      },
+      "8": {
+        "str": 6
+      }
+    },
+    "Dexterous": {
+      "1": {
+        "dex": 2
+      },
+      "2": {
+        "dex": 3
+      },
+      "3": {
+        "dex": 3
+      },
+      "4": {
+        "dex": 4
+      },
+      "5": {
+        "dex": 4
+      },
+      "6": {
+        "dex": 5
+      },
+      "7": {
+        "dex": 5
+      },
+      "8": {
+        "dex": 6
+      }
+    },
+    "Smart": {
+      "1": {
+        "int": 2
+      },
+      "2": {
+        "int": 3
+      },
+      "3": {
+        "int": 3
+      },
+      "4": {
+        "int": 4
+      },
+      "5": {
+        "int": 4
+      },
+      "6": {
+        "int": 5
+      },
+      "7": {
+        "int": 5
+      },
+      "8": {
+        "int": 6
+      }
+    },
+    "Swift": {
+      "1": {
+        "agi": 2
+      },
+      "2": {
+        "agi": 3
+      },
+      "3": {
+        "agi": 3
+      },
+      "4": {
+        "agi": 4
+      },
+      "5": {
+        "agi": 4
+      },
+      "6": {
+        "agi": 5
+      },
+      "7": {
+        "agi": 5
+      },
+      "8": {
+        "agi": 6
+      }
+    },
+    "Hearty": {
+      "1": {
+        "Regeneration": 10
+      },
+      "2": {
+        "Regeneration": 10
+      },
+      "3": {
+        "Regeneration": 10
+      },
+      "4": {
+        "Regeneration": 10
+      },
+      "5": {
+        "Regeneration": 10
+      },
+      "6": {
+        "Regeneration": 10
+      },
+      "7": {
+        "Regeneration": 10
+      },
+      "8": {
+        "Regeneration": 10
+      }
+    },
+    "Feathered": {
+      "1": {
+        "FallDamage": -9
+      },
+      "2": {
+        "FallDamage": -9
+      },
+      "3": {
+        "FallDamage": -9
+      },
+      "4": {
+        "FallDamage": -9
+      },
+      "5": {
+        "FallDamage": -9
+      },
+      "6": {
+        "FallDamage": -9
+      },
+      "7": {
+        "FallDamage": -9
+      },
+      "8": {
+        "FallDamage": -9
+      }
+    },
+    "Doodoo": {
+      "1": {
+        "def": -3
+      },
+      "2": {
+        "def": -4
+      },
+      "3": {
+        "def": -5
+      },
+      "4": {
+        "def": -6
+      },
+      "5": {
+        "def": -7
+      },
+      "6": {
+        "def": -8
+      },
+      "7": {
+        "def": -9
+      },
+      "8": {
+        "def": -10
+      }
+    }
+  },
+  "accessories": {
+    "Bright": {
+      "1": {
+        "int": 1
+      },
+      "2": {
+        "int": 2
+      },
+      "3": {
+        "int": 2
+      },
+      "4": {
+        "int": 3
+      },
+      "5": {
+        "int": 3
+      },
+      "6": {
+        "int": 4
+      },
+      "7": {
+        "int": 4
+      },
+      "8": {
+        "int": 5
+      }
+    },
+    "Brisk": {
+      "1": {
+        "agi": 1
+      },
+      "2": {
+        "agi": 2
+      },
+      "3": {
+        "agi": 2
+      },
+      "4": {
+        "agi": 3
+      },
+      "5": {
+        "agi": 3
+      },
+      "6": {
+        "agi": 4
+      },
+      "7": {
+        "agi": 4
+      },
+      "8": {
+        "agi": 5
+      }
+    },
+    "Deft": {
+      "1": {
+        "dex": 1
+      },
+      "2": {
+        "dex": 2
+      },
+      "3": {
+        "dex": 2
+      },
+      "4": {
+        "dex": 3
+      },
+      "5": {
+        "dex": 3
+      },
+      "6": {
+        "dex": 4
+      },
+      "7": {
+        "dex": 4
+      },
+      "8": {
+        "dex": 5
+      }
+    },
+    "Jagged": {
+      "1": {
+        "str": 1
+      },
+      "2": {
+        "str": 2
+      },
+      "3": {
+        "str": 2
+      },
+      "4": {
+        "str": 3
+      },
+      "5": {
+        "str": 3
+      },
+      "6": {
+        "str": 4
+      },
+      "7": {
+        "str": 4
+      },
+      "8": {
+        "str": 5
+      }
+    },
+    "Tough": {
+      "1": {
+        "def": 1
+      },
+      "2": {
+        "def": 1
+      },
+      "3": {
+        "def": 2
+      },
+      "4": {
+        "def": 2
+      },
+      "5": {
+        "def": 2
+      },
+      "6": {
+        "def": 3
+      },
+      "7": {
+        "def": 3
+      },
+      "8": {
+        "def": 3
+      }
+    }
+  },
+  "weapon": {
+    "Large": {
+      "range": 20,
+      "swingspeed": -10
+    },
+    "Relentless": {
+      "endlag": -10,
+      "heavycooldown": -10,
+      "swingspeed": 10,
+      "damage": -10
+    },
+    "Small": {
+      "endlag": -10,
+      "swingspeed": 10,
+      "range": -20
+    },
+    "Agile": {
+      "swingspeed": 10
+    },
+    "Light": {
+      "swingspeed": 20,
+      "knockback": -20,
+      "damage": -10
+    },
+    "Lucky": {
+      "critchance": 10
+    },
+    "Sharp": {
+      "damage": 15,
+      "knockback": -20
+    },
+    "Heavy": {
+      "knockback": 30,
+      "damage": 20,
+      "swingspeed": -20
+    }
+  },
+  "rangedweapon": {
+    "Accurate": {
+      "maxrange": 20,
+      "spread": -50,
+      "velocity": 50,
+      "critchance": 10,
+      "startup": 20,
+      "cooldown": 20
+    },
+    "Rapid": {
+      "startup": -20,
+      "cooldown": -20,
+      "velocity": -10
+    },
+    "Unstable": {
+      "startup": -10,
+      "cooldown": -10,
+      "spread": 20,
+      "maxrange": -25
+    },
+    "Shortsighted": {
+      "damage": 15,
+      "maxrange": -50,
+      "velocity": -20,
+      "minrange": -50
+    },
+    "Frenzying": {
+      "cooldown": -20,
+      "startup": -20,
+      "velocity": -10,
+      "damage": -20
+    },
+    "Bursting": {
+      "startup": -20,
+      "velocity": 20,
+      "damage": 10,
+      "maxrange": 20,
+      "cooldown": 50
+    },
+    "Powerful": {
+      "damage": 15,
+      "cooldown": 20
+    }
+  },
+  "magicweapon": {
+    "Quiet": {
+      "manacost": -20,
+      "size": -20
+    },
+    "Abrupt": {
+      "startup": -20,
+      "cooldown": -20,
+      "time": -50
+    },
+    "Nippy": {
+      "speed": 50,
+      "cooldown": -30,
+      "time": -30,
+      "size": -30
+    },
+    "Radiant": {
+      "damage": 30,
+      "manacost": 40
+    },
+    "Woeful": {
+      "manacost": -30,
+      "cooldown": -30,
+      "speed": 20,
+      "startup": -30,
+      "damage": -20,
+      "size": -20
+    },
+    "Cosmic": {
+      "size": 40,
+      "manacost": 10,
+      "cooldown": 20,
+      "speed": -20
+    },
+    "Patient": {
+      "manacost": -10,
+      "damage": 20,
+      "time": 30,
+      "startup": 20,
+      "cooldown": 20
+    },
+    "Myriad": {
+      "count": 50,
+      "time": -50,
+      "size": -50,
+      "damage": -35
+    },
+    "Nimble": {
+      "cooldown": -10,
+      "startup": -10
+    }
+  },
+  "summonerweapon": {
+    "Average": {},
+    "Merciless": {
+      "damage": 20,
+      "health": -70
+    },
+    "Mischievous": {
+      "speed": 30,
+      "damage": -10
+    },
+    "Hulking": {
+      "health": 30,
+      "damage": 10,
+      "speed": -30
+    }
+  },
+  "gems": {
+    "Blood Gem": "Hits heal you for 10% of damage dealt. Magic weapon statuses last 25% longer.",
+    "Charm Gem": "Crits gain +10% chance and an additional 25% more damage. Statuses inflicted by magic attacks are 25% more powerful.",
+    "Lightning Gem": "Deal 25% more poise damage and applies shock with intensity scaling off damage dealt. Magic projectiles have 40% increased speed but 30% decreased size.",
+    "Explosive Gem": "Every 3rd hit with it causes an explosion, dealing 50% of the damage of the hit that triggered it. Also, magic projectiles grow 15% larger but 25% slower.",
+    "Frost Gem": "Hits apply stacking chill, lowering enemy movement speed and defense.",
+    "Fire Gem": "Hits will apply fire with intensity scaling off damage dealt.",
+    "Dark Gem": "Weapon's base scaling is reduced by 20% but it gains 40% intellect scaling. Attacks also recover mana. Magic weapons have 20% reduced mana cost and 10% increased damage.",
+    "Light Gem": "Weapon swings 20% faster. When forged onto a ranged or magic weapon, its startup and cooldown are reduced by 10%."
+  }
+}

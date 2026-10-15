@@ -1,0 +1,5928 @@
+{
+  "accessory": {
+    "Dagger Sheath": {
+      "abilities": [
+        "Daggers ignore 10 points of enemy defense, up to -5 defense. Your heavy cooldown is 100% slower."
+      ],
+      "rarity": 3,
+      "dex": 3,
+      "agi": 2
+    },
+    "Gold Ring": {
+      "stacks": 5,
+      "rarity": 1,
+      "desc": "A shiny gold ring. Probably belonged to a thief.",
+      "dex": 2
+    },
+    "Runner Boots": {
+      "mutualexclusive": [
+        "Cloud Boots",
+        "Storm Boots"
+      ],
+      "rarity": 1,
+      "MaxSpeed": 15,
+      "abilities": [
+        "Gradually increases speed while running."
+      ]
+    },
+    "Silver Ring": {
+      "stacks": 5,
+      "int": 2,
+      "rarity": 1,
+      "desc": "A shiny silver ring. Probably belonged to a thief."
+    },
+    "Yellow Aglet": {
+      "MaxSpeed": 2,
+      "abilities": [
+        "Dodging an attack with a roll or dive gives you a short burst of speed."
+      ],
+      "rarity": 1,
+      "agi": 2
+    },
+    "Bandaid": {
+      "desc": "A happy-go-bloody bandaid that negates bleeding.",
+      "rarity": 2,
+      "Regeneration": 10
+    },
+    "Bear Clover": {
+      "abilities": [
+        "Bows have a 75% chance to not consume arrows and guns have a 25% chance not to consume ammo."
+      ],
+      "desc": "Cherished by a brown bear.",
+      "dex": 8,
+      "rarity": 2
+    },
+    "Cactus Fruit": {
+      "abilities": [
+        "Being soaked with water grants you 15% increased speed and regeneration.",
+        "[Skill] Splash water on yourself, nearby players, AND enemies, granting them resistance to fire, but weakness to shock."
+      ],
+      "rarity": 2
+    },
+    "Challenge Medal": {
+      "abilities": [
+        "A challenge. +50% increased gold and increased drops but double damage taken."
+      ],
+      "rarity": 2
+    },
+    "Emerald Pendant": {
+      "abilities": [
+        "Your bow charge speed also benefits from agility."
+      ],
+      "rarity": 2,
+      "dex": 3,
+      "agi": 3
+    },
+    "Gel Shield": {
+      "mutualexclusive": [
+        "Egg Shell",
+        "Elite Shield",
+        "Scrap Shield",
+        "Polarity Shield",
+        "Stained Glass Shield"
+      ],
+      "abilities": [
+        "Sticky and slimy. Parrying an enemy douses them in slime. Slimed enemies deal 15% less damage to you.",
+        "[Paired with Elite Guard] Completely absorbs shield break damage. Releases slime on shield break."
+      ],
+      "int": 2,
+      "def": 4,
+      "rarity": 2
+    },
+    "Gorgon Talon": {
+      "rarity": 2,
+      "abilities": [
+        "Firing arrows mid-air repels you backwards and increases the arrows' damage and speed by 20%. After kicking an enemy, charge time is reduced by 75% for a brief window."
+      ],
+      "dex": 4,
+      "agi": 2
+    },
+    "Gunpowder": {
+      "abilities": [
+        "Your bullets explode on impact.",
+        "Increases bullet velocity by 50%."
+      ],
+      "dex": 4,
+      "mutualexclusive": [
+        "Quick Powder",
+        "Mana Powder",
+        "Silent Powder"
+      ],
+      "rarity": 2
+    },
+    "Keen Lens": {
+      "abilities": [
+        "Dodging an attack increases your crit chance by 20% for 3 seconds!"
+      ],
+      "rarity": 2,
+      "mutualexclusive": [
+        "Acute Lens",
+        "Nimble Lens",
+        "Sniper Lens"
+      ],
+      "CritChance": 5
+    },
+    "Lantern": {
+      "desc": "Light it up and bright it up.",
+      "abilities": [],
+      "rarity": 2
+    },
+    "Nimble Lens": {
+      "abilities": [
+        "Your ranged startup speed penalty is reduced. Hooray!"
+      ],
+      "mutualexclusive": [
+        "Acute Lens",
+        "Keen Lens",
+        "Sniper Lens"
+      ],
+      "dex": 2,
+      "rarity": 2,
+      "agi": 2
+    },
+    "Parry Manual": {
+      "stacks": 5,
+      "abilities": [
+        "Parrying an attack makes the next time you use mana 25% cheaper.",
+        "Parrying an attack restores 10% of the player's Max Mana."
+      ],
+      "int": 3,
+      "rarity": 2
+    },
+    "Piercing Bullets": {
+      "abilities": [
+        "Your bullets gain 15% piercing."
+      ],
+      "dex": 3,
+      "rarity": 2
+    },
+    "Sneaky Bandana": {
+      "dex": 6,
+      "agi": 2,
+      "DetectionRisk": -20,
+      "rarity": 2
+    },
+    "Strike Bracelet": {
+      "abilities": [
+        "The first attack on an enemy is always a critical hit, and also does 25% more damage on top of that."
+      ],
+      "rarity": 2
+    },
+    "Thief King Cloak": {
+      "mutualexclusive": [
+        "Highway Cloak",
+        "Brilliant Cape",
+        "Windman's Cloak"
+      ],
+      "desc": "Hail to the thief!",
+      "rarity": 2,
+      "def": 4,
+      "agi": 2,
+      "abilities": [
+        "[Skill] Ram into enemies, dealing damage based off your strength."
+      ]
+    },
+    "Thief Pendant": {
+      "abilities": [
+        "Taking damage has a chance to spawn mini thieves to attack your enemies."
+      ],
+      "rarity": 2
+    },
+    "Thorn Ring": {
+      "abilities": [
+        "Painful to wear. Deal damage to enemies when you parry them."
+      ],
+      "rarity": 2,
+      "str": 2
+    },
+    "Ammo Box": {
+      "abilities": [
+        "Increases the max ammo capacity of guns by 25%."
+      ],
+      "int": 4,
+      "dex": 4,
+      "rarity": 3
+    },
+    "Cloud Glove": {
+      "abilities": [
+        "You get knocked back when firing a bow."
+      ],
+      "rarity": 3,
+      "dex": 3,
+      "agi": 1
+    },
+    "Compound Agent": {
+      "abilities": [
+        "Statuses inflicted by arrows are 25% stronger and last twice as long."
+      ],
+      "int": 3,
+      "dex": 3,
+      "rarity": 3
+    },
+    "Delicate Bowstring": {
+      "abilities": [
+        "Your bow charges 20% faster and automatically fires."
+      ],
+      "dex": 4,
+      "rarity": 3,
+      "mutualexclusive": [
+        "Stoic Bowstring"
+      ]
+    },
+    "Delicate Egg": {
+      "abilities": [
+        "Your parry window is increased by 50% but you take 25% more damage."
+      ],
+      "rarity": 3
+    },
+    "Demetal Bullets": {
+      "abilities": [
+        "Your bullets inflict burning and deal 10% more damage."
+      ],
+      "str": 3,
+      "dex": 4,
+      "rarity": 3
+    },
+    "Fiery Stone": {
+      "abilities": [
+        "The last hit of your melee combo inflicts stacking fire."
+      ],
+      "mutualexclusive": [
+        "Shiver Stone"
+      ],
+      "def": 2,
+      "int": 4,
+      "rarity": 3
+    },
+    "Flameheart Amulet": {
+      "mutualexclusive": [
+        "Royal Amulet",
+        "Sea Breeze Amulet"
+      ],
+      "rarity": 3,
+      "int": 3,
+      "abilities": [
+        "While on fire, gain 25% movement speed, swing speed, and mana cost reduction."
+      ]
+    },
+    "Frost Cone": {
+      "abilities": [
+        "When you freeze an enemy with 50 stacks of Chilled or Frostburn on an enemy, it will do 50% more damage."
+      ],
+      "rarity": 3,
+      "str": 4,
+      "int": 4
+    },
+    "Gel Quiver": {
+      "mutualexclusive": [
+        "Battle Quiver",
+        "Augmented Gel Quiver",
+        "Elemental Quiver"
+      ],
+      "abilities": [
+        "Arrows shot are converted into their slime equivalents. Explosive arrows become powerful sludge bombs. Scrap arrows are converted into weak corrosive arrows."
+      ],
+      "dex": 4,
+      "rarity": 3
+    },
+    "Glacial Belt": {
+      "mutualexclusive": [
+        "Black Belt"
+      ],
+      "abilities": [
+        "Frostburns effects on you are reduced by 50%.",
+        "[Skill] Inflict yourself and nearby enemies with Frostburn."
+      ],
+      "int": 4,
+      "def": 4,
+      "rarity": 3
+    },
+    "Knight Talisman": {
+      "abilities": [
+        "[Skill] Consume your max mana and stop mana regeneration to gain 15% increased melee damage for 15 seconds.",
+        "The first 2 seconds of this skill will give 30% instead of 15%."
+      ],
+      "rarity": 3
+    },
+    "Mana Flint": {
+      "abilities": [
+        "When you don't have enough mana, consume your health instead."
+      ],
+      "rarity": 3,
+      "int": 4,
+      "mutualexclusive": [
+        "Summon Flint"
+      ]
+    },
+    "Mana Heart": {
+      "abilities": [
+        "Slaying enemies replenishes 30% of your max mana! Any non-natural mana regained can go 50% over max mana instead of 25%."
+      ],
+      "int": 4,
+      "rarity": 3
+    },
+    "Mini Squid": {
+      "abilities": [
+        "Taking over 5 damage covers nearby enemies in oil, amplifying any fire damage they take by 50%."
+      ],
+      "rarity": 3,
+      "dex": 3,
+      "agi": 2
+    },
+    "Mini Urchin": {
+      "abilities": [
+        "Taking damage copies debuffs to nearby enemies.",
+        "Parrying compromises the enemy for 3 seconds, heavily negating their status resistances."
+      ],
+      "rarity": 3
+    },
+    "Mithril Bracelet": {
+      "mutualexclusive": [
+        "Pirate Bracelet",
+        "Power Bracelet",
+        "Rubber Band"
+      ],
+      "abilities": [
+        "A magical bracelet that cuts down on mana waste."
+      ],
+      "int": 4,
+      "ManaCost": -10,
+      "rarity": 3
+    },
+    "Pirate Bracelet": {
+      "mutualexclusive": [
+        "Mithril Bracelet",
+        "Power Bracelet",
+        "Rubber Band"
+      ],
+      "abilities": [
+        "[Skill] Propel yourself backward just like Pop Off Pirate!"
+      ],
+      "agi": 2,
+      "rarity": 3
+    },
+    "Power Bracelet": {
+      "abilities": [
+        "Heavy weapons pierce through 15% damage reduction thanks to your forceful swings."
+      ],
+      "str": 4,
+      "agi": -4,
+      "mutualexclusive": [
+        "Pirate Bracelet",
+        "Mithril Bracelet",
+        "Rubber Band"
+      ],
+      "rarity": 3
+    },
+    "Power Glove": {
+      "abilities": [
+        "Increases your knockback and stun on enemies."
+      ],
+      "str": 3,
+      "rarity": 3
+    },
+    "Quickloader": {
+      "abilities": [
+        "Reloading with one bullet left is 50% faster."
+      ],
+      "rarity": 3,
+      "dex": 4
+    },
+    "Ranger Emblem": {
+      "mutualexclusive": [
+        "Warrior Emblem"
+      ],
+      "abilities": [
+        "Ranged weapons have 10% increased damage and 25% increased velocity."
+      ],
+      "dex": 6,
+      "rarity": 3
+    },
+    "Red Aglet": {
+      "abilities": [
+        "Dodging an attack makes your next attack gain 25% more damage and piercing."
+      ],
+      "str": 2,
+      "agi": 2,
+      "rarity": 3,
+      "MaxSpeed": 2
+    },
+    "Ruby Pendant": {
+      "mutualexclusive": [
+        "Sharktooth Necklace",
+        "Monk Beads",
+        "Kendo Beads"
+      ],
+      "abilities": [
+        "Fire inflicted on you will be half as effective.",
+        "Reduces lava damage by 80%. In case you wanted to swim in it."
+      ],
+      "int": 2,
+      "Regeneration": 5,
+      "rarity": 3
+    },
+    "Shiver Stone": {
+      "mutualexclusive": [
+        "Fiery Stone"
+      ],
+      "abilities": [
+        "The last hit of your melee combo inflicts 20 stacks of chilled."
+      ],
+      "int": 4,
+      "def": 2,
+      "rarity": 3
+    },
+    "Summon Flint": {
+      "abilities": [
+        "Grants an extra summon slot.",
+        "Increases all summon damage by 2 before boosts are applied."
+      ],
+      "rarity": 3,
+      "int": 4,
+      "SummonCount": 1,
+      "mutualexclusive": [
+        "Mana Flint"
+      ]
+    },
+    "Viper Fang": {
+      "desc": "Your melee attacks gain an additional 20% piercing.",
+      "rarity": 3,
+      "abilities": [
+        "Melee attacks gain 20% more piercing."
+      ],
+      "str": 3,
+      "mutualexclusive": [
+        "Anima Fang"
+      ]
+    },
+    "Volatile Oil": {
+      "abilities": [
+        "[Skill] Set yourself on fire by dousing yourself in highly flammable oil. Not dangerous at all!"
+      ],
+      "rarity": 3,
+      "dex": 4,
+      "agi": 4
+    },
+    "Warrior Emblem": {
+      "mutualexclusive": [
+        "Ranger Emblem"
+      ],
+      "abilities": [
+        "Melee weapons gain 2 base damage and have 10% shorter heavy cooldowns."
+      ],
+      "str": 4,
+      "rarity": 3
+    },
+    "Weak Armor Wax": {
+      "abilities": [
+        "[Skill] Temporarily smash your armor, nullifying defense but granting a movement and swing speed boost."
+      ],
+      "agi": 2,
+      "rarity": 5
+    },
+    "Winter Scarf": {
+      "abilities": [
+        "Being inflicted with Frostburn or Chilled grants 25% damage reduction."
+      ],
+      "rarity": 3,
+      "int": 4
+    },
+    "Acute Lens": {
+      "abilities": [
+        "Your crit chance is increased by 20% when under 50% health!"
+      ],
+      "CritChance": 5,
+      "rarity": 4,
+      "mutualexclusive": [
+        "Keen Lens",
+        "Nimble Lens",
+        "Sniper Lens"
+      ]
+    },
+    "Black Belt": {
+      "abilities": [
+        "Grants a 10% chance to dodge incoming attacks. This chance is increased by 1% for every 3 points of agility you have."
+      ],
+      "dex": 2,
+      "agi": 2,
+      "rarity": 4
+    },
+    "Brilliant Cape": {
+      "mutualexclusive": [
+        "Thief King Cloak",
+        "Highway Cloak"
+      ],
+      "desc": "A brilliant red cape. Brilliant.",
+      "str": 5,
+      "int": 5,
+      "dex": 5,
+      "agi": 5,
+      "rarity": 5
+    },
+    "Celestial Ring": {
+      "abilities": [
+        "Increases double jump height and allows dashing more often."
+      ],
+      "DoubleJumpHeight": 25,
+      "rarity": 4
+    },
+    "Cloud Boots": {
+      "abilities": [
+        "Pressing Q again while diving grants you slightly more air time, but doubles the diving cooldown."
+      ],
+      "agi": 5,
+      "MaxSpeed": 10,
+      "mutualexclusive": [
+        "Runner Boots",
+        "Storm Boots"
+      ],
+      "rarity": 4,
+      "dex": 3
+    },
+    "Cloud Pendant": {
+      "abilities": [
+        "Allows you to double jump."
+      ],
+      "agi": 4,
+      "Jumps": 1,
+      "FallDamage": -9,
+      "mutualexclusive": [
+        "Nimbus Pendant"
+      ],
+      "rarity": 4
+    },
+    "Clouded Eyeglass": {
+      "abilities": [
+        "[Skill] Your next casted spell will not consume any mana."
+      ],
+      "rarity": 4,
+      "int": 4,
+      "MaxMana": -50
+    },
+    "Combo Glove": {
+      "abilities": [
+        "The last hit of your melee combo grants you a stacking 7% damage boost."
+      ],
+      "str": 4,
+      "dex": 4,
+      "rarity": 4
+    },
+    "Copper Gauntlet": {
+      "abilities": [
+        "[Skill] Temporarily use mana to speed your melee swings and inflict shock. Heavy weapons benefit from the speed more, but use more mana."
+      ],
+      "int": 4,
+      "ManaCost": -5,
+      "rarity": 4
+    },
+    "Corroded Scalpel": {
+      "abilities": [
+        "Gain 8% damage and 8% piercing for up to 5 different status effects on the enemy."
+      ],
+      "rarity": 4,
+      "def": 2,
+      "mutualexclusive": [
+        "Overflow Scalpel"
+      ]
+    },
+    "Draining Stake": {
+      "abilities": [
+        "Hitting a bleeding opponent will inflict weakness and heavy slowness on them."
+      ],
+      "def": 2,
+      "dex": 2,
+      "rarity": 4
+    },
+    "Duelist's Ring": {
+      "abilities": [
+        "Reduces damage of light sword strikes by 25%, but they can parry attacks, granting a massive swing speed buff."
+      ],
+      "rarity": 4
+    },
+    "Elemental Quiver": {
+      "abilities": [
+        "Grants access to various elemental arrow types."
+      ],
+      "rarity": 4,
+      "dex": 4,
+      "mutualexclusive": [
+        "Battle Quiver",
+        "Augmented Gel Quiver",
+        "Gel Quiver"
+      ]
+    },
+    "Fetid Crabspawn": {
+      "abilities": [
+        "Soaked and dripping with venom. Venom you inflict lasts twice as long."
+      ],
+      "agi": -2,
+      "Regeneration": -10,
+      "rarity": 4
+    },
+    "Frog Leg": {
+      "desc": "The long, powerful leg of a frog. Leap forth.",
+      "agi": 10,
+      "JumpPower": 15,
+      "rarity": 4
+    },
+    "Harmed Energy": {
+      "abilities": [
+        "Up to 30% increased damage when below 50% health. This bonus is doubled for 3 seconds after taking damage."
+      ],
+      "rarity": 4,
+      "mutualexclusive": [
+        "Unharmed Energy",
+        "Sanguine Ring"
+      ]
+    },
+    "Hoplite's Brace": {
+      "mutualexclusive": [
+        "Warrior Brace",
+        "Payback Brace",
+        "Titan Brace"
+      ],
+      "abilities": [
+        "While wielding spears your parry window is 50% longer."
+      ],
+      "def": 4,
+      "agi": 2,
+      "rarity": 4
+    },
+    "Idol of Solitude": {
+      "abilities": [
+        "Damage above 10% of your max health is reduced by 50%. Has a 5 second cooldown."
+      ],
+      "int": 4,
+      "def": 4,
+      "rarity": 4
+    },
+    "Iron Fist": {
+      "abilities": [
+        "Your fists deal 40% more damage but swing 20% slower."
+      ],
+      "str": 4,
+      "def": 2,
+      "rarity": 4,
+      "dex": -2
+    },
+    "Magic Token": {
+      "abilities": [
+        "Consuming mana builds up a chance to fire additional mana arrows."
+      ],
+      "rarity": 5,
+      "dex": 3,
+      "int": 3,
+      "MaxMana": 25
+    },
+    "Malady Medal": {
+      "abilities": [
+        "While equipped, buffs and debuffs are treated as having an extra level"
+      ],
+      "rarity": 4
+    },
+    "Mana Cuff": {
+      "abilities": [
+        "Taking damage heals 50% of the damage you take as mana."
+      ],
+      "int": 2,
+      "rarity": 4
+    },
+    "Mana Dissonance": {
+      "abilities": [
+        "[Skill] Your next spell will consume 2 times the mana but cast 3 times in a row rapidly, though with 15% less damage. This will temporarily reduce mana gain."
+      ],
+      "rarity": 4
+    },
+    "Mana Flux": {
+      "abilities": [
+        "Damaging enemies grants mana regen stacks that diminish when you take damage."
+      ],
+      "rarity": 4
+    },
+    "Mana Harmonizer": {
+      "abilities": [
+        "Increases the size and status level of staves by 15%.",
+        "[Skill] For 6 seconds, spells will consume 2 times the mana but have increased stats."
+      ],
+      "rarity": 4
+    },
+    "Mana Powder": {
+      "mutualexclusive": [
+        "Quick Powder",
+        "Silent Powder",
+        "Gunpowder"
+      ],
+      "abilities": [
+        "Staff startup and cooldown are reduced by 15%. Make sure you don't run out of mana."
+      ],
+      "int": 2,
+      "rarity": 4
+    },
+    "Monk Beads": {
+      "abilities": [
+        "Your regeneration while standing still is increased by 50%."
+      ],
+      "int": 4,
+      "MaxMana": 4,
+      "rarity": 4,
+      "mutualexclusive": [
+        "Kendo Beads",
+        "Sharktooth Necklace",
+        "Ruby Pendant"
+      ]
+    },
+    "Nerd Glasses": {
+      "mutualexclusive": [
+        "Outlaw Glasses"
+      ],
+      "desc": "Um... Actually...",
+      "str": -5,
+      "int": 15,
+      "dex": -5,
+      "agi": -5,
+      "rarity": 4
+    },
+    "Oni Fang": {
+      "abilities": [
+        "[Skill] Consume 20 focus to gain a 25% swing speed and move faster while swinging Kod Kendo for 30 seconds."
+      ],
+      "str": 3,
+      "dex": 3,
+      "rarity": 6
+    },
+    "Outlaw Glasses": {
+      "abilities": [
+        "Landing a crit with a gun restores 25% of its ammo. This has a 2 second cooldown.",
+        "The amount of ammo restored is increased if your crit chance is low."
+      ],
+      "desc": "The glasses of an evil outlaw.",
+      "rarity": 4,
+      "dex": 5,
+      "CritChance": 5,
+      "mutualexclusive": [
+        "Nerd Glasses"
+      ]
+    },
+    "Pistol Pop Pellets": {
+      "abilities": [
+        "Your pistols turn into... Shotguns?"
+      ],
+      "rarity": 4,
+      "dex": 3
+    },
+    "Pro's Ring": {
+      "abilities": [
+        "[Skill] Consume a Pro Charge and teleport to the nearest enemy. Dodging attacks grants Pro Charges."
+      ],
+      "agi": 4,
+      "rarity": 4,
+      "dex": 6
+    },
+    "Quick Powder": {
+      "mutualexclusive": [
+        "Silent Powder",
+        "Mana Powder",
+        "Gunpowder"
+      ],
+      "abilities": [
+        "Reduces ranged weapons startup and cooldown by 15% each."
+      ],
+      "dex": 4,
+      "rarity": 4
+    },
+    "Rallying Warhorn": {
+      "abilities": [
+        "[Skill] Blow the horn, angering enemies and granting a buff to nearby players. The buff depends on whichever stat is highest: Strength, Dexterity, or Intellect."
+      ],
+      "rarity": 4
+    },
+    "Royal Amulet": {
+      "mutualexclusive": [
+        "Flameheart Amulet",
+        "Sea Breeze Amulet"
+      ],
+      "desc": "Made from the finest jewels and gems.",
+      "MaxHealth": 50,
+      "rarity": 4
+    },
+    "Rubber Band": {
+      "mutualexclusive": [
+        "Pirate Bracelet",
+        "Power Bracelet",
+        "Mithril Bracelet"
+      ],
+      "abilities": [
+        "Shock no longer stuns you, and increases movement speed by 30%."
+      ],
+      "agi": 2,
+      "rarity": 5
+    },
+    "Rusty Spoon": {
+      "abilities": [
+        "Bleeding you inflict gains 1 extra level."
+      ],
+      "rarity": 4
+    },
+    "Sacred Stone": {
+      "abilities": [
+        "[Skill] Attune yourself to an element, empowering your Rockwondo in varying ways. Drains 5 mana per second."
+      ],
+      "rarity": 4
+    },
+    "Scrap Shield": {
+      "mutualexclusive": [
+        "Elite Shield",
+        "Gel Shield",
+        "Egg Shell",
+        "Polarity Shield",
+        "Stained Glass Shield"
+      ],
+      "abilities": [
+        "You move much faster while blocking and take 20% less damage below 30% health.",
+        "[Paired with Elite Guard] Lower cooldowns when withdrawing Elite Guard. Bursts out nails on shield break."
+      ],
+      "def": 6,
+      "dex": 2,
+      "agi": 2,
+      "rarity": 4
+    },
+    "Sea Breeze Amulet": {
+      "mutualexclusive": [
+        "Flameheart Amulet",
+        "Royal Amulet"
+      ],
+      "abilities": [
+        "Reduces your damage by 25%, but enemies are much less likely to go after you. Every enemy close to you increases luck from fishing or mob drops."
+      ],
+      "def": 5,
+      "DetectionRisk": -40,
+      "rarity": 5,
+      "Regeneration": 10
+    },
+    "Shades": {
+      "rarity": 4,
+      "desc": "Sunglass.",
+      "abilities": []
+    },
+    "Shutter Shades": {
+      "stacks": 5,
+      "rarity": 4,
+      "desc": "Pick up your shades and go.",
+      "abilities": []
+    },
+    "Silent Powder": {
+      "mutualexclusive": [
+        "Quick Powder",
+        "Mana Powder",
+        "Gunpowder"
+      ],
+      "abilities": [
+        "Allows guns to sneak attack from point blank."
+      ],
+      "dex": 5,
+      "DetectionRisk": -15,
+      "rarity": 4
+    },
+    "Stoic Bowstring": {
+      "abilities": [
+        "Your bow takes 20% longer to charge and you take 10% more damage while charging but it does 30% more damage at full charge."
+      ],
+      "dex": 4,
+      "rarity": 6,
+      "mutualexclusive": [
+        "Delicate Bowstring"
+      ]
+    },
+    "Thief Earrings": {
+      "mutualexclusive": [
+        "Pirate Earrings"
+      ],
+      "abilities": [
+        "Increases Wooden Dagger base damage by 10."
+      ],
+      "dex": 4,
+      "rarity": 5
+    },
+    "Trenchcoat": {
+      "rarity": 4,
+      "desc": "Exotic coats.",
+      "abilities": []
+    },
+    "Unharmed Energy": {
+      "abilities": [
+        "Up to 15% increased damage the fuller your health is."
+      ],
+      "rarity": 4,
+      "mutualexclusive": [
+        "Harmed Energy",
+        "Sanguine Ring"
+      ]
+    },
+    "Vim Kit": {
+      "abilities": [
+        "[Skill] Convert some health into mana."
+      ],
+      "int": 4,
+      "def": 4,
+      "Regeneration": 10,
+      "rarity": 4
+    },
+    "Warrior Brace": {
+      "mutualexclusive": [
+        "Titan Brace",
+        "Hoplite's Brace",
+        "Payback Brace"
+      ],
+      "abilities": [
+        "Parrying an attack with a melee weapon makes its next swing 50% faster and deal double poise damage."
+      ],
+      "str": 3,
+      "def": 2,
+      "rarity": 4
+    },
+    "Assassin Whetstone": {
+      "abilities": [
+        "Enemies under 25% health take 15% more damage.",
+        "[Skill] Your next dagger heavy attack will hit again for each stack of Bleeding, up to 20."
+      ],
+      "rarity": 5,
+      "dex": 3,
+      "mutualexclusive": [
+        "Fragile Whetstone",
+        "Crimson Whetstone"
+      ]
+    },
+    "Battle Quiver": {
+      "abilities": [
+        "Grants access to splitting, explosive and scrap arrows."
+      ],
+      "dex": 5,
+      "rarity": 5,
+      "mutualexclusive": [
+        "Gel Quiver",
+        "Augmented Gel Quiver",
+        "Elemental Quiver",
+        "Workshop Quiver"
+      ]
+    },
+    "Blue Needle Talisman": {
+      "mutualexclusive": [
+        "Red Needle Talisman",
+        "Azure Needle Talisman"
+      ],
+      "abilities": [
+        "Your Nagakiba heavy attack becomes imbued with ice."
+      ],
+      "int": 4,
+      "rarity": 5
+    },
+    "Caustic Fang": {
+      "abilities": [
+        "Attacks against enemies inflicted with venom gain 35% piercing and pierce through 10% damage reduction."
+      ],
+      "str": 3,
+      "int": 3,
+      "rarity": 5
+    },
+    "Crimson Whetstone": {
+      "abilities": [
+        "Taking damage inflicts 5 stacks of bleed on yourself. You take double damage from bleeding bursts.",
+        "Every stack of you have increases unnatural healing, up to 100%."
+      ],
+      "rarity": 5,
+      "dex": 3,
+      "mutualexclusive": [
+        "Fragile Whetstone",
+        "Assassin Whetstone"
+      ]
+    },
+    "Dancer's Necklace": {
+      "abilities": [
+        "Your roll is 20% stronger, and letting go of the button early lets you cut its momentum."
+      ],
+      "rarity": 6,
+      "dex": 5,
+      "agi": 5,
+      "int": -4
+    },
+    "Egg Shell": {
+      "mutualexclusive": [
+        "Elite Shield",
+        "Scrap Shield",
+        "Gel Shield",
+        "Polarity Shield",
+        "Stained Glass Shield"
+      ],
+      "abilities": [
+        "You take 20% less damage when above 75% health!"
+      ],
+      "def": 2,
+      "rarity": 5
+    },
+    "Ego Gland": {
+      "abilities": [
+        "[Skill] Use 35 mana to copy your positive status effects to nearby players. This won't work if they also have Ego gland equipped."
+      ],
+      "rarity": 5
+    },
+    "Fiber Glass": {
+      "abilities": [
+        "Inflicting Bleeding on a resistant enemy converts to Fiber Glass, instead reducing Poise decay up to 50 stacks."
+      ],
+      "rarity": 5
+    },
+    "Fragile Whetstone": {
+      "mutualexclusive": [
+        "Crimson Whetstone",
+        "Assassin Whetstone"
+      ],
+      "abilities": [
+        "Significant boost to crit chance, but Crits add 20% less bonus damage."
+      ],
+      "str": 2,
+      "dex": 2,
+      "CritChance": 25,
+      "rarity": 5
+    },
+    "Frying Pan": {
+      "abilities": [
+        "Fire you inflict gains 3 additional levels.",
+        "15% increased crit chance and 15% increased crit damage on burning enemies."
+      ],
+      "str": 4,
+      "rarity": 5
+    },
+    "Green Balloon": {
+      "abilities": [
+        "Slightly reduces gravity"
+      ],
+      "agi": 6,
+      "Gravity": -0.15,
+      "rarity": 5,
+      "JumpPower": 10
+    },
+    "Hardboiled Shell": {
+      "abilities": [
+        "Taking damage builds up rage that can be released in a burst. The minimum rage is 10.",
+        "[Skill] Release your rage causing instant explosive damage and a damage boost and some regeneration for 5 seconds."
+      ],
+      "str": 4,
+      "def": 2,
+      "rarity": 5
+    },
+    "Icy Tear": {
+      "abilities": [
+        "Rolling heavy attacks from dexterity weapons gain slice properties, and inflict a small amount of Spin."
+      ],
+      "int": -5,
+      "dex": -3,
+      "rarity": 6
+    },
+    "Mechanical Fishing Line": {
+      "abilities": [
+        "Your fishing rod can pull yourself and enemies like a grappling hook much better."
+      ],
+      "dex": 8,
+      "agi": 8,
+      "rarity": 5
+    },
+    "Megaton Pendant": {
+      "abilities": [
+        "Take 20% less damage while you have super armor."
+      ],
+      "rarity": 5,
+      "def": 6,
+      "agi": -4
+    },
+    "Mysterious Charm": {
+      "abilities": [
+        "[Skill] Inflicts a random curse and a random blessing on you."
+      ],
+      "CritChance": 5,
+      "rarity": 5,
+      "mutualexclusive": [
+        "Illustrious Charm"
+      ]
+    },
+    "Nimbus Pendant": {
+      "abilities": [
+        "A magical pendant that allows you to triple jump."
+      ],
+      "agi": 6,
+      "Jumps": 2,
+      "FallDamage": -16,
+      "mutualexclusive": [
+        "Cloud Pendant"
+      ],
+      "rarity": 5
+    },
+    "Overflow Scalpel": {
+      "mutualexclusive": [
+        "Corroded Scalpel"
+      ],
+      "abilities": [
+        "Status effects on enemies grant you mana every second. All status effects you inflict on enemies are 1 second longer."
+      ],
+      "int": 5,
+      "rarity": 5
+    },
+    "Pushy Glove": {
+      "rarity": 5,
+      "abilities": [
+        "Sword damage is halved, but knockback is doubled."
+      ]
+    },
+    "Red Needle Talisman": {
+      "mutualexclusive": [
+        "Blue Needle Talisman",
+        "Azure Needle Talisman"
+      ],
+      "abilities": [
+        "Your Nagakiba heavy attack becomes imbued with fire. This attack deals 50% more damage if you are on fire."
+      ],
+      "dex": 4,
+      "rarity": 5
+    },
+    "Repugnant Lure": {
+      "rarity": 5,
+      "abilities": [
+        "Reduces fishing time by 35%, but it might attract deadly sea monsters. Use at your discretion."
+      ]
+    },
+    "Royal Antenna": {
+      "abilities": [
+        "Landing a crit inflicts heavy bleeding. Increases your crit chance by 10% for every nearby bleeding enemy, up to 50%."
+      ],
+      "str": 4,
+      "CritChance": 5,
+      "rarity": 5,
+      "mutualexclusive": [
+        "Sandpod Antenna"
+      ]
+    },
+    "Sandpod Antenna": {
+      "abilities": [
+        "Landing a crit with a melee gives you a short burst of speed."
+      ],
+      "dex": 3,
+      "rarity": 4,
+      "mutualexclusive": [
+        "Royal Antenna"
+      ]
+    },
+    "Scrounger Gloves": {
+      "abilities": [
+        "Dealing damage with your fists restores 10% of your max mana."
+      ],
+      "int": 4,
+      "ManaCost": -5,
+      "rarity": 5
+    },
+    "Sharktooth Necklace": {
+      "mutualexclusive": [
+        "Ruby Pendant"
+      ],
+      "abilities": [
+        "Critical hits have 50% increased piercing or 25% piercing, whichever is higher.",
+        "Pierces an additional 4 defence."
+      ],
+      "str": 5,
+      "CritChance": 5,
+      "rarity": 5
+    },
+    "Shock Bullets": {
+      "abilities": [
+        "Your bullets stun for twice as long and inflict shock. Enemies targeted by a perfectly timed Deadeye are struck by lightning."
+      ],
+      "dex": 5,
+      "agi": 3,
+      "rarity": 5
+    },
+    "Sniper Lens": {
+      "abilities": [
+        "Your ranged weapons have 35% increased range."
+      ],
+      "dex": 4,
+      "CritChance": 5,
+      "rarity": 5,
+      "mutualexclusive": [
+        "Acute Lens",
+        "Keen Lens",
+        "Nimble Lens"
+      ]
+    },
+    "Spark Scale": {
+      "abilities": [
+        "You deal 15% extra damage to shocked enemies."
+      ],
+      "int": 4,
+      "Breathing": 20,
+      "rarity": 5
+    },
+    "Storm Boots": {
+      "mutualexclusive": [
+        "Cloud Boots",
+        "Runner Boots"
+      ],
+      "abilities": [
+        "Consume 10 mana to do lightning dashes instead of rolls."
+      ],
+      "agi": 5,
+      "rarity": 4,
+      "dex": 3,
+      "MaxSpeed": 15
+    },
+    "Sun Medallion": {
+      "abilities": [
+        "When an attack brings you below 30% of your max health, gain 25% damage reduction for 30 seconds. 1 minute cooldown."
+      ],
+      "str": 3,
+      "int": 3,
+      "rarity": 5
+    },
+    "Venom Bullets": {
+      "abilities": [
+        "Your bullets inflict venom."
+      ],
+      "dex": 5,
+      "rarity": 5
+    },
+    "Vision Goggles": {
+      "abilities": [
+        "You can see for hours. (clear some environmental effects like fog)",
+        "Dodging an attack increases crit chance by 20% for 3 seconds."
+      ],
+      "dex": 8,
+      "rarity": 5
+    },
+    "Wicker Wreath": {
+      "abilities": [
+        "Fire inflicted on you has its level doubled. In return, any fire you inflict while being on fire will also have its level doubled."
+      ],
+      "dex": 5,
+      "rarity": 5
+    },
+    "Wooden Caestus": {
+      "abilities": [
+        "Your fists gain an additional 15% crit chance!"
+      ],
+      "def": 2,
+      "dex": 4,
+      "rarity": 4
+    },
+    "Adrenaline Ring": {
+      "abilities": [
+        "Gain up to 30% increased movement speed when below 50% health."
+      ],
+      "dex": 4,
+      "agi": 2,
+      "rarity": 6
+    },
+    "Anima Fang": {
+      "mutualexclusive": [
+        "Viper Fang",
+        "Oni Fang"
+      ],
+      "abilities": [
+        "Inflicting blue flames on an opponent gives you a burst of strength and speed."
+      ],
+      "str": 4,
+      "dex": 4,
+      "rarity": 6
+    },
+    "Augmented Gel Quiver": {
+      "abilities": [
+        "Grants access to an augmented variety of slimy arrow types."
+      ],
+      "rarity": 6,
+      "dex": 4,
+      "mutualexclusive": [
+        "Battle Quiver",
+        "Gel Quiver",
+        "Elemental Quiver"
+      ]
+    },
+    "Azure Needle Talisman": {
+      "mutualexclusive": [
+        "Blue Needle Talisman",
+        "Red Needle Talisman"
+      ],
+      "abilities": [
+        "Your Nagakiba heavy attack becomes imbued with blue fire."
+      ],
+      "rarity": 6,
+      "MaxMana": 6
+    },
+    "Blood Chalice": {
+      "abilities": [
+        "[Skill] Take a swig of blood, healing 25% of your max health. Costs 25 mana.",
+        "Disables health regeneration."
+      ],
+      "rarity": 6
+    },
+    "Bloody Tear": {
+      "abilities": [
+        "[Skill] Sacrifice your own blood to heal and buff those around you."
+      ],
+      "int": 3,
+      "dex": 3,
+      "rarity": 6
+    },
+    "Brass Anklet": {
+      "abilities": [
+        "Your Kod Kendo light attacks stun for twice as long and your heavy attacks applies slowness."
+      ],
+      "def": 4,
+      "agi": -1,
+      "rarity": 6
+    },
+    "Combustion Engine": {
+      "abilities": [
+        "[Skill] You can set yourself on fire. Fire inflicted on you has its level doubled, but any fire that you inflict while being on fire will have its level increased by 50%. Being on fire grants 25% damage reduction."
+      ],
+      "rarity": 6,
+      "def": 6,
+      "agi": -8
+    },
+    "Cruel Caestus": {
+      "abilities": [
+        "Your fists gain 30% piercing."
+      ],
+      "str": 4,
+      "dex": 4,
+      "rarity": 6
+    },
+    "Cursed Doll": {
+      "abilities": [
+        "Your max health is halved but your staff startup and cooldown are reduced by 25%."
+      ],
+      "rarity": 6
+    },
+    "Diamond Ring": {
+      "abilities": [
+        "Increases all damage by 4, before any stat boosts are applied."
+      ],
+      "rarity": 6
+    },
+    "Freezeflame Gauntlet": {
+      "abilities": [
+        "Inflicting fire and frostburn can now stack up to 5 if it wasn't already above that. The last hit of your melee combo inflicts fire and frostburn."
+      ],
+      "int": 4,
+      "def": 4,
+      "rarity": 6
+    },
+    "Highway Cloak": {
+      "abilities": [
+        "[Skill] Throw a spear of sunlight towards your cursor. Costs 60 mana."
+      ],
+      "int": 6,
+      "MaxMana": 12,
+      "rarity": 5,
+      "mutualexclusive": [
+        "Thief King Cloak",
+        "Brilliant Cape"
+      ],
+      "dex": 6
+    },
+    "Illustrious Charm": {
+      "desc": "Well done.",
+      "def": 10,
+      "Regeneration": 10,
+      "rarity": 6,
+      "mutualexclusive": [
+        "Mysterious Charm"
+      ]
+    },
+    "Kai Blessing": {
+      "abilities": [
+        "[Skill] Enter an invulnerable state, automatically dodging up to 4 incoming attacks. During this state damage dealt and healing is reduced by 50%."
+      ],
+      "rarity": 5,
+      "str": 4,
+      "agi": 4
+    },
+    "Kai Wraps": {
+      "abilities": [
+        "Landing a crit with Kai Fists resets your heavy cooldown and makes your next heavy attack swing 25% faster."
+      ],
+      "dex": 3,
+      "agi": 2,
+      "CritChance": 5,
+      "rarity": 6
+    },
+    "Kendo Beads": {
+      "mutualexclusive": [
+        "Monk Beads",
+        "Sharktooth Necklace",
+        "Ruby Pendant"
+      ],
+      "abilities": [
+        "Parrying attacks with Kod Kendo builds up stacks of focus, increasing your Kod Kendo damage by 1% each. However, you lose some focus on hit."
+      ],
+      "def": 3,
+      "dex": 3,
+      "rarity": 6
+    },
+    "Keris Charm": {
+      "abilities": [
+        "At 15 stacks of focus, your Kod Kendo heavy attack is turned into a grab. Consumes 10 focus."
+      ],
+      "dex": 5,
+      "CritChance": 5,
+      "rarity": 6
+    },
+    "Kolis Charm": {
+      "abilities": [
+        "[Skill] Meditate for 10 seconds to gain clarity, increasing focus gain by 2 for 90 seconds.",
+        "If you already have clarity, then meditating will increase your focus by 50%, up to 90. But if you take damage you will lose half of it."
+      ],
+      "int": 5,
+      "ManaCost": -5,
+      "rarity": 6
+    },
+    "Mana Feather": {
+      "abilities": [
+        "Dodging an attack restores 30% of your mana."
+      ],
+      "int": 4,
+      "agi": 2,
+      "rarity": 6
+    },
+    "Martial Kata": {
+      "abilities": [
+        "Expend 10 mana to inflict blue flames on fist basic attacks."
+      ],
+      "str": 4,
+      "CritChance": 5,
+      "rarity": 6
+    },
+    "Nazar": {
+      "abilities": [
+        "Grants 80% resistance to fire, frostburn, and bleeding! Super!"
+      ],
+      "int": 4,
+      "def": 4,
+      "ManaCost": -10,
+      "rarity": 6
+    },
+    "Payback Brace": {
+      "abilities": [
+        "Parrying an attack reduces the length of your next heavy cooldown by 25%."
+      ],
+      "str": 4,
+      "agi": 2,
+      "rarity": 6,
+      "mutualexclusive": [
+        "Warrior Brace",
+        "Hoplite's Brace",
+        "Titan Brace"
+      ]
+    },
+    "Pink Gel Cartridge": {
+      "abilities": [
+        "Scrap Nailgun nails now inflict pink slime. Status inflicted on pink slime afflicted enemies are stronger."
+      ],
+      "dex": 5,
+      "ManaCost": -10,
+      "rarity": 6
+    },
+    "Pirate Earrings": {
+      "mutualexclusive": [
+        "Thief Earrings"
+      ],
+      "abilities": [
+        "Mobs drop 25% more gold and have a higher chance to drop loot."
+      ],
+      "dex": 4,
+      "agi": 2,
+      "rarity": 6
+    },
+    "Power Locket": {
+      "rarity": 6,
+      "abilities": [
+        "Parrying builds up stacks of pressure (up to 8) that increase your next attack's damage by 8% per stack."
+      ]
+    },
+    "Rotten Trowel": {
+      "abilities": [
+        "When bursting berries, the berries will spread to other enemies in the range of the blast.",
+        "It also makes the inflicted Venom's level rise by 2."
+      ],
+      "rarity": 6
+    },
+    "Sanguine Ring": {
+      "abilities": [
+        "You deal up to 30% increased damage and move up to 30% faster under 50% health. This bonus is doubled for 2 seconds after taking damage."
+      ],
+      "rarity": 6,
+      "dex": 4,
+      "agi": 2,
+      "mutualexclusive": [
+        "Harmed Energy",
+        "Unharmed Energy"
+      ]
+    },
+    "Silver Bullets": {
+      "abilities": [
+        "Your bullets deal 25% more damage to undead, dark, and venom enemies."
+      ],
+      "dex": 4,
+      "rarity": 6
+    },
+    "Sniper Scope": {
+      "abilities": [
+        "You move 75% slower while firing guns, but guns have 35% increased range and 15% reduced startup and cooldown times."
+      ],
+      "dex": 6,
+      "CritChance": 10,
+      "rarity": 6
+    },
+    "Spritely Rose": {
+      "abilities": [
+        "Direct damage dealt is decreased by 20%. In exchange, status damage scales slightly with Intellect. Does not apply to Bleed or Corrosion."
+      ],
+      "int": 5,
+      "MaxHealth": 20,
+      "rarity": 6
+    },
+    "Swarm Ring": {
+      "rarity": 6,
+      "abilities": [
+        "Increases the maximum spawns of enemies in your area."
+      ]
+    },
+    "Titan Brace": {
+      "abilities": [
+        "Heavy weapons pierce through 15% damage reduction.",
+        "Take 30% less damage while you have super armor or swinging heavy weapons."
+      ],
+      "rarity": 6,
+      "str": 6,
+      "def": 6,
+      "agi": -4,
+      "mutualexclusive": [
+        "Warrior Brace",
+        "Hoplite's Brace",
+        "Payback Brace"
+      ]
+    },
+    "Windman's Cloak": {
+      "mutualexclusive": [
+        "Highway Cloak",
+        "Brilliant Cape",
+        "Thief King Cloak"
+      ],
+      "agi": 6,
+      "rarity": 6,
+      "str": 3,
+      "dex": 5
+    },
+    "Azurebloom Bracelets": {
+      "rarity": 7,
+      "desc": "Flowers dearly beloved by the legion.",
+      "abilities": []
+    },
+    "Chaos Brand": {
+      "rarity": 7,
+      "desc": "An ominous brand that can easily be traced back to the occult. Awesome!",
+      "abilities": []
+    },
+    "Copper Ring": {
+      "rarity": 2,
+      "abilities": [
+        "Any shock you inflict lasts 50% longer!"
+      ],
+      "ManaCost": -10
+    },
+    "Eggie Drone": {
+      "rarity": 7,
+      "desc": "A friendly Eggie drone that follows you around.",
+      "abilities": []
+    },
+    "Elite Gibberish": {
+      "rarity": 7,
+      "desc": "The gift of the gab.",
+      "abilities": [
+        "Say stuff whenever you perform an action."
+      ]
+    },
+    "Elite Shield": {
+      "mutualexclusive": [
+        "Egg Shell",
+        "Scrap Shield",
+        "Gel Shield",
+        "Polarity Shield",
+        "Stained Glass Shield"
+      ],
+      "abilities": [
+        "You take 15% less damage.",
+        "[Paired with Elite Guard] Players that stand behind you are not hit by incoming attacks that you guard. Reflects some damage in the form of Poise on guard break."
+      ],
+      "def": 8,
+      "agi": -4,
+      "rarity": 6
+    },
+    "Festering Soapstone": {
+      "mutualexclusive": [
+        "Purebloom Soapstone"
+      ],
+      "rarity": 7,
+      "desc": "Spare the pleasantries - we've got some rot to share with you all.",
+      "abilities": [
+        "[Skill] Apply a venom coating to your weapon temporarily. Increases piercing and adds venom infliction, but reduces direct damage slightly. Venom weapons can't be infused."
+      ]
+    },
+    "Lead Lasso": {
+      "rarity": 7,
+      "desc": "Spread lead, not hate.",
+      "def": 4,
+      "abilities": [
+        "[Skill] Grapple to a nearby enemy, inflicting poison buildup. Deals additional damage and inflicts slowness on enemies already poisoned. Costs 20 mana."
+      ]
+    },
+    "Mondo Ring": {
+      "abilities": [
+        "When you strike a boss first it will become Mondo."
+      ],
+      "rarity": 7,
+      "str": 6,
+      "int": 6,
+      "dex": 6
+    },
+    "Order Cloak": {
+      "rarity": 7,
+      "desc": "Purple garb embroidered with the emblem of the Clerick Order.",
+      "def": 4
+    },
+    "Polarity Shield": {
+      "mutualexclusive": [
+        "Egg Shell",
+        "Elite Shield",
+        "Scrap Shield",
+        "Gel Shield",
+        "Stained Glass Shield"
+      ],
+      "rarity": 7,
+      "def": 6,
+      "agi": 6,
+      "abilities": [
+        "Parrying builds up Magnetised on attackers. Magnetised inflicted on you is 90% weaker."
+      ]
+    },
+    "Pro's Glove": {
+      "abilities": [
+        "[Skill] Activate Pro Frenzy and teleport for every dagger swing in Frenzy."
+      ],
+      "rarity": 7,
+      "dex": 6,
+      "agi": 4
+    },
+    "Purebloom Soapstone": {
+      "mutualexclusive": [
+        "Festering Soapstone"
+      ],
+      "rarity": 7,
+      "desc": "Pleasant vibes, pleasant lights...The flower that heals your heart.",
+      "abilities": [
+        "Venom and poison now heal you. Poison inflicted on you only lasts 5 seconds. Hurt people hurt people."
+      ]
+    },
+    "Soul Fragment": {
+      "abilities": [
+        "XP gain from killing enemies will increase by 50%."
+      ],
+      "rarity": 7,
+      "stacks": 5
+    },
+    "Stained Glass Shield": {
+      "mutualexclusive": [
+        "Egg Shell",
+        "Elite Shield",
+        "Scrap Shield",
+        "Gel Shield",
+        "Polarity Shield"
+      ],
+      "rarity": 7,
+      "desc": "Clearly a ceremonial artefact and not a functional shield, but that never stopped anyone.",
+      "def": 3,
+      "dex": 6,
+      "CritChance": 5,
+      "abilities": [
+        "[Passive] Parrying inflicts bleeding on both you and the attacker. Not so fun if the attacker is immune to bleed. Parried projectiles have a small chance to be reflected."
+      ]
+    },
+    "Workshop Quiver": {
+      "mutualexclusive": [
+        "Battle Quiver",
+        "Augmented Gel Quiver",
+        "Elemental Quiver",
+        "Gel Quiver"
+      ],
+      "rarity": 7,
+      "desc": "Good going.",
+      "dex": 5,
+      "CritChance": 5,
+      "abilities": [
+        "Grants access to cerulean drill arrows."
+      ]
+    },
+    "Foley Cloak": {
+      "rarity": 8,
+      "desc": "Out-manic!",
+      "dex": 10,
+      "agi": 10,
+      "abilities": [
+        "Dashing releases electric bursts, and you go a little farther. This has a brief cooldown."
+      ]
+    },
+    "Fused Tempest": {
+      "rarity": 8,
+      "desc": "A swirling fusion of turquoise and topaz. Invokes great clouds over troubled waters.",
+      "int": 8,
+      "dex": 8,
+      "abilities": [
+        "Whenever you inflict soaked, inflict shock, and vice versa."
+      ]
+    },
+    "Heart of Gold": {
+      "mutualexclusive": [
+        "Heart of Love"
+      ],
+      "rarity": 7,
+      "desc": "Gold is not like the soul. It does not tarnish.",
+      "str": 8,
+      "int": 8,
+      "dex": 8,
+      "abilities": [
+        "[Skill] Stop your heartbeat, preventing statuses from disappearing for 5 seconds. Also prevents healing and regeneration."
+      ],
+      "CritChance": -10
+    },
+    "Heart of Love": {
+      "mutualexclusive": [
+        "Heart of Gold"
+      ],
+      "rarity": 8,
+      "desc": "I want to be wanted",
+      "str": 4,
+      "int": 3,
+      "dex": 5,
+      "abilities": [
+        "Taking 15% or more damage in one hit puts you in a brief frenzy state, heavily amping your movement speed and granting a high chance to avoid attacks."
+      ]
+    },
+    "Enlightened Gills": {
+      "rarity": 7,
+      "desc": "Rise up, rise up like a terrible fish."
+    }
+  },
+  "armour": {
+    "Pumpkin Costume": {
+      "rarity": -5,
+      "desc": "Perfect! A pumpkin costume to impress this season.",
+      "abilities": []
+    },
+    "Leather Mage": {
+      "rarity": 1,
+      "desc": "Enchanted leather robes for novice mages.",
+      "int": 4,
+      "def": 4,
+      "MaxMana": 6
+    },
+    "Ragged": {
+      "desc": "Something so fake somehow became so real.",
+      "str": 22,
+      "def": -15,
+      "agi": 18,
+      "rarity": 6,
+      "abilities": [
+        "Slam heavies release a burst of bell orbs that lock onto enemies."
+      ],
+      "Regeneration": 40
+    },
+    "Wanderer": {
+      "rarity": 1,
+      "def": 4,
+      "desc": "A lightweight vest that provides ideal protection for travelling!",
+      "abilities": [
+        "Debuffs inflicted on you last 50% shorter."
+      ],
+      "agi": 4
+    },
+    "Archer": {
+      "rarity": 2,
+      "def": 6,
+      "dex": 8,
+      "agi": 4,
+      "desc": "Light green garb worn by archers.",
+      "abilities": [
+        "Your arrows are 15% more powerful."
+      ]
+    },
+    "Bandit": {
+      "desc": "Light but tough gear suited for the bandit life..",
+      "rarity": 2,
+      "def": 4,
+      "dex": 8,
+      "agi": 6
+    },
+    "Butler": {
+      "rarity": 2,
+      "agi": 4,
+      "FallDamage": -50,
+      "desc": "Traditional and dapper clothing worn by the people of Vermeil Village."
+    },
+    "Fight Knight": {
+      "rarity": 2,
+      "desc": "Fight like a knight.",
+      "str": 10,
+      "def": 8,
+      "agi": -4,
+      "abilities": [
+        "Whenever nearby players or summoned minions take damage, gain a 20% damage boost for 3 seconds."
+      ]
+    },
+    "Flame Mage": {
+      "rarity": 2,
+      "desc": "Fiery robes enchanted with desert magic.",
+      "int": 7,
+      "def": 7,
+      "MaxMana": 8,
+      "abilities": [
+        "Fire-based attacks deal 10% more damage."
+      ]
+    },
+    "Knight": {
+      "rarity": 2,
+      "desc": "Tough iron plates make you a beast.",
+      "def": 8,
+      "agi": -2,
+      "abilities": [
+        "Set Bonus: You gain 5% damage reduction for every enemy nearby, up to 20%."
+      ]
+    },
+    "Pit Fighter": {
+      "rarity": 2,
+      "desc": "We can use these for big pits!",
+      "str": 8,
+      "def": 6,
+      "dex": 4,
+      "abilities": [
+        "Swing spears 15% faster."
+      ]
+    },
+    "Smart": {
+      "desc": "Dressing up smart and wearing smart shoes.",
+      "rarity": 2,
+      "agi": 4
+    },
+    "Sunbreaker": {
+      "desc": "Power courses through the finely woven robes.",
+      "rarity": 3,
+      "str": 15,
+      "def": 12,
+      "agi": -4,
+      "DetectionRisk": 50,
+      "abilities": [
+        "Taking at least 10 damage grants an array of buffs on a 30 second cooldown."
+      ]
+    },
+    "Thief": {
+      "desc": "You've stolen it!",
+      "rarity": 2,
+      "str": 10,
+      "dex": 10,
+      "CritChance": 10,
+      "abilities": [
+        "Mobs drop 25% more gold."
+      ],
+      "agi": 7
+    },
+    "Elite Knight": {
+      "rarity": 4,
+      "desc": "Elite iron plates make you a beast.",
+      "str": 12,
+      "def": 18,
+      "agi": -10
+    },
+    "Frost Coat": {
+      "rarity": 3,
+      "desc": "A grand coat favoured by the ice people…",
+      "abilities": [
+        "Ice-based attacks deal 10% more damage."
+      ],
+      "def": 8,
+      "int": 12,
+      "MaxMana": 10
+    },
+    "Gunslinger": {
+      "rarity": 4,
+      "desc": "Made of tough leather and lined with brass.",
+      "def": 8,
+      "dex": 18,
+      "abilities": [
+        "Hitting an enemy with a bullet reduces reload time by 10% for 2 seconds, up to 50%."
+      ],
+      "agi": 5
+    },
+    "Kiramisu Robes": {
+      "desc": "You feel as if your feet hover above your ground when wearing this clothing.",
+      "abilities": [
+        "Your dodge frames are lengthened by 50%."
+      ],
+      "rarity": 3,
+      "agi": 12,
+      "Gravity": -5,
+      "Jumps": 1,
+      "FallDamage": -33,
+      "dex": 6
+    },
+    "Night Count": {
+      "rarity": 4,
+      "desc": "The darkest night is a vampire's delight.",
+      "abilities": [
+        "Move 25% faster at night."
+      ],
+      "str": 15,
+      "def": 8,
+      "agi": 4,
+      "Regeneration": 15,
+      "MaxSpeed": 10
+    },
+    "Pirate Captain": {
+      "rarity": 3,
+      "desc": "Arr! Pirate..",
+      "def": 8,
+      "dex": 8,
+      "CritChance": 10,
+      "abilities": [
+        "Set Bonus: Your flintlock shoots 3 bullets in an arc."
+      ]
+    },
+    "Rockwondo Robes": {
+      "desc": "Cheaply mass produced by The Duke of Rocks himself.",
+      "rarity": 4,
+      "abilities": [
+        "The last hit of your Rockwondo combo deals 50% extra damage."
+      ],
+      "str": 15,
+      "agi": 5,
+      "def": 10
+    },
+    "Rogue": {
+      "rarity": 3,
+      "def": 6,
+      "dex": 12,
+      "agi": 5,
+      "CritChance": 10,
+      "DetectionRisk": -20,
+      "desc": "A masterclass in thievery and evil.",
+      "abilities": [
+        "Landing 6 hits with a dagger makes its next heavy attack a guaranteed super crit."
+      ]
+    },
+    "Suit": {
+      "rarity": 4,
+      "desc": "As long as I got my suit and tie."
+    },
+    "Viking": {
+      "rarity": 4,
+      "desc": "Cold steel plates and brown feral fur.",
+      "str": 20,
+      "def": 15,
+      "agi": -4,
+      "abilities": [
+        "Set Bonus: Deal 15% more damage to formidable foes."
+      ]
+    },
+    "Artillery Officer": {
+      "desc": "You ARE the one in control. Increases explosion range by 50%.",
+      "rarity": 3,
+      "def": 4,
+      "dex": 10,
+      "agi": 4,
+      "CritChance": 5,
+      "abilities": [
+        "Whenever an explosion hits an enemy, you get a movement speed and defense piercing boost."
+      ]
+    },
+    "Assassin": {
+      "rarity": 4,
+      "def": 5,
+      "dex": 15,
+      "agi": 8,
+      "CritChance": 10,
+      "DetectionRisk": -10,
+      "abilities": [
+        "Daggers and rapiers have a 15% change to hit twice.",
+        "[Set Bonus] Dagger and rapier heavy attacks are guaranteed to hit three times, but have a 50% chance to disarm you for 5 seconds."
+      ]
+    },
+    "Blue Toga": {
+      "rarity": 4,
+      "desc": "A blue toga. Blue like the sea."
+    },
+    "Cardinal": {
+      "rarity": 4,
+      "desc": "A well rounded set of armor for noble warriors.",
+      "str": 15,
+      "def": 12,
+      "int": 15,
+      "dex": 15,
+      "Regeneration": 15
+    },
+    "Diver": {
+      "rarity": 5,
+      "desc": "Mystical robes enchanted with the waves themselves..",
+      "def": 12,
+      "int": 20,
+      "Regeneration": 5,
+      "MaxMana": 15,
+      "abilities": [
+        "Increases magic damage by 30% when below 25% mana"
+      ]
+    },
+    "Expert": {
+      "desc": "Put in the work, put in the hours.",
+      "rarity": 5,
+      "def": 8,
+      "dex": 16,
+      "agi": 8,
+      "abilities": [
+        "The last shot in a gun magazine shoots 2 extra projectiles."
+      ]
+    },
+    "Green Toga": {
+      "rarity": 4,
+      "desc": "A blue toga. Green like the earth."
+    },
+    "Mercenary": {
+      "rarity": 4,
+      "str": 12,
+      "def": 10,
+      "dex": 16,
+      "desc": "Clothes often worn by mercenaries for their utility in close combat.",
+      "abilities": [
+        "Your guns have 50% less range but deal 15% more damage."
+      ],
+      "agi": 6
+    },
+    "Red Toga": {
+      "rarity": 4,
+      "desc": "A red toga. Red like lava."
+    },
+    "Scarecrow": {
+      "desc": "Scary and creepy, these dull rags.",
+      "def": 12,
+      "dex": 24,
+      "agi": 8,
+      "SwingSpeed": 5,
+      "rarity": 5,
+      "abilities": [
+        "Hitting scared targets with arrows builds up strawman stacks",
+        "Taking damage consumes 25 stacks, negating said damage and granting you invisibility, a buff to movement and bow charge speed for a short duration"
+      ]
+    },
+    "Snow Wanderer": {
+      "rarity": 4,
+      "str": 15,
+      "def": 10,
+      "agi": 4,
+      "FallDamage": -16,
+      "desc": "A snow white garb enchanted by the icy mountain winds..",
+      "abilities": [
+        "Parrying builds up snow that reduce damage by 20%."
+      ]
+    },
+    "Witch": {
+      "desc": "An eccentric piece of mayhem and witchcraft.",
+      "rarity": 4,
+      "def": 6,
+      "int": 16,
+      "agi": 4,
+      "ManaCost": -10,
+      "abilities": [
+        "Statuses inflicted by spells are 35% more powerful"
+      ]
+    },
+    "Liar": {
+      "desc": "TOUGH TO BREAK, HARD TO STEAL!",
+      "rarity": 5,
+      "str": 30,
+      "def": -10,
+      "SwingSpeed": 10,
+      "agi": 4
+    },
+    "Clerick Robes": {
+      "desc": "Green garb.",
+      "rarity": 6,
+      "def": 10,
+      "int": 20,
+      "agi": 6,
+      "Regeneration": 5,
+      "ManaCost": -10,
+      "MaxHealth": 20,
+      "abilities": [
+        "Your external healing (Potions, Lifesteal, Skills) is reduced, but given to nearby players."
+      ]
+    },
+    "Copper Mech": {
+      "desc": "Well I'll be... A fully funcional mech suit! Must be pretty heavy.",
+      "rarity": 6,
+      "def": 16,
+      "str": 15,
+      "dex": 15,
+      "agi": -12,
+      "int": 15,
+      "abilities": [
+        "[Skill] Absorb all debuffs on you to enter a powered up state"
+      ]
+    },
+    "Husk Armor": {
+      "desc": "The treasured outfit of a Snow Cultist.",
+      "rarity": 6,
+      "str": 15,
+      "def": 10,
+      "dex": 15,
+      "agi": 12,
+      "int": -30,
+      "abilities": [
+        "You have a 15% chance to ignore a hit during your weapons windup."
+      ]
+    },
+    "Kai Warrior": {
+      "desc": "Light blue robes coupled with iron underarmor.",
+      "str": 25,
+      "def": 8,
+      "dex": 15,
+      "agi": 6,
+      "rarity": 6,
+      "abilities": [
+        "Blue fire you inflict gains 3 levels."
+      ]
+    },
+    "Martial Kai Gi": {
+      "rarity": 5,
+      "str": 18,
+      "dex": 10,
+      "agi": 5,
+      "desc": "This gi has been worn down by countless wars.",
+      "abilities": [
+        "Your fists deal 20% more damage."
+      ],
+      "CritChance": 5
+    },
+    "Muk Ranger": {
+      "desc": "Away we'll go, marching into the frost",
+      "rarity": 6,
+      "def": 15,
+      "dex": 22,
+      "MaxMana": 15,
+      "abilities": [
+        "Rolling builds up spin energy that increases movement speed, swing speed and gives ranged weapons a chance to proc spin on hit."
+      ],
+      "int": 22
+    },
+    "Patchwork": {
+      "rarity": 6,
+      "def": -5,
+      "int": -15,
+      "dex": 25,
+      "agi": 8,
+      "desc": "'Monsters are scary, and spooky.' - Tales of Pilgrammed",
+      "abilities": [
+        "Critical hits heal 15% of damage dealt."
+      ],
+      "MaxSpeed": 10
+    },
+    "Recital": {
+      "desc": "The treasured outfit of a Snow Cultist.",
+      "rarity": 6,
+      "def": 10,
+      "dex": 25,
+      "agi": 5,
+      "int": 12,
+      "abilities": [
+        "Dexterity weapons gain increased range on their attacks, with daggers benefitting most.",
+        "Crit chance is increased by 50% when using a heavy attack on staggered enemies."
+      ]
+    },
+    "Chaos Cultist": {
+      "rarity": 6,
+      "desc": "Curiosity killed the cat. Poor cat.",
+      "def": 5,
+      "str": 20,
+      "int": 20,
+      "MaxMana": 10,
+      "abilities": [
+        "Increases all buffs inflicted onto you by 2 seconds."
+      ]
+    },
+    "Overseer": {
+      "rarity": 7,
+      "desc": "Makes you more intelligent.",
+      "int": 15,
+      "def": 12,
+      "dex": 25,
+      "abilities": [
+        "[Skill] Activate chill mode. This resets the heat gauge to 0%, slows down heat buildup, and makes plasma attacks inflict frostburn instead of ionised."
+      ]
+    },
+    "Tuxedo": {
+      "rarity": 7,
+      "agi": 5,
+      "FallDamage": -33,
+      "desc": "You've done it. This truly is my Pilgrammed."
+    },
+    "Workshop": {
+      "rarity": 7,
+      "desc": "Tasteful and dapper attire, suited for greeting guests.",
+      "def": 12,
+      "dex": 28,
+      "abilities": [
+        "[Skill] Load a cerulean bullet into your magazine. This bullet sticks into targets hit, dealing damage overtime until it explodes."
+      ]
+    },
+    "Malachite Knight": {
+      "rarity": 8,
+      "desc": "Intimidating, verdant armor.",
+      "str": 20,
+      "int": 20,
+      "def": 16,
+      "abilities": [
+        "[Skill] Shield yourself in a malachite bubble that mitigates up to 3 attacks. Mana is restored when the shield is hit. When the bubble bursts, it inflicts poison to yourself and nearby mobs."
+      ]
+    },
+    "Red Mist": {
+      "rarity": 8,
+      "desc": "May the road rise up to meet your wheels.",
+      "str": 35,
+      "def": 10,
+      "dex": 15,
+      "abilities": [
+        "Dodging builds up stack of road rage which increase damage dealt and gun handling speed. By using heavy attacks, or reloading/overheating a gun, road rage can be spent to unleash violent elemental bursts around you."
+      ]
+    },
+    "Sorrow": {
+      "rarity": 8,
+      "desc": "Decay.",
+      "int": 40,
+      "def": 20,
+      "abilities": [
+        "[Skill] Summon the help of a shadow doppelganger who will copy your magic attacks. Each attack copied will inflict you with decay, so be careful."
+      ],
+      "CritChance": -10
+    },
+    "Unfinished Tapestry": {
+      "rarity": 8,
+      "desc": "It takes a keen eye to be an artist.",
+      "int": 30,
+      "def": 12,
+      "dex": 20,
+      "agi": 10,
+      "CritChance": 10,
+      "abilities": [
+        "Intellect-scaling crits summon blobs of paint that inflict random statuses."
+      ]
+    },
+    "Familiar Clothes": {
+      "rarity": 4,
+      "desc": "Hey, I've seen this one before.",
+      "abilities": [
+        "[Bonus] You've seen this one before!"
+      ]
+    },
+    "Trashcan": {
+      "rarity": 7,
+      "def": 18,
+      "agi": -10,
+      "desc": "Pick up that can."
+    }
+  },
+  "helmet": {
+    "Horned Helmet": {
+      "rarity": 1,
+      "def": 4,
+      "desc": "A worn out iron helmet that does the job regardless."
+    },
+    "Knight Helmet": {
+      "rarity": 2,
+      "def": 6,
+      "agi": -2,
+      "desc": "Knighty Knight.",
+      "abilities": [
+        "Set Bonus: You gain 5% damage reduction for every enemy nearby, up to 20%."
+      ]
+    },
+    "Leather Wizard Hat": {
+      "rarity": 1,
+      "def": 2,
+      "int": 2,
+      "desc": "An enchanted leather hat for novice mages.",
+      "abilities": [
+        "Your magic projectiles travel 25% faster."
+      ],
+      "MaxMana": 4
+    },
+    "Mithril Viking Helmet": {
+      "desc": "CHARGE!",
+      "str": 7,
+      "def": 7,
+      "rarity": 3
+    },
+    "Snow Wanderer Hood": {
+      "desc": "A tight hood that will hide your face amidst the winter.",
+      "abilities": [
+        "When a layer of your snow shield breaks, gain a short burst of snow rage in retaliation."
+      ],
+      "str": 8,
+      "def": 7,
+      "agi": 2,
+      "FallDamage": -9,
+      "rarity": 4
+    },
+    "Archer Hat": {
+      "rarity": 2,
+      "def": 2,
+      "dex": 6,
+      "desc": "Arch it up!",
+      "abilities": [
+        "Your arrows gain 15% piercing."
+      ]
+    },
+    "Archmage Cap": {
+      "rarity": 4,
+      "def": -2,
+      "int": 12,
+      "ManaCost": -10,
+      "desc": "Somebody get me through this nightmare...",
+      "abilities": [
+        "Magic attacks have a 20% chance to explode for more damage."
+      ]
+    },
+    "Desert King Helmet": {
+      "rarity": 2,
+      "str": 6,
+      "int": 6,
+      "def": 4,
+      "desc": "Its covered in sand.",
+      "MaxMana": 6
+    },
+    "Diving Helmet": {
+      "desc": "A helmet that doubles your breathing time underwater.",
+      "rarity": 2,
+      "def": 6,
+      "Breathing": 100,
+      "abilities": [
+        "Grants immunity to Venom."
+      ]
+    },
+    "Durag": {
+      "desc": "Stylish!",
+      "abilities": "Increases Cutlass base damage by 5.",
+      "agi": 4,
+      "rarity": 2
+    },
+    "Elite Helmet": {
+      "desc": "An elite knight's helmet.",
+      "rarity": 4,
+      "str": 8,
+      "def": 12,
+      "agi": -4
+    },
+    "Familiar Hair": {
+      "rarity": 4,
+      "desc": "It looks like your old hair."
+    },
+    "Magic Fire Cap": {
+      "rarity": 2,
+      "desc": "Feel the fire in my enemy's eyes...",
+      "abilities": [
+        "Fire-based attacks deal 10% more damage."
+      ],
+      "def": 6,
+      "int": 4,
+      "MaxMana": 6
+    },
+    "Mummy Wraps": {
+      "rarity": 2,
+      "def": 8,
+      "agi": -4,
+      "desc": "All wrapped up like presents on Present Day.",
+      "abilities": [
+        "Melee attacks slow down enemies hit by 50%."
+      ]
+    },
+    "Night Cap": {
+      "desc": "There's nothing better than good night's sleep!",
+      "abilities": [
+        "[Skill] Fall asleep and heal 40% of your max health."
+      ],
+      "def": 8,
+      "rarity": 4,
+      "int": 6,
+      "agi": -8
+    },
+    "Sailor Hat": {
+      "desc": "Sailors always find their way.",
+      "abilities": [
+        "[Skill] Scream, releasing pent up rage. Supercharges your Anchor for 7 seconds."
+      ],
+      "rarity": 4,
+      "str": 10,
+      "def": 5,
+      "int": 10
+    },
+    "Sand Warrior": {
+      "rarity": 2,
+      "str": 4,
+      "def": 2,
+      "dex": 6,
+      "desc": "Star War.",
+      "abilities": [
+        "Reduces the damage of basic swords by 45%, but they hit twice per swing."
+      ]
+    },
+    "Sandpod Helmet": {
+      "desc": "Charge into battle.",
+      "abilities": [
+        "Your speed penalty while swinging spears is greatly reduced."
+      ],
+      "rarity": 4,
+      "str": 8,
+      "def": 6,
+      "dex": 6,
+      "agi": 4,
+      "CritChance": 5
+    },
+    "Straw Hat": {
+      "desc": "Made from the finest straw.",
+      "rarity": 4
+    },
+    "Teapot": {
+      "desc": "A healthy source of 3rd degree burns.",
+      "abilities": [
+        "[Skill] Summon a magical teapot above your cursor. Costs 40 mana."
+      ],
+      "rarity": 4,
+      "def": 7,
+      "int": 8,
+      "MaxMana": 15
+    },
+    "Thief Crown": {
+      "rarity": 2,
+      "str": 5,
+      "desc": "Crown it up.",
+      "abilities": [
+        "Thief King Cloak ram distance is reduced by 33% but cooldown is reduced to 2 seconds."
+      ],
+      "SummonCount": 1
+    },
+    "Viking Helmet": {
+      "rarity": 4,
+      "desc": "Real warriors have horns on their helmets.",
+      "abilities": [
+        "Set Bonus: Deal 15% more damage to formidable foes."
+      ],
+      "str": 12,
+      "def": 8,
+      "agi": -2
+    },
+    "Angler Hat": {
+      "rarity": 3,
+      "desc": "I fish all night and I fish all day.",
+      "abilities": [
+        "Lure times are reduced by 25%"
+      ],
+      "def": 3,
+      "Regeneration": 20
+    },
+    "Diver Hood": {
+      "desc": "What you know about rolling down in the deep?",
+      "rarity": 5,
+      "abilities": [
+        "Spending mana gives you a stacking mana cost reduction that decays over time."
+      ],
+      "def": 4,
+      "int": 15,
+      "Regeneration": 10,
+      "MaxMana": 10
+    },
+    "Frost Knight Helm": {
+      "desc": "A magical helmet that seems to be made of enchanted permafrost.",
+      "abilities": [
+        "Ice-based attacks deal 10% more damage."
+      ],
+      "rarity": 3,
+      "def": 6,
+      "int": 6
+    },
+    "Ice Crown": {
+      "desc": "'The wicked Ice King hath rush'd aside the blizzard and turn'd that black word \"frozen\" to \"chill'd\".'",
+      "rarity": 3,
+      "def": 8,
+      "int": 10,
+      "dex": -6,
+      "agi": -6,
+      "abilities": [
+        "Any chill you inflict gets turned into frostburn."
+      ]
+    },
+    "Mining Helmet": {
+      "desc": "Mining!",
+      "abilities": [
+        "Your pickaxe does 25% more damage to ores and you have a 25% chance to get an extra drop from ores."
+      ],
+      "rarity": 3
+    },
+    "Pirate Hat": {
+      "rarity": 3,
+      "def": 2,
+      "dex": 5,
+      "agi": 2,
+      "desc": "Arr! Pirate.",
+      "abilities": [
+        "Set Bonus: Your flintlock shoots 3 bullets in an arc."
+      ],
+      "CritChance": 8
+    },
+    "Rogue Hood": {
+      "desc": "An evil cowl.",
+      "abilities": [
+        "Landing a pink critical hit applies and amplifies the effects of bleed."
+      ],
+      "agi": 3,
+      "dex": 6,
+      "def": 3,
+      "rarity": 3,
+      "DetectionRisk": -10,
+      "CritChance": 5
+    },
+    "Scarecrow Hat": {
+      "desc": "Hat of a diabolical scarecrow.",
+      "abilities": [
+        "Arrows that hit scared targets gain 25% piercing. Bow kicks inflict scared within a radius."
+      ],
+      "rarity": 5,
+      "def": 4,
+      "dex": 16,
+      "agi": 6
+    },
+    "Cowboy Hat": {
+      "desc": "There's not enough room in this town for the both of us...",
+      "abilities": [
+        "Hitting an enemy with a bullet reduces startup time by 5% for 3 seconds, up to 25%."
+      ],
+      "rarity": 4,
+      "def": 4,
+      "dex": 12
+    },
+    "Sandpod Crown": {
+      "rarity": 5,
+      "agi": 4,
+      "str": 12,
+      "desc": "Move over King Sandpod, there's a new monarch in town.",
+      "abilities": [
+        "You move much faster and gain dodge frames during sword spin heavy attacks."
+      ]
+    },
+    "Top Hat": {
+      "rarity": 4,
+      "desc": "The best things are easy to destroy."
+    },
+    "Treepiece": {
+      "rarity": 5,
+      "desc": "Donned by fans and defenders of nature alike.",
+      "abilities": [
+        "[Skill] Bury yourself in the ground, releasing spores that buff you and your teammates."
+      ],
+      "def": 4,
+      "agi": -4
+    },
+    "Witch Hat": {
+      "desc": "Wicked!",
+      "abilities": [
+        "Statuses inflicted by spells last 50% longer."
+      ],
+      "rarity": 4,
+      "def": 2,
+      "int": 8,
+      "agi": 2,
+      "ManaCost": -10
+    },
+    "Baghead": {
+      "desc": "Mmph!",
+      "abilities": [
+        "[Set Bonus] Dagger and rapier heavy attacks are guaranteed to hit three times, but have a 50% chance to disarm you for 5 seconds."
+      ],
+      "agi": 6,
+      "dex": 6,
+      "rarity": 4,
+      "DetectionRisk": -20
+    },
+    "Braincoral Visage": {
+      "desc": "When all sees all there is to be, one is one with the seas.",
+      "abilities": [
+        "Dealing intellect damage builds up a psychic shield that protects against stun. If you have no mana to cast a spell, psychic shield stacks can be used instead. Brain Brawl increases shield stacks gained by 50%."
+      ],
+      "rarity": 5,
+      "int": 20,
+      "agi": -10
+    },
+    "Muk Chrysalid": {
+      "desc": "Spin is second nature to the arcane Muks.",
+      "abilities": [
+        "Proccing spin leaves behind a whirlwind that grants reduced mana cost and ammo consumption."
+      ],
+      "def": 4,
+      "dex": 10,
+      "MaxMana": 15,
+      "rarity": 6,
+      "int": 10
+    },
+    "The Bulwark": {
+      "desc": "Just what is this thing? And why is it so BIG?",
+      "abilities": [
+        "You sprint 10% slower but get stunned half as long and take 50% less knockback."
+      ],
+      "str": 10,
+      "dex": 10,
+      "int": 10,
+      "def": 10,
+      "rarity": 5
+    },
+    "Whirlphones": {
+      "desc": "Bulky and comfortable. You'll hear new melodies everyday!",
+      "abilities": [
+        "[Skill] Gain sonic shield that reflect up to 3 enemy projectiles."
+      ],
+      "rarity": 5,
+      "int": 15,
+      "dex": 15
+    },
+    "Bell Saint's Mask": {
+      "desc": "A symbol of faith.",
+      "rarity": 6,
+      "str": 10,
+      "abilities": [
+        "Enemies affected by Chilled are sent flying with Rusty Bell, and receive more damage/Poise damage. Bell magic no longer consumes Mana."
+      ],
+      "def": -6
+    },
+    "Beret": {
+      "desc": "Beret",
+      "abilities": [
+        "Beret"
+      ],
+      "rarity": 6,
+      "agi": 20
+    },
+    "Clerick Hat": {
+      "rarity": 6,
+      "int": 18,
+      "MaxHealth": 15,
+      "desc": "Oversized hat worn by Clericks.",
+      "abilities": [
+        "Doing damage will build up a shield that protects you and nearby players."
+      ]
+    },
+    "Coppervision": {
+      "desc": "Unusual.",
+      "abilities": [
+        "Using Copper Mech's skill again while Galvanised will release the status with a burst of energy. It hurts you too though."
+      ],
+      "rarity": 6,
+      "str": 9,
+      "def": 10,
+      "int": 9,
+      "agi": -8,
+      "CritChance": 10,
+      "dex": 9
+    },
+    "Martial Headband": {
+      "rarity": 5,
+      "str": 8,
+      "dex": 8,
+      "agi": 2,
+      "CritChance": 5,
+      "desc": "It radiates with strength.",
+      "abilities": [
+        "Melee crits restore 15% of damage dealt as mana."
+      ]
+    },
+    "Tektite Helmet": {
+      "desc": "A dour visage forged from extraterrestrial rock.",
+      "abilities": [
+        "Explosions you cause have a chance to leave behind a radioactive field that irradiates enemies, compromising their status resistances"
+      ],
+      "rarity": 6,
+      "str": 16,
+      "def": 10,
+      "int": 10,
+      "agi": -10
+    },
+    "Triangle Lostmask": {
+      "desc": "Hohohohoh! You can almost hear its joy.",
+      "int": 16,
+      "dex": 10,
+      "rarity": 7,
+      "abilities": [
+        "Lowers the length of Shock you inflict by 25%, but greatly increases its damage."
+      ]
+    },
+    "Fedora": {
+      "rarity": 7,
+      "desc": "You've done it. This truly is my Pilgrammed."
+    },
+    "Lightless Cavalier": {
+      "desc": "It's where your demons hide.",
+      "rarity": 7,
+      "def": 8,
+      "dex": 20,
+      "agi": 8,
+      "MaxMana": 25,
+      "abilities": [
+        "Enemies inflicted with cursed fire have a chance to be tormented by a scary face that (within a radius) inflicts scared, prolongs cursed fire and deals some poise damage."
+      ]
+    },
+    "Malachite Mantle": {
+      "rarity": 7,
+      "desc": "Poison... A silent and deadly killer.",
+      "str": 12,
+      "int": 12,
+      "def": 10,
+      "abilities": [
+        "When poison is inflicted in your vicinity, your weapon gains a malachite coating. Melee and magic attacks launch small, poisonous malachite bubbles."
+      ]
+    },
+    "Mushroom Cap": {
+      "desc": "Reality seems incomprehensible. All that remains is fear and confusion.",
+      "def": 10,
+      "int": 30,
+      "agi": -30,
+      "SwingSpeed": -20,
+      "SummonCount": 1,
+      "rarity": 6
+    },
+    "Oval Lostmask": {
+      "rarity": 7,
+      "desc": "One can only guess the cause behind its frown.",
+      "str": 10,
+      "int": 16,
+      "abilities": [
+        "Burning enemies have a chance to spawn red or grey letters that extend fire and apply oil respectively."
+      ]
+    },
+    "Overseer Mask": {
+      "rarity": 7,
+      "desc": "\"We are smart, we are intelligent, and we observe.\"",
+      "int": 25,
+      "def": 8,
+      "dex": 15,
+      "abilities": [
+        "[Skill] Overheating a weapon causes you to fire plasma bursts from your eyes, but the overheated status lasts 1.5 seconds longer."
+      ]
+    },
+    "Pigmask": {
+      "rarity": 7,
+      "desc": "It is with a heavy pig head that we announce; the rusty pigs are indeed dead.",
+      "str": 50,
+      "agi": -10,
+      "abilities": [],
+      "CritChance": -10
+    },
+    "Prism Crown": {
+      "rarity": 7,
+      "desc": "Prism crown it up.",
+      "def": 5,
+      "abilities": [
+        "The effects of gems on weapons are increased by 50%."
+      ]
+    },
+    "Snow Mask": {
+      "desc": "The mask of aimless believers.",
+      "abilities": [
+        "Chilled enemies are infused with spin energy, making spinning damage (e.g. default sword heavy) more potent."
+      ],
+      "rarity": 6,
+      "int": -6,
+      "dex": 12
+    },
+    "Artist's Mandorla": {
+      "rarity": 8,
+      "desc": "Mandorla? That's an odd thing to say.",
+      "int": 20,
+      "dex": 10,
+      "agi": 8,
+      "abilities": [
+        "Paint blobs summoned by Unfinished Tapestry deal 50% more damage, but the status it inflicts is weaker. Dexterity crits can now proc paint blobs."
+      ],
+      "CritChance": 5
+    },
+    "Badb's Fez": {
+      "rarity": 8,
+      "desc": "It is said the witch's true name was Badb, and that her soul was severed long ago.",
+      "def": 6,
+      "MaxMana": 25,
+      "abilities": [
+        "Specific actions grant you stacking amber sprite buffs. Parrying: Ruby amber that increases Strength by 10, and swing speed and piercing by 2.5%. Dodging: Jade amber that increases Dexterity by 10, and crit chance and crit damage by 2.5%. Taking Damage: Gold amber that increases Intellect by 10, and spell potency and size by 2.5%."
+      ]
+    },
+    "Doubt": {
+      "rarity": 8,
+      "desc": "\"Lies, lies, lies.\"",
+      "int": 35,
+      "def": 10,
+      "abilities": [
+        "Increases dark element damage by 7%. Each stack of Decay on you increases dark element damage by an additional 5%. Decay is 20% less effective on you."
+      ],
+      "CritChance": -10
+    },
+    "Firewall Guardian": {
+      "rarity": 8,
+      "desc": "No clue how this works, but it does.",
+      "abilities": []
+    },
+    "Pooch Hat": {
+      "rarity": 8,
+      "desc": "It's magic!",
+      "dex": 10,
+      "abilities": [
+        "Half of your Dexterity also contributes up to 20 points of Agility."
+      ]
+    },
+    "Golden Knight Helmet": {
+      "rarity": -5,
+      "def": 10,
+      "agi": -50,
+      "desc": "The Golden Knight… One knight to rule them all.\nYou cannot roll.",
+      "abilities": [
+        "Disables the ability to roll."
+      ]
+    },
+    "Head of the Democan": {
+      "rarity": -5,
+      "desc": "One head speaks, while the other works in the darkness.",
+      "abilities": [
+        "[Skill] Scream and dance. Useless but funny."
+      ]
+    },
+    "Jester Cap": {
+      "rarity": -5,
+      "desc": "A celebration of funny times."
+    },
+    "Jolly Hat": {
+      "rarity": -5,
+      "desc": "Hohoho! I think you're jolly!"
+    },
+    "Party Hat": {
+      "rarity": -5,
+      "desc": "A celebration of good times."
+    },
+    "Pumpkinhead": {
+      "rarity": -5,
+      "desc": "Pumpkin?"
+    },
+    "Applehead": {
+      "rarity": 10,
+      "desc": "Apple you glad I didn't say banana?"
+    },
+    "Chef Hat": {
+      "rarity": 7,
+      "desc": "Compliments to the chef.",
+      "abilities": [
+        "Increases damage by 999% while you have a meal buff active. /j (does nothing)"
+      ]
+    },
+    "Harrowing Marrow": {
+      "rarity": 7,
+      "def": 8,
+      "dex": 24,
+      "CritChance": -20,
+      "MaxHealth": -50,
+      "desc": "A frightening mask made from the bones of the wicked.",
+      "abilities": [
+        "When bleeding procs near you, gain a buff to regen and defense, and enter bloodthirst immediately."
+      ]
+    },
+    "Pilgrim Hat": {
+      "rarity": 7,
+      "def": 4,
+      "desc": "..Say that again?"
+    },
+    "Trash Lid": {
+      "rarity": 7,
+      "def": 12,
+      "desc": "Stylish!"
+    },
+    "Carnival Cap": {
+      "rarity": 8,
+      "desc": "An awesome cap that absolutely rocks"
+    },
+    "Indicator": {
+      "rarity": 8,
+      "str": 15,
+      "def": 6,
+      "dex": 25,
+      "desc": "Anyone who crosses you is surely dead meat.",
+      "abilities": [
+        "Rolling restores ammo. Weapons above 35% heat will inflict fire on hit."
+      ]
+    },
+    "Ean Headdress": {
+      "rarity": 8,
+      "def": 4,
+      "int": 15,
+      "CritChance": 5,
+      "SummonCount": 1,
+      "desc": "Oh, nice.",
+      "abilities": [
+        "[Skill] Summon a trusty Eangran pal to your side, who can bite and breathe fire."
+      ]
+    }
+  },
+  "technique": {
+    "Arrow Rain": {
+      "abilities": [
+        "[Skill] Shoot lots of arrows into the sky."
+      ],
+      "Mana Cost": 30,
+      "Compatible": [
+        "Bow"
+      ]
+    },
+    "Azure Firecrackers": {
+      "abilities": [
+        "[Skill] Throw out a barrage of blue firecrackers that explode when hit."
+      ],
+      "Mana Cost": 0,
+      "Compatible": [
+        "Sword",
+        "Gun",
+        "Fighting Style",
+        "Kaismith Hammer",
+        "Azure Pinwheel"
+      ],
+      "Notes": "Description claims 20 mana, but this is false."
+    },
+    "Bell Saint Style": {
+      "abilities": [
+        "Adapts your Rusty Bell to be used in the ways of the False Believer. Third swing and rolls after successful hits release bell orbs that track onto enemies."
+      ],
+      "Mana Cost": 0,
+      "Compatible Weapons": [
+        "Rusty Bell"
+      ]
+    },
+    "Boom Shells": {
+      "abilities": [
+        "[Skill] Launch an incendiary bomb that can be aimed. If used midair, spin away in the direction you're moving."
+      ],
+      "Mana Cost": 50,
+      "Compatible Weapons": [
+        "Squid Blaster"
+      ]
+    },
+    "Dagger Throw": {
+      "abilities": [
+        "[Skill] Throw a daggers."
+      ],
+      "Mana Cost": 40,
+      "Compatible Weapons": [
+        "Dagger",
+        "Rapier"
+      ]
+    },
+    "Darkspin Arts": {
+      "abilities": [
+        "[Skill] Infuse your weapon with darkness or spin for 20 seconds. Has unique interactions with certain weapons."
+      ],
+      "Mana Cost": 50,
+      "Compatible": [
+        "Axe",
+        "Snowshatters"
+      ],
+      "Notes": "Has special interaction with the Blizzard Greataxe."
+    },
+    "Deadeye": {
+      "abilities": [
+        "Charge up a quickdraw."
+      ],
+      "Mana Cost": 0,
+      "Compatible": [
+        "Pistol",
+        "Sundowners"
+      ]
+    },
+    "Duelist's Dagger": {
+      "abilities": [
+        "[Skill] Perform a special counter."
+      ],
+      "Mana Cost": 0,
+      "Compatible": [
+        "Rapier"
+      ]
+    },
+    "Elite Guard": {
+      "abilities": [
+        "[Skill] Create a strong guard that consumes shield health to absorb incoming damage."
+      ],
+      "Mana Cost": 20,
+      "Compatible": [
+        "Sword"
+      ]
+    },
+    "Giantslayer": {
+      "abilities": [
+        "[Skill] Deliver a strong uppercut that launches you in the air. Can be followed up with a devastating, spinning slam."
+      ],
+      "Mana Cost": 30,
+      "Compatible": [
+        "Spear"
+      ]
+    },
+    "Ivory Anklet": {
+      "abilities": [
+        "[Skill] Spin forth in the direction you're facing. Has dodge frames."
+      ],
+      "Mana Cost": 10,
+      "Compatible": [
+        "Gun",
+        "Pistol",
+        "Rapier",
+        "Sword"
+      ]
+    },
+    "Magic Chalk": {
+      "abilities": [
+        "[Skill] Draw a circle that restores mana while you stand in it. (Can over-restore mana.)"
+      ],
+      "Mana Cost": 0,
+      "Compatible": [
+        "Staff",
+        "Mana Blade"
+      ]
+    },
+    "Monarch Claws": {
+      "abilities": [
+        "[Skill] Perform a flurry of swipes that has 50% increased crit chance and 100% increased bloodthirst buildup. Can be performed repeatedly if you have enough mana."
+      ],
+      "Mana Cost": 15,
+      "Compatible": [
+        "Fighting Style"
+      ]
+    },
+    "Occult Arts": {
+      "abilities": [
+        "[Skill] Infuse your weapon with blood or chaos for 20 seconds. Has unique interactions with certain weapons."
+      ],
+      "Mana Cost": 40,
+      "Compatible": [
+        "Dagger",
+        "Bloodtwin",
+        "Haunted Scythe",
+        "Normal Claw"
+      ]
+    },
+    "Scrap Nailgun": {
+      "abilities": [
+        "[Skill] Fire a burst of sticky nails that inflict Slimed. Nails hitting bleeding enemies may corrode them. Can use Pink Gel Cartridge to inflict Pink Slimed."
+      ],
+      "Mana Cost": 24,
+      "Compatible Weapons": [
+        "Scrap Longsword",
+        "Scrap Sickle"
+      ]
+    },
+    "Serpent Style": {
+      "abilities": [
+        "Develop a slow, serpentine fighting style with spears. Spears deal 30% more damage and 25% more poise damage. The last hit of your spear combo inflicts stacking venom."
+      ],
+      "Mana Cost": 0,
+      "Compatible": [
+        "Spear"
+      ]
+    },
+    "Shock Valve": {
+      "abilities": [
+        "[Skill] Air gun now shoots a concentrated bolt of lightning that explodes on impact. Loading air powder increases efficiency. Increases startup by 2.5x and mana cost by 1.5x."
+      ],
+      "Mana Cost": 0,
+      "Compatible Weapons": [
+        "Air Gun"
+      ]
+    },
+    "Sonic Boom": {
+      "abilities": [
+        "[Skill] Dash forward at the speed of sound. Reflects off walls."
+      ],
+      "Mana Cost": 60,
+      "Compatible Weapons": [
+        "Sound Staff"
+      ]
+    },
+    "Spreadshot": {
+      "abilities": [
+        "[Skill] Roll back and shoot a wide spread of arrows forward."
+      ],
+      "Mana Cost": 50,
+      "Compatible Weapons": [
+        "Light Bow",
+        "Bow",
+        "Greatbow"
+      ]
+    },
+    "Tidal Technique": {
+      "abilities": [
+        "[Skill] Uppercut with your anchor, sending out 3 waves. Can be used twice in quick succession when you have Sailor Rage."
+      ],
+      "Mana Cost": 0,
+      "Compatible Weapons": [
+        "Anchor"
+      ]
+    },
+    "Twisted Technique": {
+      "abilities": [
+        "[Skill] Enter a twisted stance to counter incoming attacks. Successful counters charge up your weapon, and amplify the next attack."
+      ],
+      "Mana Cost": 20,
+      "Compatible": [
+        "Greatsword"
+      ]
+    },
+    "Upheaval": {
+      "abilities": [
+        "[Skill] Stomp the ground, unearthing a boulder to pelt at your opponents."
+      ],
+      "Mana Cost": 40,
+      "Compatible": [
+        "Maul",
+        "Boulderblades"
+      ]
+    }
+  },
+  "weapon": {
+    "Bronze Greatsword": {
+      "element": "Metal",
+      "class": "Heavy Melee",
+      "subtype": "Greatsword",
+      "scaling": "Strength",
+      "damage": 15,
+      "swingspeed": -35,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 100,
+      "rarity": 1
+    },
+    "Bronze Sword": {
+      "element": "Metal",
+      "class": "Light Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 11,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 1
+    },
+    "Magic Branch": {
+      "element": "Magic",
+      "class": "Mage",
+      "subtype": "Wand",
+      "scaling": "Intellect",
+      "damage": 22,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 5,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 1
+    },
+    "Old Sword": {
+      "element": "Metal",
+      "class": "Light Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 8,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 1
+    },
+    "Wooden Dagger": {
+      "element": "None",
+      "class": "Light Melee",
+      "subtype": "Dagger",
+      "scaling": "Dexterity",
+      "damage": 6,
+      "swingspeed": 30,
+      "endlag": -10,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 15,
+      "range": 6,
+      "knockback": -60,
+      "rarity": 1
+    },
+    "Bosca": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 10,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 2
+    },
+    "Crude Club": {
+      "element": "Organic",
+      "class": "Heavy Melee",
+      "subtype": "Maul",
+      "scaling": "Strength",
+      "damage": 15,
+      "swingspeed": -40,
+      "endlag": -10,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 140,
+      "rarity": 2
+    },
+    "Cutlass": {
+      "element": "Metal",
+      "class": "Light Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 14,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 30,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 2
+    },
+    "Demetal Greatbow": {
+      "element": "Fire",
+      "class": "Ranged",
+      "subtype": "Bow (Light Bow)",
+      "scaling": "Dexterity",
+      "damage": 30,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 2
+    },
+    "Flintlock": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Pistol",
+      "scaling": "Dexterity",
+      "damage": 26,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 2
+    },
+    "Iron Battleaxe": {
+      "element": "Metal",
+      "class": "Heavy Melee",
+      "subtype": "Axe",
+      "scaling": "Strength",
+      "damage": 17,
+      "swingspeed": -30,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 2
+    },
+    "Iron Bow": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Bow",
+      "scaling": "Dexterity",
+      "damage": 25,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 2
+    },
+    "Iron Dagger": {
+      "element": "Metal",
+      "class": "Light Melee",
+      "subtype": "Dagger",
+      "scaling": "Dexterity",
+      "damage": 13,
+      "swingspeed": 15,
+      "endlag": -10,
+      "manacost": 0,
+      "piercing": 20,
+      "critchance": 15,
+      "range": 6,
+      "knockback": -60,
+      "rarity": 2
+    },
+    "Iron Greatsword": {
+      "element": "Metal",
+      "class": "Heavy Melee",
+      "subtype": "Greatsword",
+      "scaling": "Strength",
+      "damage": 21,
+      "swingspeed": -35,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 100,
+      "rarity": 2
+    },
+    "Iron Spear": {
+      "element": "Metal",
+      "class": "Light Melee",
+      "subtype": "Spear",
+      "scaling": "Strength",
+      "damage": 15,
+      "swingspeed": -10,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 25,
+      "critchance": 0,
+      "range": 10,
+      "knockback": -40,
+      "rarity": 2
+    },
+    "Iron Sword": {
+      "element": "Metal",
+      "class": "Light Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 17,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 2
+    },
+    "Revolver": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Pistol",
+      "scaling": "Dexterity",
+      "damage": 12,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 30,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 2
+    },
+    "Sand Wand": {
+      "element": "Sand",
+      "class": "Mage",
+      "subtype": "Wand",
+      "scaling": "Intellect",
+      "damage": 18,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 8,
+      "piercing": 15,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 2
+    },
+    "Shotel": {
+      "element": "Metal",
+      "class": "Light Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 14,
+      "swingspeed": 10,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 25,
+      "critchance": 0,
+      "range": 7,
+      "knockback": 0,
+      "rarity": 2
+    },
+    "Triplex Bow": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Bow (Light Bow)",
+      "scaling": "Dexterity",
+      "damage": 9,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 50,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 2
+    },
+    "Vuvuzela": {
+      "element": "None",
+      "class": "Mage",
+      "subtype": "Summoner",
+      "scaling": "Intellect",
+      "damage": null,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 20,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 2
+    },
+    "Wooden Bow": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Bow (Light Bow)",
+      "scaling": "Dexterity",
+      "damage": 20,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 2
+    },
+    "Crossbow": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Bow (Crossbow)",
+      "scaling": "Dexterity",
+      "damage": 28,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 3
+    },
+    "Demetal Maul": {
+      "element": "Fire",
+      "class": "Heavy Melee",
+      "subtype": "Maul",
+      "scaling": "Strength",
+      "damage": 26,
+      "swingspeed": -35,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 100,
+      "rarity": 3
+    },
+    "Demetal Sword": {
+      "element": "Fire",
+      "class": "Light Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 23,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 3
+    },
+    "Demetal Wand": {
+      "element": "Fire",
+      "class": "Mage",
+      "subtype": "Wand",
+      "scaling": "Intellect/Strength",
+      "damage": 4,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 8,
+      "piercing": 70,
+      "critchance": 15,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 3
+    },
+    "Elf Blade": {
+      "element": "Grass",
+      "class": "Light Melee",
+      "subtype": "Dagger",
+      "scaling": "Dexterity",
+      "damage": 16,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 10,
+      "critchance": 15,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 3
+    },
+    "Eye Vuvuzela": {
+      "element": "None",
+      "class": "Mage",
+      "subtype": "Summoner",
+      "scaling": "Intellect",
+      "damage": null,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 25,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 3
+    },
+    "Icedagger": {
+      "element": "Frost",
+      "class": "Light Melee",
+      "subtype": "Dagger",
+      "scaling": "Dexterity",
+      "damage": 16,
+      "swingspeed": 20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 25,
+      "critchance": 15,
+      "range": 6,
+      "knockback": -60,
+      "rarity": 3
+    },
+    "Icicle Rod": {
+      "element": "Frost",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 18,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 18,
+      "piercing": 40,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 3
+    },
+    "Magma Shackles": {
+      "element": "Fire",
+      "class": "Light Melee",
+      "subtype": "Fist",
+      "scaling": "Strength",
+      "damage": 30,
+      "swingspeed": 0,
+      "endlag": -25,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": -10,
+      "range": 6,
+      "knockback": 180,
+      "rarity": 3
+    },
+    "Magma Shotgun": {
+      "element": "Fire",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 12,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 40,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 3
+    },
+    "Mithril Spear": {
+      "element": "Frost",
+      "class": "Light Melee",
+      "subtype": "Spear",
+      "scaling": "Strength",
+      "damage": 19,
+      "swingspeed": -10,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 25,
+      "critchance": 0,
+      "range": 10,
+      "knockback": -40,
+      "rarity": 3
+    },
+    "Mithril Sword": {
+      "element": "Frost",
+      "class": "Light Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 22,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 3
+    },
+    "Mithril Wand": {
+      "element": "Frost",
+      "class": "Mage",
+      "subtype": "Wand",
+      "scaling": "Intellect",
+      "damage": 5,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 15,
+      "critchance": 5,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 3
+    },
+    "Musket": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 48,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 40,
+      "critchance": 25,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 3
+    },
+    "Phoenix Staff": {
+      "element": "Fire",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 17,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 14,
+      "piercing": 15,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 3
+    },
+    "Serpent Scepter": {
+      "element": "Venom",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 10,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 15,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 3
+    },
+    "Air Gun": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 10,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 35,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Anchor": {
+      "element": "Water",
+      "class": "Heavy Melee",
+      "subtype": "Maul",
+      "scaling": "Strength",
+      "damage": 43,
+      "swingspeed": -35,
+      "endlag": -10,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 100,
+      "rarity": 4
+    },
+    "Blunderbuss": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 13,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 50,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Clever Tome": {
+      "element": "None",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 0,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 40,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Executioner's Greatsword": {
+      "element": "Metal",
+      "class": "Heavy Melee",
+      "subtype": "Greatsword",
+      "scaling": "Strength",
+      "damage": 27,
+      "swingspeed": -40,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 100,
+      "rarity": 4
+    },
+    "Feral Scimitar": {
+      "element": "Metal",
+      "class": "Medium Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 27,
+      "swingspeed": -20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 10,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Gilded Greatsword": {
+      "element": "Lightning",
+      "class": "Heavy Melee",
+      "subtype": "Greatsword",
+      "scaling": "Strength",
+      "damage": 30,
+      "swingspeed": -30,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 60,
+      "rarity": 4
+    },
+    "Harpoon": {
+      "element": "Metal",
+      "class": "Medium Melee",
+      "subtype": "Spear",
+      "scaling": "Strength",
+      "damage": 24,
+      "swingspeed": -30,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 35,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Mana Blade": {
+      "element": "Magic",
+      "class": "Light Melee",
+      "subtype": "Sword",
+      "scaling": "Intellect",
+      "damage": 10,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 20,
+      "critchance": 0,
+      "range": 9,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Mithril Bow": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Bow",
+      "scaling": "Dexterity",
+      "damage": 26,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Pitch Dagger": {
+      "element": "None",
+      "class": "Light Melee",
+      "subtype": "Dagger",
+      "scaling": "Dexterity",
+      "damage": 15,
+      "swingspeed": 42,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 35,
+      "critchance": 20,
+      "range": 6,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Pro Dagger": {
+      "element": "Light",
+      "class": "Light Melee",
+      "subtype": "Dagger",
+      "scaling": "Dexterity",
+      "damage": 22,
+      "swingspeed": 20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 15,
+      "critchance": 20,
+      "range": 6,
+      "knockback": -60,
+      "rarity": 4
+    },
+    "Rockwondo": {
+      "element": "Organic",
+      "class": "Light Melee",
+      "subtype": "Fist",
+      "scaling": "Strength",
+      "damage": 22,
+      "swingspeed": 0,
+      "endlag": -20,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 7,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Sandpod Spear": {
+      "element": "Sand",
+      "class": "Medium Melee",
+      "subtype": "Spear",
+      "scaling": "Strength",
+      "damage": 32,
+      "swingspeed": -30,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 25,
+      "critchance": 0,
+      "range": 10,
+      "knockback": -20,
+      "rarity": 4
+    },
+    "Scrap Longsword": {
+      "element": "Metal",
+      "class": "Medium Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 26,
+      "swingspeed": -20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 20,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Scrap Sickle": {
+      "element": "Metal",
+      "class": "Light Melee",
+      "subtype": "Dagger",
+      "scaling": "Dexterity",
+      "damage": 5,
+      "swingspeed": 10,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 35,
+      "critchance": 0,
+      "range": 6,
+      "knockback": -60,
+      "rarity": 4
+    },
+    "Silver Axe": {
+      "element": "Metal",
+      "class": "Medium Melee",
+      "subtype": "Axe",
+      "scaling": "Strength",
+      "damage": 26,
+      "swingspeed": -30,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 15,
+      "critchance": 0,
+      "range": 7,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Silver Rapier": {
+      "element": "Metal",
+      "class": "Light Melee",
+      "subtype": "Rapier",
+      "scaling": "Dexterity",
+      "damage": 20,
+      "swingspeed": 20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 50,
+      "critchance": 0,
+      "range": 9,
+      "knockback": -40,
+      "rarity": 4
+    },
+    "Silver Repeater": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Bow (Crossbow)",
+      "scaling": "Dexterity",
+      "damage": 16,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 50,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Squid Blaster": {
+      "element": "None",
+      "class": "Mage",
+      "subtype": "Wand",
+      "scaling": "Intellect",
+      "damage": 15,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 6,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Sundowners": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 30,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Viking Axe": {
+      "element": "Metal",
+      "class": "Medium Melee",
+      "subtype": "Axe",
+      "scaling": "Strength",
+      "damage": 28,
+      "swingspeed": -30,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Zap Antenna": {
+      "element": "Lightning",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 48,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 25,
+      "piercing": 50,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 4
+    },
+    "Acrid Longbow": {
+      "element": "Venom",
+      "class": "Ranged",
+      "subtype": "Bow (Light Bow)",
+      "scaling": "Dexterity",
+      "damage": 33,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Black Stiletto": {
+      "element": "None",
+      "class": "Light Melee",
+      "subtype": "Dagger",
+      "scaling": "Dexterity",
+      "damage": 22,
+      "swingspeed": 40,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 35,
+      "critchance": 20,
+      "range": 6,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Blizzard Greataxe": {
+      "element": "Frost",
+      "class": "Heavy Melee",
+      "subtype": "Axe",
+      "scaling": "Strength",
+      "damage": 36,
+      "swingspeed": -40,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 25,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Blizzard Greatbow": {
+      "element": "Frost",
+      "class": "Ranged",
+      "subtype": "Bow (Greatbow)",
+      "scaling": "Dexterity",
+      "damage": 64,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 25,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Boulderblades": {
+      "element": "Earth",
+      "class": "Medium Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 20,
+      "swingspeed": -30,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 7,
+      "knockback": 40,
+      "rarity": 5
+    },
+    "Brain Brawl": {
+      "element": "Organic",
+      "class": "Light Melee",
+      "subtype": "Fist",
+      "scaling": "Intellect",
+      "damage": 24,
+      "swingspeed": 25,
+      "endlag": 0,
+      "manacost": 10,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 7,
+      "knockback": 60,
+      "rarity": 5
+    },
+    "Brass Bow": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Bow",
+      "scaling": "Dexterity",
+      "damage": 26,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Cannon": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 55,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Champion's Bow": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Light Bow",
+      "scaling": "Dexterity",
+      "damage": 40,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 50,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Crabhand": {
+      "element": "Water",
+      "class": "Heavy Melee",
+      "subtype": "Maul",
+      "scaling": "Strength",
+      "damage": 40,
+      "swingspeed": -40,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 10,
+      "critchance": 0,
+      "range": 9,
+      "knockback": 100,
+      "rarity": 5
+    },
+    "Creepy Claw": {
+      "element": "Venom",
+      "class": "Light Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 28,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 10,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Crystalspine": {
+      "element": "Water",
+      "class": "Light Melee",
+      "subtype": "Rapier",
+      "scaling": "Dexterity",
+      "damage": 26,
+      "swingspeed": 20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 35,
+      "critchance": 0,
+      "range": 9,
+      "knockback": -40,
+      "rarity": 5
+    },
+    "Dual Bosca": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 15,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Empyrean Maul": {
+      "element": "Light",
+      "class": "Heavy Melee",
+      "subtype": "Maul",
+      "scaling": "Strength",
+      "damage": 36,
+      "swingspeed": -35,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 9,
+      "knockback": 100,
+      "rarity": 5
+    },
+    "Glubber": {
+      "element": "Water",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 30,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 20,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Halberd": {
+      "element": "Metal",
+      "class": "Heavy Melee",
+      "subtype": "Axe",
+      "scaling": "Strength",
+      "damage": 36,
+      "swingspeed": -40,
+      "endlag": -10,
+      "manacost": 0,
+      "piercing": 20,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Haunted Scythe": {
+      "element": "Metal",
+      "class": "Medium Melee",
+      "subtype": "Scythe",
+      "scaling": "Strength/Dexterity",
+      "damage": 36,
+      "swingspeed": -30,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 15,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Megaton Maul": {
+      "element": "Metal",
+      "class": "Heavy Melee",
+      "subtype": "Maul",
+      "scaling": "Strength",
+      "damage": 40,
+      "swingspeed": -50,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 12,
+      "knockback": 100,
+      "rarity": 5
+    },
+    "Nagakiba": {
+      "element": "Metal",
+      "class": "Medium Melee",
+      "subtype": "Sword",
+      "scaling": "Dexterity",
+      "damage": 32,
+      "swingspeed": 10,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Normal Claw": {
+      "element": "None",
+      "class": "Light Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 22,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Prime Brand": {
+      "element": "Plasma",
+      "class": "Light Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 24,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 15,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Prime Scepter": {
+      "element": "Plasma",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 70,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 25,
+      "piercing": 15,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Purple Fang": {
+      "element": "Magic",
+      "class": "Light Melee",
+      "subtype": "Dagger",
+      "scaling": "Intellect",
+      "damage": 22,
+      "swingspeed": 30,
+      "endlag": 0,
+      "manacost": 8,
+      "piercing": 35,
+      "critchance": 10,
+      "range": 6,
+      "knockback": -60,
+      "rarity": 5
+    },
+    "Rainmaker": {
+      "element": "Water",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 35,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 24,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Scarebow": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Bow (Light Bow)",
+      "scaling": "Dexterity",
+      "damage": 24,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 50,
+      "critchance": -10,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Scrap Lance": {
+      "element": "Metal",
+      "class": "Medium Melee",
+      "subtype": "Spear",
+      "scaling": "Strength",
+      "damage": 24,
+      "swingspeed": -20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 35,
+      "critchance": 0,
+      "range": 12,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Six Shooter": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Pistol",
+      "scaling": "Dexterity",
+      "damage": 50,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Smart Stem Staff": {
+      "element": "None",
+      "class": "Mage",
+      "subtype": "Summoner",
+      "scaling": "Intellect",
+      "damage": null,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 35,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Sound Staff": {
+      "element": "None",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 45,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 20,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Tanto": {
+      "element": "Metal",
+      "class": "Light Melee",
+      "subtype": "Dagger",
+      "scaling": "Dexterity",
+      "damage": 24,
+      "swingspeed": 10,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 30,
+      "critchance": 10,
+      "range": 6,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Trident": {
+      "element": "Water",
+      "class": "Medium Melee",
+      "subtype": "Spear",
+      "scaling": "Strength",
+      "damage": 26,
+      "swingspeed": -20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 25,
+      "critchance": 0,
+      "range": 10,
+      "knockback": -40,
+      "rarity": 5
+    },
+    "Vine Wand": {
+      "element": "Grass",
+      "class": "Mage",
+      "subtype": "Wand",
+      "scaling": "Intellect",
+      "damage": 10,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 10,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 5
+    },
+    "Azure Pinwheel": {
+      "element": "Metal",
+      "class": "Heavy Melee",
+      "subtype": "Axe",
+      "scaling": "Strength",
+      "damage": 36,
+      "swingspeed": -40,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 10,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Azure Rocket": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Bow (Crossbow)",
+      "scaling": "Dexterity",
+      "damage": 60,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Berried Cleaver": {
+      "element": "Venom",
+      "class": "Medium Melee",
+      "subtype": "Cleaver",
+      "scaling": "Strength",
+      "damage": 36,
+      "swingspeed": -20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 6,
+      "knockback": -20,
+      "rarity": 6
+    },
+    "Bigfish Gauntlet": {
+      "element": "Lightning",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 40,
+      "swingspeed": 0,
+      "endlag": -70,
+      "manacost": 12,
+      "piercing": 40,
+      "critchance": 15,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Bloodtwin": {
+      "element": "Dark",
+      "class": "Light Melee",
+      "subtype": "Twinblade",
+      "scaling": "Strength/Dexterity",
+      "damage": 36,
+      "swingspeed": 10,
+      "endlag": -10,
+      "manacost": 0,
+      "piercing": 15,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Bone Claws": {
+      "element": "Undead",
+      "class": "Light Melee",
+      "subtype": "Fist",
+      "scaling": "Dexterity",
+      "damage": 18,
+      "swingspeed": 50,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 40,
+      "critchance": 0,
+      "range": 7,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Buster Sword": {
+      "element": "Metal",
+      "class": "Heavy Melee",
+      "subtype": "Greatsword",
+      "scaling": "Strength",
+      "damage": 42,
+      "swingspeed": -40,
+      "endlag": -10,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 200,
+      "rarity": 6
+    },
+    "Catatome": {
+      "element": "Dark",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 30,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 100,
+      "piercing": 15,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Ceremonial Greatblade": {
+      "element": "Metal",
+      "class": "Heavy Melee",
+      "subtype": "Greatsword",
+      "scaling": "Strength",
+      "damage": 56,
+      "swingspeed": -55,
+      "endlag": -10,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 140,
+      "rarity": 6
+    },
+    "Champion's Gladius": {
+      "element": "Metal",
+      "class": "Light Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 32,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 40,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Clerick Tome": {
+      "element": "Light",
+      "class": "Mage",
+      "subtype": "Wand",
+      "scaling": "Intellect",
+      "damage": 27,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 18,
+      "piercing": 35,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Coffinhilt": {
+      "element": "Undead",
+      "class": "Light Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 18,
+      "swingspeed": 0,
+      "endlag": 50,
+      "manacost": 0,
+      "piercing": 35,
+      "critchance": 0,
+      "range": 6,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Coffinlock": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 40,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 35,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "EGGMG": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 8,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 50,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Electrofork": {
+      "element": "Metal",
+      "class": "Medium Melee",
+      "subtype": "Spear",
+      "scaling": "Strength",
+      "damage": 35,
+      "swingspeed": -20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Evil Needle": {
+      "element": "Metal",
+      "class": "Light Melee",
+      "subtype": "Rapier",
+      "scaling": "Dexterity",
+      "damage": 33,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 40,
+      "critchance": 0,
+      "range": 10,
+      "knockback": -40,
+      "rarity": 6
+    },
+    "Gravetree": {
+      "element": "Earth",
+      "class": "Heavy Melee",
+      "subtype": "Maul",
+      "scaling": "Strength",
+      "damage": 42,
+      "swingspeed": -45,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 140,
+      "rarity": 6
+    },
+    "Kai Fist": {
+      "element": "Organic",
+      "class": "Light Melee",
+      "subtype": "Fist",
+      "scaling": "Strength",
+      "damage": 25,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 20,
+      "range": 7,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Kaismith Hammer": {
+      "element": "Metal",
+      "class": "Heavy Melee",
+      "subtype": "Maul",
+      "scaling": "Strength",
+      "damage": 40,
+      "swingspeed": -45,
+      "endlag": -20,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 100,
+      "rarity": 6
+    },
+    "Kod Kendo": {
+      "element": "Organic",
+      "class": "Medium Melee",
+      "subtype": "Fist",
+      "scaling": "Strength",
+      "damage": 32,
+      "swingspeed": -25,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 7,
+      "knockback": 100,
+      "rarity": 6
+    },
+    "Lostmasks": {
+      "element": "None",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 60,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 20,
+      "piercing": 25,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Maimed Cudgel": {
+      "element": "Organic",
+      "class": "Heavy Melee",
+      "subtype": "Maul",
+      "scaling": "Strength",
+      "damage": 36,
+      "swingspeed": -45,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 140,
+      "rarity": 6
+    },
+    "Mephisosceles": {
+      "element": "Dark",
+      "class": "Medium Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 35,
+      "swingspeed": -20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 20,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Nos Dywyll": {
+      "element": "Dark",
+      "class": "Heavy Melee",
+      "subtype": "Greatspear",
+      "scaling": "Dexterity",
+      "damage": 40,
+      "swingspeed": -40,
+      "endlag": -30,
+      "manacost": 0,
+      "piercing": 30,
+      "critchance": 0,
+      "range": 12,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Noxious Mortar": {
+      "element": "Venom",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 20,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Prism Bow": {
+      "element": "Light",
+      "class": "Ranged",
+      "subtype": "Bow",
+      "scaling": "Dexterity",
+      "damage": 14,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 50,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Prism Lance": {
+      "element": "Light",
+      "class": "Light Melee",
+      "subtype": "Spear",
+      "scaling": "Strength",
+      "damage": 30,
+      "swingspeed": -10,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 30,
+      "critchance": 0,
+      "range": 10,
+      "knockback": -40,
+      "rarity": 6
+    },
+    "Prism Staff": {
+      "element": "Light",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 22,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 20,
+      "piercing": 25,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Rusty Bell": {
+      "element": "Metal",
+      "class": "Heavy Melee",
+      "subtype": "Bell",
+      "scaling": "Strength",
+      "damage": 64,
+      "swingspeed": -55,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": -20,
+      "range": 8,
+      "knockback": 200,
+      "rarity": 6
+    },
+    "Shroomerang": {
+      "element": "Light",
+      "class": "Medium Melee",
+      "subtype": "Boomerang",
+      "scaling": "Strength",
+      "damage": 30,
+      "swingspeed": -20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 6,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Slime Hammer": {
+      "element": "Organic",
+      "class": "Heavy Melee",
+      "subtype": "Maul",
+      "scaling": "Strength",
+      "damage": 38,
+      "swingspeed": -35,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 200,
+      "rarity": 6
+    },
+    "Snowflurry": {
+      "element": "Frost",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 22,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 35,
+      "piercing": 20,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Snowshatters": {
+      "element": "Frost",
+      "class": "Light Melee",
+      "subtype": "Fan",
+      "scaling": "Dexterity",
+      "damage": 12,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 50,
+      "critchance": 25,
+      "range": 7,
+      "knockback": -80,
+      "rarity": 6
+    },
+    "Sporeshot": {
+      "element": "Light",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 50,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Sunyata": {
+      "element": "Light",
+      "class": "Light Melee",
+      "subtype": "Dagger",
+      "scaling": "Dexterity",
+      "damage": 28,
+      "swingspeed": 20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 35,
+      "critchance": 0,
+      "range": 6,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Swordfish": {
+      "element": "Water",
+      "class": "Heavy Melee",
+      "subtype": "Spear",
+      "scaling": "Strength",
+      "damage": 36,
+      "swingspeed": -40,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Tektite Arc": {
+      "element": "Fire",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 55,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 20,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Tektite Ballista": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 80,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Tektite Crusher": {
+      "element": "Earth",
+      "class": "Heavy Melee",
+      "subtype": "Maul",
+      "scaling": "Strength",
+      "damage": 45,
+      "swingspeed": -45,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": -10,
+      "range": 8,
+      "knockback": 100,
+      "rarity": 6
+    },
+    "The Rot": {
+      "element": "Venom",
+      "class": "Heavy Melee",
+      "subtype": "Greatsword",
+      "scaling": "Strength",
+      "damage": 52,
+      "swingspeed": -45,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 20,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 100,
+      "rarity": 6
+    },
+    "Twigclaws": {
+      "element": "Grass",
+      "class": "Light Melee",
+      "subtype": "Fist",
+      "scaling": "Dexterity",
+      "damage": 26,
+      "swingspeed": 30,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 50,
+      "critchance": 0,
+      "range": 7,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Twisted Cage": {
+      "element": "Fire",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 20,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 8,
+      "piercing": 20,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Wicked Limb": {
+      "element": "Dark",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 80,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 24,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 6
+    },
+    "Avenger Axe": {
+      "element": "Metal",
+      "class": "Medium Melee",
+      "subtype": "Axe",
+      "scaling": "Strength",
+      "damage": 21,
+      "swingspeed": -25,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 50,
+      "critchance": 20,
+      "range": 8,
+      "knockback": -40,
+      "rarity": 7
+    },
+    "Cool Wrench": {
+      "element": "None",
+      "class": "Light Melee",
+      "subtype": "Dagger",
+      "scaling": "Strength",
+      "damage": 6,
+      "swingspeed": 10,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 6,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Daedalus Shot": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Bow (Light Bow)",
+      "scaling": "Dexterity",
+      "damage": 50,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 25,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Dreamdust Flask": {
+      "element": "Sand",
+      "class": "Heavy Melee",
+      "subtype": "Maul",
+      "scaling": "Intellect",
+      "damage": 48,
+      "swingspeed": -35,
+      "endlag": -20,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 100,
+      "rarity": 7
+    },
+    "Gemini Blade": {
+      "element": "Metal",
+      "class": "Light Melee",
+      "subtype": "Morph",
+      "scaling": "Strength",
+      "damage": 36,
+      "swingspeed": -10,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 35,
+      "critchance": 0,
+      "range": 9,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Grand Prix": {
+      "element": "Metal",
+      "class": "Medium Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 38,
+      "swingspeed": -20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 7,
+      "knockback": 40,
+      "rarity": 7
+    },
+    "Graphite Lance": {
+      "element": "Earth",
+      "class": "Heavy Melee",
+      "subtype": "Greatspear",
+      "scaling": "Strength",
+      "damage": 52,
+      "swingspeed": -35,
+      "endlag": -30,
+      "manacost": 0,
+      "piercing": 50,
+      "critchance": 15,
+      "range": 13,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Ithaca": {
+      "element": "Metal",
+      "class": "Light Melee",
+      "subtype": "Gunblade",
+      "scaling": "Dexterity",
+      "damage": 36,
+      "swingspeed": -10,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 20,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Kitchen Knife": {
+      "element": "Metal",
+      "class": "Heavy Melee",
+      "subtype": "Greatsword",
+      "scaling": "Strength",
+      "damage": 42,
+      "swingspeed": -35,
+      "endlag": -30,
+      "manacost": 0,
+      "piercing": 25,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 40,
+      "rarity": 7
+    },
+    "Knight's Glaive": {
+      "element": "Fire",
+      "class": "Light Melee",
+      "subtype": "Spear",
+      "scaling": "Strength",
+      "damage": 42,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 30,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Malachite Buster": {
+      "element": "Metal",
+      "class": "Medium Melee",
+      "subtype": "Axe",
+      "scaling": "Strength",
+      "damage": 42,
+      "swingspeed": -20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Metacrab Termina": {
+      "element": "Metal",
+      "class": "Melee",
+      "subtype": "Dual",
+      "scaling": "Dexterity",
+      "damage": 33,
+      "swingspeed": 40,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 40,
+      "critchance": 15,
+      "range": 12,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Minigun": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 10,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Mor Teslabow": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Bow (Greatbow)",
+      "scaling": "Dexterity",
+      "damage": 60,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Oxide Bloom": {
+      "element": "Venom",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 30,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 25,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Oxide Longsword": {
+      "element": "Earth",
+      "class": "Medium Melee",
+      "subtype": "Sword",
+      "scaling": "Dexterity",
+      "damage": 36,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 25,
+      "critchance": 10,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Peluche": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Pistol",
+      "scaling": "Dexterity",
+      "damage": 56,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 30,
+      "critchance": -30,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Scavenger Shotgun": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 18,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 50,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Seer Smartgun": {
+      "element": "Plasma",
+      "class": "Ranged",
+      "subtype": "Pistol",
+      "scaling": "Dexterity",
+      "damage": 32,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": -10,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Stormcutter": {
+      "element": "None",
+      "class": "Light Melee",
+      "subtype": "Dagger",
+      "scaling": "Dexterity",
+      "damage": 12,
+      "swingspeed": 20,
+      "endlag": 10,
+      "manacost": 0,
+      "piercing": 40,
+      "critchance": -35,
+      "range": 7,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Stormwaker": {
+      "element": "Lightning",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 56,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 25,
+      "piercing": 50,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Teddy": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 15,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 20,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Womp Womp": {
+      "element": "Light",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 35,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 30,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 7
+    },
+    "Arcane Musket": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Intellect",
+      "damage": 52,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 40,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 8
+    },
+    "Black Ice": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Rifle",
+      "scaling": "Dexterity",
+      "damage": 28,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 8
+    },
+    "Deep Sea Tome": {
+      "element": "Water",
+      "class": "Mage",
+      "subtype": "Wand",
+      "scaling": "Intellect",
+      "damage": 50,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 18,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 8
+    },
+    "Don Pampura": {
+      "element": "Metal",
+      "class": "Heavy Melee",
+      "subtype": "Maul",
+      "scaling": "Strength",
+      "damage": 64,
+      "swingspeed": -40,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 12,
+      "knockback": 100,
+      "rarity": 8
+    },
+    "Eventide": {
+      "element": "Dark",
+      "class": "Heavy Melee",
+      "subtype": "Maul",
+      "scaling": "Intellect",
+      "damage": 50,
+      "swingspeed": -40,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": -20,
+      "range": 8,
+      "knockback": 100,
+      "rarity": 8
+    },
+    "Green Gloves": {
+      "element": "Organic",
+      "class": "Medium Melee",
+      "subtype": "Fist",
+      "scaling": "Strength",
+      "damage": 33,
+      "swingspeed": -20,
+      "endlag": -20,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 8
+    },
+    "Guiding Diamond": {
+      "element": "Plasma",
+      "class": "Heavy Melee",
+      "subtype": "Greatsword",
+      "scaling": "Intellect",
+      "damage": 45,
+      "swingspeed": -40,
+      "endlag": -10,
+      "manacost": 0,
+      "piercing": 25,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 100,
+      "rarity": 8
+    },
+    "Laser Rapier": {
+      "element": "Plasma",
+      "class": "Light Melee",
+      "subtype": "Rapier",
+      "scaling": "Dexterity",
+      "damage": 40,
+      "swingspeed": 20,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 50,
+      "critchance": -20,
+      "range": 10,
+      "knockback": -40,
+      "rarity": 8
+    },
+    "Millennium Cannon": {
+      "element": "Plasma",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 90,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": -10,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 8
+    },
+    "Millennium Saw": {
+      "element": "Metal",
+      "class": "Heavy Melee",
+      "subtype": "Saw",
+      "scaling": "Strength",
+      "damage": 20,
+      "swingspeed": -40,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 35,
+      "critchance": -20,
+      "range": 10,
+      "knockback": -60,
+      "rarity": 8
+    },
+    "Owl Lyre": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Bow",
+      "scaling": "Dexterity",
+      "damage": 21,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 20,
+      "critchance": -10,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 8
+    },
+    "Owl Thorn": {
+      "element": "Dark",
+      "class": "Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 40,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 15,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 8
+    },
+    "Rib Snapper": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 96,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 50,
+      "critchance": 20,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 8
+    },
+    "Shredder": {
+      "element": "Plasma",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 14,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 30,
+      "piercing": 75,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 8
+    },
+    "Temple": {
+      "element": "Organic",
+      "class": "Light Melee",
+      "subtype": "Swords",
+      "scaling": "Dexterity, Intellect",
+      "damage": 32,
+      "swingspeed": 10,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 10,
+      "knockback": 0,
+      "rarity": 8
+    },
+    "The Big Cheese": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Gun",
+      "scaling": "Dexterity",
+      "damage": 120,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": -50,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 8
+    },
+    "Tinned Calamity": {
+      "element": "Undead",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 18,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 30,
+      "piercing": 25,
+      "critchance": -20,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 8
+    },
+    "Umibozu": {
+      "element": "Water",
+      "class": "Mage",
+      "subtype": "Wand",
+      "scaling": "Intellect",
+      "damage": 22,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 15,
+      "piercing": 50,
+      "critchance": -20,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 8
+    },
+    "Wayfinder": {
+      "element": "Plasma",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 28,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 20,
+      "piercing": 30,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 8
+    },
+    "The Jade Twin": {
+      "element": "Earth",
+      "class": "Light Melee",
+      "subtype": "Sword",
+      "scaling": "Dexterity/Intellect",
+      "damage": 33,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": 10
+    },
+    "Funky Driftlander": {
+      "element": "Dark",
+      "class": "Light Melee",
+      "subtype": "Greatspear",
+      "scaling": "Dexterity",
+      "damage": 35,
+      "swingspeed": 0,
+      "endlag": -30,
+      "manacost": 0,
+      "piercing": 25,
+      "critchance": 0,
+      "range": 12,
+      "knockback": 0,
+      "rarity": 12
+    },
+    "Ratboy Handgun": {
+      "element": "None",
+      "class": "Ranged",
+      "subtype": "Pistol",
+      "scaling": "Dexterity",
+      "damage": 45,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 12
+    },
+    "Red Powerfists": {
+      "element": "Metal",
+      "class": "Light Melee",
+      "subtype": "Fist",
+      "scaling": "Strength",
+      "damage": 36,
+      "swingspeed": 0,
+      "endlag": -10,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 7,
+      "knockback": 40,
+      "rarity": 12
+    },
+    "Wicked Junk Spellbook": {
+      "element": "Metal",
+      "class": "Mage",
+      "subtype": "Staff",
+      "scaling": "Intellect",
+      "damage": 50,
+      "swingspeed": 0,
+      "endlag": 0,
+      "manacost": 20,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 0,
+      "knockback": 0,
+      "rarity": 12
+    },
+    "Decaying Eclipse": {
+      "element": "Dark",
+      "class": "Light Melee",
+      "subtype": "Sword",
+      "scaling": "Strength",
+      "damage": 33,
+      "swingspeed": -10,
+      "endlag": 0,
+      "manacost": 0,
+      "piercing": 0,
+      "critchance": 0,
+      "range": 8,
+      "knockback": 0,
+      "rarity": -5,
+      "desc": "This blade has only ever known decay. It brimmed with potential the last time it was sheathed, but that was years ago."
+    }
+  }
+}

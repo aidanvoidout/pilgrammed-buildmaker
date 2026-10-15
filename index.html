@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pilgrammed Build Tools</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+<main>
+  <h1><img src="assets/game-logo.png" width="125px" height="100%"> Build Tools</h1>
+
+  <div class="layout">
+    <div class="left">
+      <h3>Equipment</h3>
+      <div class="category-grid" id="category-grid"></div>
+
+      <h3>Stats</h3>
+      <div id="stats-panel"></div>
+
+      <h3>Skills</h3>
+      <button id="skills-btn">(...) Points</button>
+    </div>
+
+    <div class="right">
+      <input id="build-name-input" type="text" placeholder="Build name..." />
+      <br>
+      <button id="save-btn">Save</button>
+      <button id="load-btn">Load</button>
+      <button id="copy-url-btn">Copy URL</button>
+      <button id="copy-image-btn">Copy Image</button>
+      <button id="info-btn">Info</button>
+      <button id="clear-btn">Clear</button>
+
+      <h3>Abilities</h3>
+      <div id="abilities-panel"></div>
+    </div>
+  </div>
+
+  <div class="tooltip" id="tooltip" style="display:none;"></div>
+  <div class="toast" id="toast" style="display:none;"></div>
+
+  <div class="overlay" id="items-overlay" style="display:none;" tabindex="0">
+    <div class="popup" style="width:95%; max-width:1200px;" id="items-popup">
+      <div class="header">
+        <h2 id="items-popup-title">Select Item</h2>
+        <button class="close" id="items-close">✕</button>
+      </div>
+      <div class="content">
+        <input type="text" id="item-search" placeholder="Search items..." class="search" />
+        <div class="sort-controls">
+          <select id="item-sort-select" class="reforge-select"></select>
+          <button id="item-sort-dir-btn" type="button">↑ Asc</button>
+        </div>
+        <div class="equip-bar">
+          <strong id="equip-item-name"></strong>
+          <label id="reforge-field">Reforge
+            <select id="reforge-select" class="reforge-select"></select>
+          </label>
+          <label id="gem-field">Gem
+            <select id="gem-select" class="reforge-select"></select>
+          </label>
+          <button id="equip-btn" type="button">Equip</button>
+        </div>
+        <p class="gem-desc" id="reforge-desc"></p>
+        <p class="gem-desc" id="gem-desc"></p>
+        <div class="grid" id="item-grid"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="overlay" id="skills-overlay" style="display:none;">
+    <div class="popup" style="width:600px;">
+      <div class="header">
+        <h2>Skills</h2>
+        <button class="close" id="skills-close">✕</button>
+      </div>
+      <div class="content">
+        <div class="tabs" id="skill-tabs"></div>
+        <p id="skill-points-label"></p>
+        <div class="skills" id="skills-panel"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay" id="builds-overlay" style="display:none;">
+    <div class="popup">
+      <div class="header">
+        <h2>Saved Builds</h2>
+        <button class="close" id="builds-close">✕</button>
+      </div>
+      <div class="content">
+        <div class="build-list" id="builds-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="export-card">
+    <div class="export-header">
+      <img src="assets/game-logo.png" class="export-logo">
+      <h2 id="export-title">Untitled Build</h2>
+    </div>
+    <div class="export-body">
+      <div class="export-col">
+        <h4>Equipment</h4>
+        <div class="category-grid" id="export-equipment"></div>
+        <h4>Stats</h4>
+        <div id="export-stats"></div>
+      </div>
+      <div class="export-col">
+        <h4>Abilities</h4>
+        <div id="export-abilities"></div>
+      </div>
+    </div>
+    <p class="export-watermark" id="export-watermark"></p>
+  </div>
+
+  <div class="overlay" id="info-overlay" style="display:none;">
+    <div class="popup">
+      <div class="header">
+        <h2>Info</h2>
+        <button class="close" id="info-close">✕</button>
+      </div>
+      <div class="content">
+        <p>Coded by <a href="https://aidanvoidout.github.io">aidanvoidout</a></p>
+        <p>All stats and descriptions are from <a href="https://www.roblox.com/games/6735572261/Pilgrammed">in-game</a> and the <a href="https://pilgrammed-rblx.fandom.com/wiki/Pilgrammed_Wiki">Pilgrammed Wiki</a></p>
+        <p>Join the <a href="https://discord.gg/ewMqpz4u3C">Support Discord</a></p>
+        <iframe src="https://discord.com/widget?id=1441053744270807256&theme=dark" width="500" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        <br>
+        <button id="info-close-btn">Close</button>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="code/main.js"></script>
+</body>
+</html>

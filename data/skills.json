@@ -1,0 +1,144 @@
+{
+    "misc": {
+        "Alchemist": {
+            "cost": 4,
+            "base": "You drink potions 25% faster and have a 25% chance to not consume a potion ingredient.",
+            "aced": "You now drink potions 70% faster and have a 50% chance to not consume a potion."
+        },
+        "Deception": {
+            "cost": 4,
+            "base": "Dodging an attack also triggers any effects that would have occurred had you parried it instead. Yes, you can parry enemies with rolls.",
+            "aced": "Parrying an attack also triggers any effects had you dodged it instead."
+        },
+        "Stoic": {
+            "cost": 3,
+            "base": "Potion sickness is 30% shorter.",
+            "aced": "You can drink potions while you have potion sickness (as long as it's shorter than 30 seconds), but it will take much longer to drink."
+        },
+        "Athlete": {
+            "cost": 2,
+            "base": "You reach max running speed 50% faster and your max running speed is increased by 10%.",
+            "aced": "Your roll cooldown is reduced by 25%."
+        },
+        "Slippery": {
+            "cost": 2,
+            "base": "The movement speed reduction from attacking or being stunned is reduced by 35%.",
+            "aced": "Dodging an attack with a roll or dive will reset your roll cooldown."
+        }
+    },
+    "defense": {
+        "Juggernaut": {
+            "cost": 4,
+            "base": "Being in combat will grant 10% damage reduction, but 10% lower speed and enemies target you.",
+            "aced": "Gain an additional 10% damage reduction and 10% increased damage during this but another 10% decrease to movement speed."
+        },
+        "Tenacity": {
+            "cost": 4,
+            "base": "You can survive one hit with 1 HP left and debuffs cleared. This can only occur every 5 minutes.",
+            "aced": "You now gain 25% increased regeneration for 5 seconds when this occurs. The cooldown is now 3 minutes."
+        },
+        "Vexation": {
+            "cost": 4,
+            "base": "Max health is decreased by 50%, non-natural healing reduced by 25%, but you gain 25% damage reduction.",
+            "aced": "Damage is now reduced by 50% and non-natural healing reduced by 20%."
+        },
+        "Tank": {
+            "cost": 3,
+            "base": "Gain 25 max health.",
+            "aced": "Gain another 50 max health."
+        },
+        "Bolster": {
+            "cost": 3,
+            "base": "Parrying no longer stops you from blocking. In addition, as long as you are blocking you will parry one attack. This has a 4 second cooldown.",
+            "aced": "You will still take some damage while blocking, but it will count as a parry."
+        },
+        "Resilient": {
+            "cost": 3,
+            "base": "Taking damage grants you a stacking 10% damage resistance up to 50% for 2 seconds.",
+            "aced": "This effect now lasts 3 seconds and you gain super armor when you take damage."
+        },
+        "Rally": {
+            "cost": 3,
+            "base": "Parrying an attack increases your mana regeneration by 25% for 3 seconds.",
+            "aced": "Parrying an attack restores 6% of HP over 2 seconds."
+        },
+        "Focus": {
+            "cost": 2,
+            "base": "Being stunned will no longer stop you from rolling.",
+            "aced": "Being stunned will no longer stop you from blocking or parrying."
+        },
+        "Unfettered": {
+            "cost": 2,
+            "base": "Any status effect that reduces your speed only affects you half as much as usual.",
+            "aced": "You are stunned for 30% less time."
+        }
+    },
+    "offense": {
+        "Perception": {
+            "cost": 4,
+            "base": "Ineffective elemental attacks now deal full damage.",
+            "aced": "Effective elemental attacks are now +20% more effective."
+        },
+        "Archery": {
+            "cost": 4,
+            "base": "Hit a target within 1.5 seconds of fully charging your bow to boost crit chance. This bonus stacks up to 25%, but is lost if you do not hit a target on time.",
+            "aced": "This bonus now decreases charge time by up to 50% and no longer dissipates entirely upon failure."
+        },
+        "Delicate": {
+            "cost": 4,
+            "base": "You gain 2% crit chance for every defense point below 10, up to 20%.",
+            "aced": "You gain 1% increased crit damage for every defense point below 10, up to 15%."
+        },
+        "Wizardry": {
+            "cost": 4,
+            "base": "Being very close to an enemy increases mana gained by up to 25%.",
+            "aced": "The range is increased by 50% and the boost is now increased up to 40%."
+        },
+        "Bloodthirst": {
+            "cost": 4,
+            "base": "Every melee hit you land builds up stacks of bloodthirst. At 25 stacks, go into a frenzy for 2 seconds, boosting swing speed by 50% and removing any endlag.",
+            "aced": "Bloodthirst frenzy lasts 3 seconds longer, but so does the cooldown."
+        },
+        "Rampage": {
+            "cost": 3,
+            "base": "Killing an enemy grants you 1 stack of Rampage (6% more damage) for 10 seconds. Rampage is capped at 5 stacks.",
+            "aced": "Deal 50% more damage to enemies with less than 75% of your max health."
+        },
+        "Rude": {
+            "cost": 3,
+            "base": "Grants a 4% up to 16% damage buff for every enemy within 50 studs.",
+            "aced": "Now grants a 6% up to 42% damage buff for every enemy within 75 studs."
+        },
+        "Sharpshooter": {
+            "cost": 3,
+            "base": "Standing still slowly increases your ranged weapons' ranges by up to 75% and crit chance by 10% after 1.5 seconds of not moving.",
+            "aced": "This effect now maxes out by 1 second and now increases ranged damage by up to 25%."
+        },
+        "Chicanery": {
+            "cost": 3,
+            "base": "Your bullets shoot a weaker bullet towards another enemy when hitting an enemy or a wall.",
+            "aced": "It's now a 100% chance to shoot and it can ricochet many more times."
+        },
+        "Tricky": {
+            "cost": 3,
+            "base": "Rolling gives you Tricky Roll for 1 second that is consumed when you attack. Tricky Roll reduces gun startup time by 50% or increases melee swing speed by 20%. This has a 3 second cooldown when used with melee weapons.",
+            "aced": "Tricky Roll now reduces gun startup time by 75% or increases melee swing speed by 40% and also reduces gun cooldown by 50%. And also the melee cooldown is now 2 seconds. Whew."
+        },
+        "Ineffable": {
+            "cost": 3, 
+            "base": "Mana cost is reduced by 20% when above 80% mana.",
+            "aced": "Mana cost is reduced by 50% when below 20% mana."
+        },
+        "Fearmonger": {
+            "cost": 2,
+            "base": "Taking damage causes enemies you hit to be fearful (enemies take 10% more damage and do 10% less damage) for 5 seconds.",
+            "aced": "Fear's effects are twice as effective."
+        },
+        "Charger": {
+            "cost": 2,
+            "base": "25% increased bow charge speed. Gain up to 20% boon in effective range based on arrow charge.",
+            "aced": "Charging now has a sweet spot to fire that grants 20% more effective range and 30% more piercing. Firing outside of the sweet spot significantly dulls charge strength.",
+            "acedcost": 8
+        }
+    }
+}
