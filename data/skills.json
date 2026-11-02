@@ -39,7 +39,7 @@
         },
         "Vexation": {
             "cost": 4,
-            "base": "Max health is decreased by 50%, non-natural healing reduced by 25%, but you gain 25% damage reduction.",
+            "base": "Max health is decreased by 50%, non-natural healing reduced by 25%, but you gain 25% damage reduction. This includes status effect damage.",
             "aced": "Damage is now reduced by 50% and non-natural healing reduced by 20%."
         },
         "Tank": {
@@ -48,17 +48,17 @@
             "aced": "Gain another 50 max health."
         },
         "Bolster": {
-            "cost": 3,
+            "cost": 4,
             "base": "Parrying no longer stops you from blocking. In addition, as long as you are blocking you will parry one attack. This has a 4 second cooldown.",
-            "aced": "You will still take some damage while blocking, but it will count as a parry."
+            "aced": "You will still take some damage while blocking, but it will trigger most on-parry effects."
         },
         "Resilient": {
             "cost": 3,
-            "base": "Taking damage grants you a stacking 10% damage resistance up to 50% for 2 seconds.",
+            "base": "Taking damage grants you a stacking 6% damage resistance up to 30% for 2 seconds.",
             "aced": "This effect now lasts 3 seconds and you gain super armor when you take damage."
         },
         "Rally": {
-            "cost": 3,
+            "cost": 2,
             "base": "Parrying an attack increases your mana regeneration by 25% for 3 seconds.",
             "aced": "Parrying an attack restores 6% of HP over 2 seconds."
         },

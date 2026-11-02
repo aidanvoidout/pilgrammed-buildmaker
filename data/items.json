@@ -22,8 +22,11 @@
       "rarity": 1,
       "MaxSpeed": 15,
       "abilities": [
-        "Gradually increases speed while running."
-      ]
+        "Gradually increases speed while running.",
+        "When using a gun or bow kick, it comes out faster and has less endlag!"
+      ],
+      "dex": 3,
+      "agi": 5
     },
     "Silver Ring": {
       "stacks": 5,
@@ -46,7 +49,7 @@
     },
     "Bear Clover": {
       "abilities": [
-        "Bows have a 75% chance to not consume arrows and guns have a 25% chance not to consume ammo."
+        "Guns have a 25% chance to not consume ammo. Bows gain an additional 10% Crit Chance."
       ],
       "desc": "Cherished by a brown bear.",
       "dex": 8,
@@ -83,7 +86,7 @@
       ],
       "abilities": [
         "Sticky and slimy. Parrying an enemy douses them in slime. Slimed enemies deal 15% less damage to you.",
-        "[Paired with Elite Guard] Completely absorbs shield break damage. Releases slime on shield break."
+        "[Paired with Elite Guard] Releases slime on shield break."
       ],
       "int": 2,
       "def": 4,
@@ -129,7 +132,7 @@
     },
     "Nimble Lens": {
       "abilities": [
-        "Your ranged startup speed penalty is reduced. Hooray!"
+        "The speed penalty when firing a gun or charging a bow is greatly reduced. Hooray!"
       ],
       "mutualexclusive": [
         "Acute Lens",
@@ -160,7 +163,8 @@
       "dex": 6,
       "agi": 2,
       "DetectionRisk": -20,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "Haha, nice one."
     },
     "Strike Bracelet": {
       "abilities": [
@@ -205,7 +209,7 @@
     },
     "Cloud Glove": {
       "abilities": [
-        "You get knocked back when firing a bow."
+        "Bow and gun min range is reduced by 25%. Ranged weapons deal small knockback."
       ],
       "rarity": 3,
       "dex": 3,
@@ -213,7 +217,7 @@
     },
     "Compound Agent": {
       "abilities": [
-        "Statuses inflicted by arrows are 25% stronger and last twice as long."
+        "Statuses inflicted by arrows are 25% stronger and last 50% longer."
       ],
       "int": 3,
       "dex": 3,
@@ -262,7 +266,7 @@
       "rarity": 3,
       "int": 3,
       "abilities": [
-        "While on fire, gain 25% movement speed, swing speed, and mana cost reduction."
+        "While on fire (or frostburn), gain 25% movement speed, swing speed, and mana cost reduction."
       ]
     },
     "Frost Cone": {
@@ -280,7 +284,7 @@
         "Elemental Quiver"
       ],
       "abilities": [
-        "Arrows shot are converted into their slime equivalents. Explosive arrows become powerful sludge bombs. Scrap arrows are converted into weak corrosive arrows."
+        "Grants access to various slime arrow types."
       ],
       "dex": 4,
       "rarity": 3
@@ -323,7 +327,7 @@
     },
     "Mini Squid": {
       "abilities": [
-        "Taking over 5 damage covers nearby enemies in oil, amplifying any fire damage they take by 50%."
+        "Taking over 5 damage covers nearby enemies in oil, amplifying any fire damage they take by 15%."
       ],
       "rarity": 3,
       "dex": 3,
@@ -386,7 +390,8 @@
         "Reloading with one bullet left is 50% faster."
       ],
       "rarity": 3,
-      "dex": 4
+      "dex": 4,
+      "agi": 8
     },
     "Ranger Emblem": {
       "mutualexclusive": [
@@ -445,10 +450,9 @@
       ]
     },
     "Viper Fang": {
-      "desc": "Your melee attacks gain an additional 20% piercing.",
       "rarity": 3,
       "abilities": [
-        "Melee attacks gain 20% more piercing."
+        "Your melee attacks gain an additional 20% piercing."
       ],
       "str": 3,
       "mutualexclusive": [
@@ -528,7 +532,8 @@
     },
     "Cloud Boots": {
       "abilities": [
-        "Pressing Q again while diving grants you slightly more air time, but doubles the diving cooldown."
+        "Pressing Q again while diving grants you slightly more air time, but doubles the diving cooldown.",
+        "When using a bow or gun kick, it creates a great distance between you and the target!"
       ],
       "agi": 5,
       "MaxSpeed": 10,
@@ -546,9 +551,6 @@
       "agi": 4,
       "Jumps": 1,
       "FallDamage": -9,
-      "mutualexclusive": [
-        "Nimbus Pendant"
-      ],
       "rarity": 4
     },
     "Clouded Eyeglass": {
@@ -577,7 +579,7 @@
     },
     "Corroded Scalpel": {
       "abilities": [
-        "Gain 8% damage and 8% piercing for up to 5 different status effects on the enemy."
+        "Gain 3% damage and 6% piercing for up to 5 different status effects on the enemy."
       ],
       "rarity": 4,
       "def": 2,
@@ -650,7 +652,7 @@
     },
     "Idol of Solitude": {
       "abilities": [
-        "Damage above 10% of your max health is reduced by 50%. Has a 5 second cooldown."
+        "Damage above 15% of your max health is reduced by 40%. Has a 5 second cooldown."
       ],
       "int": 4,
       "def": 4,
@@ -689,7 +691,7 @@
     },
     "Mana Dissonance": {
       "abilities": [
-        "[Skill] Your next spell will consume 2 times the mana but cast 3 times in a row rapidly, though with 15% less damage. This will temporarily reduce mana gain."
+        "[Skill] For 6 seconds, spells will consume 2 times the mana and have increased count, albeit with reduced stats."
       ],
       "rarity": 4
     },
@@ -752,7 +754,7 @@
     },
     "Outlaw Glasses": {
       "abilities": [
-        "Landing a crit with a gun restores 25% of its ammo. This has a 2 second cooldown.",
+        "Landing a crit with a gun restores 25% of its ammo. This has a 5 second cooldown.",
         "The amount of ammo restored is increased if your crit chance is low."
       ],
       "desc": "The glasses of an evil outlaw.",
@@ -792,7 +794,7 @@
     },
     "Rallying Warhorn": {
       "abilities": [
-        "[Skill] Blow the horn, angering enemies and granting a buff to nearby players. The buff depends on whichever stat is highest: Strength, Dexterity, or Intellect."
+        "[Skill] Blow the horn, granting a buff to nearby players. The buff depends on whichever stat is highest: Strength, Dexterity, or Intellect."
       ],
       "rarity": 4
     },
@@ -812,14 +814,15 @@
         "Mithril Bracelet"
       ],
       "abilities": [
-        "Shock no longer stuns you, and increases movement speed by 30%."
+        "Removes all melee knockback, but increases melee poise damage by 25%.",
+        "Shock no longer stuns you and increases movement speed by 30%."
       ],
       "agi": 2,
       "rarity": 5
     },
     "Rusty Spoon": {
       "abilities": [
-        "Bleeding you inflict gains 1 extra level."
+        "Bleeding you inflict is 25% more potent, and hemorrhaging deals 10% more damage."
       ],
       "rarity": 4
     },
@@ -839,7 +842,7 @@
       ],
       "abilities": [
         "You move much faster while blocking and take 20% less damage below 30% health.",
-        "[Paired with Elite Guard] Lower cooldowns when withdrawing Elite Guard. Bursts out nails on shield break."
+        "[Paired with Elite Guard] Bursts out nails when blocking."
       ],
       "def": 6,
       "dex": 2,
@@ -934,7 +937,7 @@
         "Payback Brace"
       ],
       "abilities": [
-        "Parrying an attack with a melee weapon makes its next swing 50% faster and deal double poise damage."
+        "Parrying an attack with a melee weapon equipped makes the next melee attack 50% faster and deal double poise damage."
       ],
       "str": 3,
       "def": 2,
@@ -978,7 +981,7 @@
     },
     "Caustic Fang": {
       "abilities": [
-        "Attacks against enemies inflicted with venom gain 35% piercing and pierce through 10% damage reduction."
+        "Attacks against enemies inflicted with venom gain 25% piercing and pierce through 10% damage reduction."
       ],
       "str": 3,
       "int": 3,
@@ -1047,7 +1050,7 @@
     "Frying Pan": {
       "abilities": [
         "Fire you inflict gains 3 additional levels.",
-        "15% increased crit chance and 15% increased crit damage on burning enemies."
+        "10% increased crit chance and 10% increased crit damage on burning enemies."
       ],
       "str": 4,
       "rarity": 5
@@ -1104,18 +1107,6 @@
         "Illustrious Charm"
       ]
     },
-    "Nimbus Pendant": {
-      "abilities": [
-        "A magical pendant that allows you to triple jump."
-      ],
-      "agi": 6,
-      "Jumps": 2,
-      "FallDamage": -16,
-      "mutualexclusive": [
-        "Cloud Pendant"
-      ],
-      "rarity": 5
-    },
     "Overflow Scalpel": {
       "mutualexclusive": [
         "Corroded Scalpel"
@@ -1151,7 +1142,8 @@
     },
     "Royal Antenna": {
       "abilities": [
-        "Landing a crit inflicts heavy bleeding. Increases your crit chance by 10% for every nearby bleeding enemy, up to 50%."
+        "Landing a crit inflicts heavy bleeding.",
+        "Increases your crit damage by 5% for every nearby bleeding enemy, up to 30%."
       ],
       "str": 4,
       "CritChance": 5,
@@ -1225,7 +1217,8 @@
         "Runner Boots"
       ],
       "abilities": [
-        "Consume 10 mana to do lightning dashes instead of rolls."
+        "Consume 10 mana to do lightning dashes instead of rolls.",
+        "When using a gun or bow kick, you dash to the nearest enemy and inflict Shock!"
       ],
       "agi": 5,
       "rarity": 4,
@@ -1257,7 +1250,7 @@
     },
     "Wicker Wreath": {
       "abilities": [
-        "Fire inflicted on you has its level doubled. In return, any fire you inflict while being on fire will also have its level doubled."
+        "Fire inflicted on you has its level doubled. In return, any fire you inflict while being on fire will also have its level increased by 50%."
       ],
       "dex": 5,
       "rarity": 5
@@ -1366,7 +1359,7 @@
     },
     "Freezeflame Gauntlet": {
       "abilities": [
-        "Inflicting fire and frostburn can now stack up to 5 if it wasn't already above that. The last hit of your melee combo inflicts fire and frostburn."
+        "The last hit of your melee combo inflicts fire and frostburn."
       ],
       "int": 4,
       "def": 4,
@@ -1434,7 +1427,7 @@
     },
     "Kolis Charm": {
       "abilities": [
-        "[Skill] Meditate for 10 seconds to gain clarity, increasing focus gain by 2 for 90 seconds.",
+        "[Skill] Meditate for 5 seconds to gain clarity, increasing focus gain by 3 for 90 seconds.",
         "If you already have clarity, then meditating will increase your focus by 50%, up to 90. But if you take damage you will lose half of it."
       ],
       "int": 5,
@@ -1576,7 +1569,8 @@
       "agi": 6,
       "rarity": 6,
       "str": 3,
-      "dex": 5
+      "dex": 5,
+      "desc": "Before there was a Kai Legion, Lazurai made a name for himself as The Windman. Sounds cool doesn't it."
     },
     "Azurebloom Bracelets": {
       "rarity": 7,
@@ -1617,7 +1611,7 @@
       ],
       "abilities": [
         "You take 15% less damage.",
-        "[Paired with Elite Guard] Players that stand behind you are not hit by incoming attacks that you guard. Reflects some damage in the form of Poise on guard break."
+        "[Paired with Elite Guard] Players that stand behind you are not hit by incoming attacks that you block, and you freeze poise decay when parrying."
       ],
       "def": 8,
       "agi": -4,
@@ -2015,7 +2009,7 @@
       "CritChance": 10,
       "DetectionRisk": -10,
       "abilities": [
-        "Daggers and rapiers have a 15% change to hit twice.",
+        "Daggers and rapiers have a 15% chance to hit twice.",
         "[Set Bonus] Dagger and rapier heavy attacks are guaranteed to hit three times, but have a 50% chance to disarm you for 5 seconds."
       ]
     },
@@ -2040,7 +2034,7 @@
       "Regeneration": 5,
       "MaxMana": 15,
       "abilities": [
-        "Increases magic damage by 30% when below 25% mana"
+        "Increases magic damage by 25% when below 25% mana"
       ]
     },
     "Expert": {
@@ -2055,7 +2049,7 @@
     },
     "Green Toga": {
       "rarity": 4,
-      "desc": "A blue toga. Green like the earth."
+      "desc": "A green toga. Green like the earth."
     },
     "Mercenary": {
       "rarity": 4,
@@ -2139,7 +2133,7 @@
         "[Skill] Absorb all debuffs on you to enter a powered up state"
       ]
     },
-    "Husk Armor": {
+    "Husk": {
       "desc": "The treasured outfit of a Snow Cultist.",
       "rarity": 6,
       "str": 15,
@@ -2192,9 +2186,9 @@
       "agi": 8,
       "desc": "'Monsters are scary, and spooky.' - Tales of Pilgrammed",
       "abilities": [
-        "Critical hits heal 15% of damage dealt."
+        "Critical hits heal 3% of your health."
       ],
-      "MaxSpeed": 10
+      "CritChance": 10
     },
     "Recital": {
       "desc": "The treasured outfit of a Snow Cultist.",
@@ -2666,7 +2660,7 @@
       "rarity": 6,
       "str": 10,
       "abilities": [
-        "Enemies affected by Chilled are sent flying with Rusty Bell, and receive more damage/Poise damage. Bell magic no longer consumes Mana."
+        "Resist some attacks when swinging the Rusty Bell. When hit by a powerful attack, gain a resonance barrier that deflects incoming attacks until you recover."
       ],
       "def": -6
     },
@@ -2803,7 +2797,7 @@
     "Snow Mask": {
       "desc": "The mask of aimless believers.",
       "abilities": [
-        "Chilled enemies are infused with spin energy, making spinning damage (e.g. default sword heavy) more potent."
+        "Spin and Chilled procs deal great Poise damage."
       ],
       "rarity": 6,
       "int": -6,
@@ -2856,9 +2850,9 @@
       "rarity": -5,
       "def": 10,
       "agi": -50,
-      "desc": "The Golden Knight… One knight to rule them all.\nYou cannot roll.",
+      "desc": "The Golden Knight… One knight to rule them all.",
       "abilities": [
-        "Disables the ability to roll."
+        "You cannot roll."
       ]
     },
     "Head of the Democan": {
@@ -2950,7 +2944,8 @@
       "Mana Cost": 30,
       "Compatible": [
         "Bow"
-      ]
+      ],
+      "rarity": 3
     },
     "Azure Firecrackers": {
       "abilities": [
@@ -2964,16 +2959,18 @@
         "Kaismith Hammer",
         "Azure Pinwheel"
       ],
-      "Notes": "Description claims 20 mana, but this is false."
+      "Notes": "Description claims 20 mana, but this is false.",
+      "rarity": 5
     },
     "Bell Saint Style": {
       "abilities": [
         "Adapts your Rusty Bell to be used in the ways of the False Believer. Third swing and rolls after successful hits release bell orbs that track onto enemies."
       ],
-      "Mana Cost": 0,
+      "Mana Cost": 30,
       "Compatible Weapons": [
         "Rusty Bell"
-      ]
+      ],
+      "rarity": 6
     },
     "Boom Shells": {
       "abilities": [
@@ -2982,7 +2979,8 @@
       "Mana Cost": 50,
       "Compatible Weapons": [
         "Squid Blaster"
-      ]
+      ],
+      "rarity": 2
     },
     "Dagger Throw": {
       "abilities": [
@@ -2992,7 +2990,8 @@
       "Compatible Weapons": [
         "Dagger",
         "Rapier"
-      ]
+      ],
+      "rarity": 2
     },
     "Darkspin Arts": {
       "abilities": [
@@ -3017,7 +3016,7 @@
     },
     "Duelist's Dagger": {
       "abilities": [
-        "[Skill] Perform a special counter."
+        "[Skill] Perform a special counter. If used after rolling, do an ankle cutting sweep that grants a buff on hit."
       ],
       "Mana Cost": 0,
       "Compatible": [
@@ -3026,7 +3025,10 @@
     },
     "Elite Guard": {
       "abilities": [
-        "[Skill] Create a strong guard that consumes shield health to absorb incoming damage."
+        "Blocking has special effects when blocking with a shield equipped.",
+        "You recover immediately from a guard break every 10 seconds.",
+        "Your swings are 20% slower.",
+        "[Skill] Rally enemies to you, and enter a brief unbreakable state where your parries also act as blocks."
       ],
       "Mana Cost": 20,
       "Compatible": [
@@ -3040,7 +3042,8 @@
       "Mana Cost": 30,
       "Compatible": [
         "Spear"
-      ]
+      ],
+      "rarity": 4
     },
     "Ivory Anklet": {
       "abilities": [
@@ -3056,7 +3059,7 @@
     },
     "Magic Chalk": {
       "abilities": [
-        "[Skill] Draw a circle that restores mana while you stand in it. (Can over-restore mana.)"
+        "[Skill] Draw a magic circle of chalk in the ground that regenerates 10% of your max mana for every second that you stand in it."
       ],
       "Mana Cost": 0,
       "Compatible": [
@@ -3087,7 +3090,7 @@
     },
     "Scrap Nailgun": {
       "abilities": [
-        "[Skill] Fire a burst of sticky nails that inflict Slimed. Nails hitting bleeding enemies may corrode them. Can use Pink Gel Cartridge to inflict Pink Slimed."
+        "[Skill] Fire a burst of sticky nails that will inflict Slimed. Nails that hit enemies have a chance to Corrode them."
       ],
       "Mana Cost": 24,
       "Compatible Weapons": [
@@ -3097,12 +3100,13 @@
     },
     "Serpent Style": {
       "abilities": [
-        "Develop a slow, serpentine fighting style with spears. Spears deal 30% more damage and 25% more poise damage. The last hit of your spear combo inflicts stacking venom."
+        "Your fighting style with spears now uses sharp, powerful lunges. Your first two swing inflict Bleeding, and your last inflicts stacking Venom."
       ],
       "Mana Cost": 0,
       "Compatible": [
         "Spear"
-      ]
+      ],
+      "rarity": 1
     },
     "Shock Valve": {
       "abilities": [
@@ -3140,7 +3144,8 @@
       "Mana Cost": 0,
       "Compatible Weapons": [
         "Anchor"
-      ]
+      ],
+      "rarity": 3
     },
     "Twisted Technique": {
       "abilities": [
@@ -3149,7 +3154,8 @@
       "Mana Cost": 20,
       "Compatible": [
         "Greatsword"
-      ]
+      ],
+      "rarity": 6
     },
     "Upheaval": {
       "abilities": [
@@ -3160,6 +3166,55 @@
         "Maul",
         "Boulderblades"
       ]
+    },
+    "Amber Aegis": {
+      "abilities": [
+        "[Skill] Consume amber stacks to conjure a large shield of amber that heals and protects those standing in it. The shield is fragile and can only defend so many attacks. Deal magic damage to gain amber stacks."
+      ],
+      "Mana Cost": 0,
+      "Compatible": [
+        "Staffs",
+        "Wands",
+        "Swords",
+        "Greatswords"
+      ],
+      "rarity": 7
+    },
+    "Colossal Upheaval": {
+      "abilities": [
+        "[Skill] Stomp the ground, unearthing a colossal boulder that will come crashing right down again."
+      ],
+      "Mana Cost": 60,
+      "Compatible": [
+        "Mauls",
+        "Axes",
+        "Boulderblades",
+        "Oxide Longsword"
+      ],
+      "rarity": 7
+    },
+    "Corvid Kick": {
+      "abilities": [
+        "[Skill] Do a descending kick that inflicts Decay. When damage is dealt to a decayed enemy, they will take additional true damage."
+      ],
+      "Mana Cost": 20,
+      "Compatible": [
+        "Swords",
+        "Light Bows"
+      ],
+      "rarity": 8
+    },
+    "Cuckoo Charge": {
+      "abilities": [
+        "[Skill] Hit em' with a sick dropkick. They'll never see it coming!"
+      ],
+      "Mana Cost": 30,
+      "Compatible": [
+        "Fists",
+        "Daggers",
+        "Greatbows"
+      ],
+      "rarity": 7
     }
   },
   "weapon": {
@@ -3176,7 +3231,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 100,
-      "rarity": 1
+      "rarity": 1,
+      "desc": "A big and heavy bronze blade."
     },
     "Bronze Sword": {
       "element": "Metal",
@@ -3191,7 +3247,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 1
+      "rarity": 1,
+      "desc": "All bronze is good bronze."
     },
     "Magic Branch": {
       "element": "Magic",
@@ -3206,7 +3263,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 1
+      "rarity": 1,
+      "desc": "An enchanted branch that can cast spells!"
     },
     "Old Sword": {
       "element": "Metal",
@@ -3221,7 +3279,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 1
+      "rarity": 1,
+      "desc": "From your dear old creature..."
     },
     "Wooden Dagger": {
       "element": "None",
@@ -3236,7 +3295,8 @@
       "critchance": 15,
       "range": 6,
       "knockback": -60,
-      "rarity": 1
+      "rarity": 1,
+      "desc": "Once cherished by a thief."
     },
     "Bosca": {
       "element": "None",
@@ -3251,7 +3311,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "Renowned for its brilliant box-like shape. Fires a burst of 3 bullets."
     },
     "Crude Club": {
       "element": "Organic",
@@ -3266,7 +3327,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 140,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "Though crude and heavy, it will stun your enemies."
     },
     "Cutlass": {
       "element": "Metal",
@@ -3281,7 +3343,8 @@
       "critchance": 30,
       "range": 8,
       "knockback": 0,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "A sharp cutlass dropped by a pirate."
     },
     "Demetal Greatbow": {
       "element": "Fire",
@@ -3296,7 +3359,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 2
+      "rarity": 3,
+      "desc": "The demetal reacts strongly to arrowheads."
     },
     "Flintlock": {
       "element": "None",
@@ -3311,7 +3375,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 2
+      "rarity": 3,
+      "desc": "A small pistol."
     },
     "Iron Battleaxe": {
       "element": "Metal",
@@ -3326,12 +3391,13 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "Efficient at cleaving through hordes of enemies."
     },
     "Iron Bow": {
       "element": "None",
       "class": "Ranged",
-      "subtype": "Bow",
+      "subtype": "Bow (Light Bow)",
       "scaling": "Dexterity",
       "damage": 25,
       "swingspeed": 0,
@@ -3341,7 +3407,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "Classic bow."
     },
     "Iron Dagger": {
       "element": "Metal",
@@ -3356,7 +3423,8 @@
       "critchance": 15,
       "range": 6,
       "knockback": -60,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "Armed to the teeth."
     },
     "Iron Greatsword": {
       "element": "Metal",
@@ -3371,7 +3439,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 100,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "This big and heavy iron sword can crush."
     },
     "Iron Spear": {
       "element": "Metal",
@@ -3386,7 +3455,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": -40,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "Good for poking from afar."
     },
     "Iron Sword": {
       "element": "Metal",
@@ -3401,7 +3471,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "You can't go wrong with a trusty iron sword."
     },
     "Revolver": {
       "element": "None",
@@ -3416,7 +3487,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "Revolve."
     },
     "Sand Wand": {
       "element": "Sand",
@@ -3431,7 +3503,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "A bejeweled wand. Produces scorching sand that temporarily lowers enemy defense."
     },
     "Shotel": {
       "element": "Metal",
@@ -3446,7 +3519,8 @@
       "critchance": 0,
       "range": 7,
       "knockback": 0,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "A sleek curved blade that can tear through defense.."
     },
     "Triplex Bow": {
       "element": "None",
@@ -3461,7 +3535,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "A dusty and quirky old bow pilfered from a raider."
     },
     "Vuvuzela": {
       "element": "None",
@@ -3476,7 +3551,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "Summon Mini Thieves to fight for you."
     },
     "Wooden Bow": {
       "element": "None",
@@ -3491,7 +3567,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 2
+      "rarity": 2,
+      "desc": "Classic bow."
     },
     "Crossbow": {
       "element": "None",
@@ -3506,7 +3583,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "A sturdy crossbow. Charges nigh instantly but with a longer cooldown."
     },
     "Demetal Maul": {
       "element": "Fire",
@@ -3521,7 +3599,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 100,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "Smash and slam with pyres of flame."
     },
     "Demetal Sword": {
       "element": "Fire",
@@ -3536,7 +3615,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "A fiery blade forged from flames."
     },
     "Demetal Wand": {
       "element": "Fire",
@@ -3551,7 +3631,8 @@
       "critchance": 15,
       "range": 0,
       "knockback": 0,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "A fireball spewer!"
     },
     "Elf Blade": {
       "element": "Grass",
@@ -3566,7 +3647,8 @@
       "critchance": 15,
       "range": 8,
       "knockback": 0,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "This is just absurd."
     },
     "Eye Vuvuzela": {
       "element": "None",
@@ -3581,7 +3663,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "Summon Eyes to fight for you."
     },
     "Icedagger": {
       "element": "Frost",
@@ -3596,7 +3679,8 @@
       "critchance": 15,
       "range": 6,
       "knockback": -60,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "Summons icicles above foes struck with a critical hit. Cold as ice!"
     },
     "Icicle Rod": {
       "element": "Frost",
@@ -3611,7 +3695,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "Raise up icicles towards your cursor that inflict frostburn."
     },
     "Magma Shackles": {
       "element": "Fire",
@@ -3626,7 +3711,8 @@
       "critchance": -10,
       "range": 6,
       "knockback": 180,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "Feel bad for whoever had to wear these during sentencing."
     },
     "Magma Shotgun": {
       "element": "Fire",
@@ -3641,7 +3727,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "How did that hit for 35!? Bullets have a chance to inflict fire."
     },
     "Mithril Spear": {
       "element": "Frost",
@@ -3656,7 +3743,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": -40,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "Spike it like a spike of cold ice."
     },
     "Mithril Sword": {
       "element": "Frost",
@@ -3671,7 +3759,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "Chilling to the touch."
     },
     "Mithril Wand": {
       "element": "Frost",
@@ -3681,12 +3770,13 @@
       "damage": 5,
       "swingspeed": 0,
       "endlag": 0,
-      "manacost": 0,
+      "manacost": 20,
       "piercing": 15,
       "critchance": 5,
       "range": 0,
       "knockback": 0,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "Sprays orbs that fire lasers!"
     },
     "Musket": {
       "element": "None",
@@ -3701,7 +3791,8 @@
       "critchance": 25,
       "range": 0,
       "knockback": 0,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "A popular fiream on the battlefield. Comes with a free bayonet!"
     },
     "Phoenix Staff": {
       "element": "Fire",
@@ -3716,7 +3807,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "Shoots three fireballs in an arc."
     },
     "Serpent Scepter": {
       "element": "Venom",
@@ -3731,7 +3823,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 3
+      "rarity": 3,
+      "desc": "Shoots lingering venom clouds."
     },
     "Air Gun": {
       "element": "None",
@@ -3746,7 +3839,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Pops out a burst of pellets."
     },
     "Anchor": {
       "element": "Water",
@@ -3761,7 +3855,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 100,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "AHOY!"
     },
     "Blunderbuss": {
       "element": "None",
@@ -3776,7 +3871,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "A classic pirate gun. Powerful up close, but very weak at range"
     },
     "Clever Tome": {
       "element": "None",
@@ -3791,7 +3887,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Grants a buff to you. Use the Heavy attack to buff teammates."
     },
     "Executioner's Greatsword": {
       "element": "Metal",
@@ -3806,7 +3903,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 100,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Break a neck or two. Deals 25% more damage to enemies under half health."
     },
     "Feral Scimitar": {
       "element": "Metal",
@@ -3821,7 +3919,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Feral!"
     },
     "Gilded Greatsword": {
       "element": "Lightning",
@@ -3836,7 +3935,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 60,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "This golden sword may shock your foes..."
     },
     "Harpoon": {
       "element": "Metal",
@@ -3851,7 +3951,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Get over here!"
     },
     "Mana Blade": {
       "element": "Magic",
@@ -3866,12 +3967,13 @@
       "critchance": 0,
       "range": 9,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Utilises mana to increase damage, but performs terribly without it."
     },
     "Mithril Bow": {
       "element": "None",
       "class": "Ranged",
-      "subtype": "Bow",
+      "subtype": "Bow (Light Bow)",
       "scaling": "Dexterity",
       "damage": 26,
       "swingspeed": 0,
@@ -3881,7 +3983,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Classic bow."
     },
     "Pitch Dagger": {
       "element": "None",
@@ -3896,7 +3999,8 @@
       "critchance": 20,
       "range": 6,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Thread the needle just like this."
     },
     "Pro Dagger": {
       "element": "Light",
@@ -3911,7 +4015,8 @@
       "critchance": 20,
       "range": 6,
       "knockback": -60,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Teleport like a crazed thief."
     },
     "Rockwondo": {
       "element": "Organic",
@@ -3926,7 +4031,8 @@
       "critchance": 0,
       "range": 7,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "An old style of fighting that punches and bruises."
     },
     "Sandpod Spear": {
       "element": "Sand",
@@ -3941,7 +4047,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": -20,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Why does a Sandpod have this?"
     },
     "Scrap Longsword": {
       "element": "Metal",
@@ -3956,7 +4063,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "A broken down blade that makes good use of bleeding."
     },
     "Scrap Sickle": {
       "element": "Metal",
@@ -3971,7 +4079,8 @@
       "critchance": 0,
       "range": 6,
       "knockback": -60,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Crude and cruel, this deadly tool cuts deep into your foes."
     },
     "Silver Axe": {
       "element": "Metal",
@@ -3986,7 +4095,8 @@
       "critchance": 0,
       "range": 7,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Keeps the vampires from your door."
     },
     "Silver Rapier": {
       "element": "Metal",
@@ -4001,7 +4111,8 @@
       "critchance": 0,
       "range": 9,
       "knockback": -40,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "A duelist's go-to weapon. The tip is exceptionally sharp..."
     },
     "Silver Repeater": {
       "element": "None",
@@ -4016,7 +4127,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Could you repeat that?'"
     },
     "Squid Blaster": {
       "element": "None",
@@ -4031,7 +4143,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Blast and spray ink. Or oil rather. Heavy attack revs the engine."
     },
     "Sundowners": {
       "element": "None",
@@ -4046,7 +4159,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Revolvers once held by the Shock Marauder. Wonder why he needed two?"
     },
     "Viking Axe": {
       "element": "Metal",
@@ -4061,7 +4175,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "WAR!"
     },
     "Zap Antenna": {
       "element": "Lightning",
@@ -4076,7 +4191,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 4
+      "rarity": 4,
+      "desc": "Summons a bolt of lightning upon your cursor. Just don't hit yourself."
     },
     "Acrid Longbow": {
       "element": "Venom",
@@ -4091,7 +4207,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Made from the limb of a vile creature."
     },
     "Black Stiletto": {
       "element": "None",
@@ -4106,7 +4223,8 @@
       "critchance": 20,
       "range": 6,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "In the dead of night."
     },
     "Blizzard Greataxe": {
       "element": "Frost",
@@ -4121,7 +4239,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "A harbinger of winter, crafted by the elements themselves. Heavy attack leaves behind icicles."
     },
     "Blizzard Greatbow": {
       "element": "Frost",
@@ -4136,7 +4255,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Splintered from a snowman. Ice arrows shot are turned into giant icicles."
     },
     "Boulderblades": {
       "element": "Earth",
@@ -4151,7 +4271,8 @@
       "critchance": 0,
       "range": 7,
       "knockback": 40,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "It's not just a boulder!"
     },
     "Brain Brawl": {
       "element": "Organic",
@@ -4166,12 +4287,13 @@
       "critchance": 0,
       "range": 7,
       "knockback": 60,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "The best of both brains and brawn."
     },
     "Brass Bow": {
       "element": "None",
       "class": "Ranged",
-      "subtype": "Bow",
+      "subtype": "Bow (Light Bow)",
       "scaling": "Dexterity",
       "damage": 26,
       "swingspeed": 0,
@@ -4181,7 +4303,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Classic bow."
     },
     "Cannon": {
       "element": "None",
@@ -4196,12 +4319,13 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "A heavy and sluggish, yet very deadly cannon."
     },
     "Champion's Bow": {
       "element": "None",
       "class": "Ranged",
-      "subtype": "Light Bow",
+      "subtype": "Bow (Light Bow)",
       "scaling": "Dexterity",
       "damage": 40,
       "swingspeed": 0,
@@ -4211,7 +4335,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 6,
+      "desc": "An ornate bow from a past long forgotten..."
     },
     "Crabhand": {
       "element": "Water",
@@ -4226,7 +4351,8 @@
       "critchance": 0,
       "range": 9,
       "knockback": 100,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Combo a backflip into a grab heavy attack!"
     },
     "Creepy Claw": {
       "element": "Venom",
@@ -4241,7 +4367,8 @@
       "critchance": 10,
       "range": 8,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "This creepy claw may inflict venom on your foes..."
     },
     "Crystalspine": {
       "element": "Water",
@@ -4256,7 +4383,8 @@
       "critchance": 0,
       "range": 9,
       "knockback": -40,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Tropical and aquatic. Here come the crystals..."
     },
     "Dual Bosca": {
       "element": "None",
@@ -4271,7 +4399,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Twice the firepower... amongst other more useful modifications."
     },
     "Empyrean Maul": {
       "element": "Light",
@@ -4286,7 +4415,8 @@
       "critchance": 0,
       "range": 9,
       "knockback": 100,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "HEAVENS ABOVE, WHAT IS THAT MELODY?!?"
     },
     "Glubber": {
       "element": "Water",
@@ -4301,7 +4431,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "GLUB! )(-E )(-E!"
     },
     "Halberd": {
       "element": "Metal",
@@ -4316,7 +4447,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Cleave, chop, stab; these are the riches of the poor."
     },
     "Haunted Scythe": {
       "element": "Metal",
@@ -4331,7 +4463,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Forged from death, it stirs with life."
     },
     "Megaton Maul": {
       "element": "Metal",
@@ -4346,7 +4479,8 @@
       "critchance": 0,
       "range": 12,
       "knockback": 100,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "This maul is so mighty and heavy you wouldn't trust it with lunch!"
     },
     "Nagakiba": {
       "element": "Metal",
@@ -4361,7 +4495,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "An elegant sword with a comically long, though extra sharp blade."
     },
     "Normal Claw": {
       "element": "None",
@@ -4376,7 +4511,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA"
     },
     "Prime Brand": {
       "element": "Plasma",
@@ -4391,7 +4527,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Shoots lasers that do more damage the more full your health is."
     },
     "Prime Scepter": {
       "element": "Plasma",
@@ -4406,7 +4543,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Shoots extra orbs above 75% health. Extra orbs deal 10% of the original orb's damage."
     },
     "Purple Fang": {
       "element": "Magic",
@@ -4421,7 +4559,8 @@
       "critchance": 10,
       "range": 6,
       "knockback": -60,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Pew pew pew."
     },
     "Rainmaker": {
       "element": "Water",
@@ -4436,7 +4575,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Shoots 3 bouncing bubbles."
     },
     "Scarebow": {
       "element": "None",
@@ -4451,7 +4591,8 @@
       "critchance": -10,
       "range": 0,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Thrown together with wicked bits and bobs. Scrap arrows shot will inflict scared."
     },
     "Scrap Lance": {
       "element": "Metal",
@@ -4466,7 +4607,8 @@
       "critchance": 0,
       "range": 12,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Odd choice."
     },
     "Six Shooter": {
       "element": "None",
@@ -4481,7 +4623,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "A powerful, though slow, firearm."
     },
     "Smart Stem Staff": {
       "element": "None",
@@ -4496,7 +4639,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Summon a Brain Buddie that buffs you and debuffs enemies."
     },
     "Sound Staff": {
       "element": "None",
@@ -4511,7 +4655,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "THE POWER OF SOUND."
     },
     "Tanto": {
       "element": "Metal",
@@ -4526,7 +4671,8 @@
       "critchance": 10,
       "range": 6,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "An exceptionally sharp dagger."
     },
     "Trident": {
       "element": "Water",
@@ -4541,7 +4687,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": -40,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "A long spear dropped by a fish mongler."
     },
     "Vine Wand": {
       "element": "Grass",
@@ -4556,7 +4703,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 5
+      "rarity": 5,
+      "desc": "Casts vines that dig through the ground and repeatedly cut enemies."
     },
     "Azure Pinwheel": {
       "element": "Metal",
@@ -4571,7 +4719,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "A special design by the Windman, able to circle wind through its blades to bear blue flames."
     },
     "Azure Rocket": {
       "element": "None",
@@ -4586,7 +4735,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "A grand old weapon of war. Charged explosive arrows shot are converted into blue firecrackers."
     },
     "Berried Cleaver": {
       "element": "Venom",
@@ -4601,7 +4751,8 @@
       "critchance": 0,
       "range": 6,
       "knockback": -20,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Blunted and carved by sickly sweetness. Throw to burst berries. Bursting berries resets your heavy cooldown."
     },
     "Bigfish Gauntlet": {
       "element": "Lightning",
@@ -4616,7 +4767,8 @@
       "critchance": 15,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "A special gauntlet that takes after the likes of the Bigfish... Zappy!"
     },
     "Bloodtwin": {
       "element": "Dark",
@@ -4631,7 +4783,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Detached and mangled. A quivering spine of gore."
     },
     "Bone Claws": {
       "element": "Undead",
@@ -4646,7 +4799,8 @@
       "critchance": 0,
       "range": 7,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "A savage pair of claws."
     },
     "Buster Sword": {
       "element": "Metal",
@@ -4661,7 +4815,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 200,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "A blade so heavy, and so metal."
     },
     "Catatome": {
       "element": "Dark",
@@ -4676,7 +4831,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Filled with all kinds of devious magics."
     },
     "Ceremonial Greatblade": {
       "element": "Metal",
@@ -4691,7 +4847,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 140,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Bai's signature greatsword. Adorned with paper tags to show reverence for his homeland."
     },
     "Champion's Gladius": {
       "element": "Metal",
@@ -4706,7 +4863,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "An ancient weapon of war made to pierce through armor."
     },
     "Clerick Tome": {
       "element": "Light",
@@ -4721,7 +4879,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Filled with all kinds of devious magics."
     },
     "Coffinhilt": {
       "element": "Undead",
@@ -4736,7 +4895,8 @@
       "critchance": 0,
       "range": 6,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Decrepit in the crypts. Haunted by its former glory..."
     },
     "Coffinlock": {
       "element": "None",
@@ -4751,7 +4911,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "I didn't rig any of this. Lock and load souls from defeating enemies."
     },
     "EGGMG": {
       "element": "None",
@@ -4766,7 +4927,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "A highly advanced, automatic firearm. Comes with a barrel that launches Egg Grenades."
     },
     "Electrofork": {
       "element": "Metal",
@@ -4781,7 +4943,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Good for poking from afar."
     },
     "Evil Needle": {
       "element": "Metal",
@@ -4796,7 +4959,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": -40,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "To weave chaos into reality."
     },
     "Gravetree": {
       "element": "Earth",
@@ -4811,7 +4975,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 140,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Sweetberry fruits... from the gravetree."
     },
     "Kai Fist": {
       "element": "Organic",
@@ -4826,7 +4991,8 @@
       "critchance": 20,
       "range": 7,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Strength envelops your hands…"
     },
     "Kaismith Hammer": {
       "element": "Metal",
@@ -4841,7 +5007,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 100,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Devai's trusty hammer. Its silver mauled many until its flame tempered his soul"
     },
     "Kod Kendo": {
       "element": "Organic",
@@ -4856,7 +5023,8 @@
       "critchance": 0,
       "range": 7,
       "knockback": 100,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Strength envelops your legs…"
     },
     "Lostmasks": {
       "element": "None",
@@ -4871,7 +5039,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "A smile is only 180 degrees away from a frown."
     },
     "Maimed Cudgel": {
       "element": "Organic",
@@ -4886,7 +5055,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 140,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Jagged and shoddy, yet very deadly if you hit the right spot."
     },
     "Mephisosceles": {
       "element": "Dark",
@@ -4901,7 +5071,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "In a time before light. the shapeworld existed as an endless plane of wax. Now, it houses the fundamental shapes and symbols that permeate the visible world."
     },
     "Nos Dywyll": {
       "element": "Dark",
@@ -4916,7 +5087,8 @@
       "critchance": 0,
       "range": 12,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Jim; a vigilante who simply pillaged more rifts than we did? Or a Hunter handpicked by shadows? We may never know."
     },
     "Noxious Mortar": {
       "element": "Venom",
@@ -4931,12 +5103,13 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Shoots sticky bombs that explode with a heavy attack. Does more damage if midair or near expiry."
     },
     "Prism Bow": {
       "element": "Light",
       "class": "Ranged",
-      "subtype": "Bow",
+      "subtype": "Bow (Light Bow)",
       "scaling": "Dexterity",
       "damage": 14,
       "swingspeed": 0,
@@ -4946,7 +5119,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Shiny."
     },
     "Prism Lance": {
       "element": "Light",
@@ -4961,7 +5135,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": -40,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Unending. Beam of light. A tunnel. In my mind."
     },
     "Prism Staff": {
       "element": "Light",
@@ -4976,7 +5151,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Shoots crystal prisms. Heavy attack obliterates everything, metaphorically."
     },
     "Rusty Bell": {
       "element": "Metal",
@@ -4991,7 +5167,8 @@
       "critchance": -20,
       "range": 8,
       "knockback": 200,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "I should be rising in the sky."
     },
     "Shroomerang": {
       "element": "Light",
@@ -5006,7 +5183,8 @@
       "critchance": 0,
       "range": 6,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "All things must come to a dream."
     },
     "Slime Hammer": {
       "element": "Organic",
@@ -5021,7 +5199,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 200,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "That's a lot of gum on your plate."
     },
     "Snowflurry": {
       "element": "Frost",
@@ -5036,7 +5215,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Summons a flurry of snow."
     },
     "Snowshatters": {
       "element": "Frost",
@@ -5051,7 +5231,8 @@
       "critchance": 25,
       "range": 7,
       "knockback": -80,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Elegant and fragile tools used in dance."
     },
     "Sporeshot": {
       "element": "Light",
@@ -5066,7 +5247,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Our flow and pull of life itself."
     },
     "Sunyata": {
       "element": "Light",
@@ -5081,7 +5263,8 @@
       "critchance": 0,
       "range": 6,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "You were there all along. The guiding light will scare your troubles miles away. Critical hits build up guidance that can be spent to summon beams of light"
     },
     "Swordfish": {
       "element": "Water",
@@ -5096,7 +5279,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Redesign your water."
     },
     "Tektite Arc": {
       "element": "Fire",
@@ -5111,7 +5295,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "An absurdly obsidian and alien mechanism. Charge it up with explosive power."
     },
     "Tektite Ballista": {
       "element": "None",
@@ -5126,7 +5311,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Some sort of bizarre launcher with scorching blast power."
     },
     "Tektite Crusher": {
       "element": "Earth",
@@ -5141,7 +5327,8 @@
       "critchance": -10,
       "range": 8,
       "knockback": 100,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "The bane of rock and restless dune beasts."
     },
     "The Rot": {
       "element": "Venom",
@@ -5156,7 +5343,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 100,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "You can't stop the rot..."
     },
     "Twigclaws": {
       "element": "Grass",
@@ -5171,7 +5359,8 @@
       "critchance": 0,
       "range": 7,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Overgrown claws of a twigface. Heavy attack bursts berries."
     },
     "Twisted Cage": {
       "element": "Fire",
@@ -5186,7 +5375,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "Tempered by brutal blasts of white hot flame, this charred and warped cage."
     },
     "Wicked Limb": {
       "element": "Dark",
@@ -5201,7 +5391,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 6
+      "rarity": 6,
+      "desc": "It's vile and gruesome and filled with dark energy."
     },
     "Avenger Axe": {
       "element": "Metal",
@@ -5216,7 +5407,8 @@
       "critchance": 20,
       "range": 8,
       "knockback": -40,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "A truly cruel cleaver. An oversized serrated knife."
     },
     "Cool Wrench": {
       "element": "None",
@@ -5231,7 +5423,8 @@
       "critchance": 0,
       "range": 6,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "I bet this thing could open a few vaults. Huh? I said nothing."
     },
     "Daedalus Shot": {
       "element": "None",
@@ -5246,7 +5439,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "A sleek metal bow, packed with plasma energy and fitter with a... drill for close range combat?"
     },
     "Dreamdust Flask": {
       "element": "Sand",
@@ -5261,7 +5455,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 100,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "Massive flask of so-called \"Dreamdust\"; a powdery byproduct of temporal meddling and a dream manifested."
     },
     "Gemini Blade": {
       "element": "Metal",
@@ -5276,7 +5471,8 @@
       "critchance": 0,
       "range": 9,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "A mechanical marvel of a weapon. It can switch between two forms, charge and unleash plasma, and probably cook hotdogs, too."
     },
     "Grand Prix": {
       "element": "Metal",
@@ -5291,7 +5487,8 @@
       "critchance": 0,
       "range": 7,
       "knockback": 40,
-      "rarity": 7
+      "rarity": 8,
+      "desc": "Come ride heroes ride."
     },
     "Graphite Lance": {
       "element": "Earth",
@@ -5306,7 +5503,8 @@
       "critchance": 15,
       "range": 13,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "I've never seen a blade so sharp."
     },
     "Ithaca": {
       "element": "Metal",
@@ -5321,7 +5519,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "An eccentric weapon that is half gun, half blade. How innovative!"
     },
     "Kitchen Knife": {
       "element": "Metal",
@@ -5336,7 +5535,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 40,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "Fork found in kitchen! [sic]"
     },
     "Knight's Glaive": {
       "element": "Fire",
@@ -5351,7 +5551,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "Burnin"
     },
     "Malachite Buster": {
       "element": "Metal",
@@ -5366,7 +5567,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "An elegant yet fearsome battleaxe made of brass and malachite. Poison seeps from the blade."
     },
     "Metacrab Termina": {
       "element": "Metal",
@@ -5381,7 +5583,8 @@
       "critchance": 15,
       "range": 12,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "Dual termina of a Metacrab that can conduct metal magic. Very pointy, very sharp."
     },
     "Minigun": {
       "element": "None",
@@ -5396,7 +5599,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "Wow."
     },
     "Mor Teslabow": {
       "element": "None",
@@ -5411,7 +5615,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "Well, this is a bit uncanny. A bit unwieldy too."
     },
     "Oxide Bloom": {
       "element": "Venom",
@@ -5426,7 +5631,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "Spring forward, fall back."
     },
     "Oxide Longsword": {
       "element": "Earth",
@@ -5441,7 +5647,8 @@
       "critchance": 10,
       "range": 0,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "A rending blade made from tough hide. Split the earth with great force."
     },
     "Peluche": {
       "element": "None",
@@ -5456,7 +5663,8 @@
       "critchance": -30,
       "range": 0,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "Boom boom! Last round in the chamber shoots shotgun pellets."
     },
     "Scavenger Shotgun": {
       "element": "None",
@@ -5471,7 +5679,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "This... is a boomstick."
     },
     "Seer Smartgun": {
       "element": "Plasma",
@@ -5486,10 +5695,11 @@
       "critchance": -10,
       "range": 0,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "A smart gun is always useful (citation needed) ."
     },
     "Stormcutter": {
-      "element": "None",
+      "element": "Lightning",
       "class": "Light Melee",
       "subtype": "Dagger",
       "scaling": "Dexterity",
@@ -5501,7 +5711,8 @@
       "critchance": -35,
       "range": 7,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "A piercing dagger imbued with a powerful storm."
     },
     "Stormwaker": {
       "element": "Lightning",
@@ -5516,7 +5727,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "Enchanted glaive that weaves storms. That's sick!"
     },
     "Teddy": {
       "element": "None",
@@ -5531,7 +5743,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 7,
+      "desc": "The signature weapon of the bear workshop. Fully automatic and deadly."
     },
     "Womp Womp": {
       "element": "Light",
@@ -5546,7 +5759,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 7
+      "rarity": 8,
+      "desc": "What a shame... With music, and silence."
     },
     "Arcane Musket": {
       "element": "None",
@@ -5561,7 +5775,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "A rifle infused with arcane magic."
     },
     "Black Ice": {
       "element": "None",
@@ -5576,7 +5791,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "An edgy, barbaric rifle. Swaps between bursts of ice and sprays of poisonous darts."
     },
     "Deep Sea Tome": {
       "element": "Water",
@@ -5591,7 +5807,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "A heavy, duty tome, filled with incantations from the deep."
     },
     "Don Pampura": {
       "element": "Metal",
@@ -5606,7 +5823,8 @@
       "critchance": 0,
       "range": 12,
       "knockback": 100,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "A hulking beast of a weapon, fashioned in the shape of a giant shrimp. True strength is required to wield it."
     },
     "Eventide": {
       "element": "Dark",
@@ -5621,7 +5839,8 @@
       "critchance": -20,
       "range": 8,
       "knockback": 100,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "Must sunset fall on all things? Special attacks are replicated while Doppelganger is active."
     },
     "Green Gloves": {
       "element": "Organic",
@@ -5636,7 +5855,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 8
+      "rarity": 7,
+      "desc": "I'd hate the strain and the pain all over again..."
     },
     "Guiding Diamond": {
       "element": "Plasma",
@@ -5651,7 +5871,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 100,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "We was there all along. Consumes mana to send out waves of light."
     },
     "Laser Rapier": {
       "element": "Plasma",
@@ -5666,7 +5887,8 @@
       "critchance": -20,
       "range": 10,
       "knockback": -40,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "It's over. You have the high ground."
     },
     "Millennium Cannon": {
       "element": "Plasma",
@@ -5681,7 +5903,8 @@
       "critchance": -10,
       "range": 0,
       "knockback": 0,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "Obliterating beams, blasts of red hot plasma - it's all right here in one handy cannon."
     },
     "Millennium Saw": {
       "element": "Metal",
@@ -5696,12 +5919,13 @@
       "critchance": -20,
       "range": 10,
       "knockback": -60,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "Rev it up! Eeeyeah!"
     },
     "Owl Lyre": {
       "element": "None",
       "class": "Ranged",
-      "subtype": "Bow",
+      "subtype": "Bow (Light Bow)",
       "scaling": "Dexterity",
       "damage": 21,
       "swingspeed": 0,
@@ -5711,7 +5935,8 @@
       "critchance": -10,
       "range": 0,
       "knockback": 0,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "Looks like a harp. The owls are not what they seem."
     },
     "Owl Thorn": {
       "element": "Dark",
@@ -5719,14 +5944,15 @@
       "subtype": "Sword",
       "scaling": "Strength",
       "damage": 40,
-      "swingspeed": 0,
+      "swingspeed": -10,
       "endlag": 0,
       "manacost": 0,
       "piercing": 15,
-      "critchance": 0,
+      "critchance": -10,
       "range": 8,
       "knockback": 0,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "Elusive birdman sword, steeped in dark turbulence."
     },
     "Rib Snapper": {
       "element": "None",
@@ -5741,7 +5967,8 @@
       "critchance": 20,
       "range": 0,
       "knockback": 0,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "With its snapping jaw, it can send sonic blasts that fracture bones and beans alike."
     },
     "Shredder": {
       "element": "Plasma",
@@ -5756,12 +5983,13 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "Here's a futuristic guitar that sends out rending shockwaves of plasma. What about it?"
     },
     "Temple": {
       "element": "Organic",
       "class": "Light Melee",
-      "subtype": "Swords",
+      "subtype": "Sword",
       "scaling": "Dexterity, Intellect",
       "damage": 32,
       "swingspeed": 10,
@@ -5771,7 +5999,8 @@
       "critchance": 0,
       "range": 10,
       "knockback": 0,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "Wielding this legendary relic, the blade and the mind become one. Either that, or it's placebo."
     },
     "The Big Cheese": {
       "element": "None",
@@ -5786,7 +6015,8 @@
       "critchance": -50,
       "range": 0,
       "knockback": 0,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "A gargantuan gun that can only be operated by mounting it on a table. Fires in one direction only. Requires 50 dexterity to operate."
     },
     "Tinned Calamity": {
       "element": "Undead",
@@ -5801,7 +6031,8 @@
       "critchance": -20,
       "range": 0,
       "knockback": 0,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "Sealed stinging pain, like an onion to the eye. Unleashes a swarm of vicious leeches."
     },
     "Umibozu": {
       "element": "Water",
@@ -5816,7 +6047,8 @@
       "critchance": -20,
       "range": 0,
       "knockback": 0,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "Bubbles have a chance to inflict venom or poison buildup."
     },
     "Wayfinder": {
       "element": "Plasma",
@@ -5831,7 +6063,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 8
+      "rarity": 8,
+      "desc": "A magical gun imbued with the power of the stars. We'll be counting them."
     },
     "The Jade Twin": {
       "element": "Earth",
@@ -5846,7 +6079,8 @@
       "critchance": 0,
       "range": 8,
       "knockback": 0,
-      "rarity": 10
+      "rarity": -5,
+      "desc": "A priceless and mystical blade. Said to have been forged to protect a family of evil nobles."
     },
     "Funky Driftlander": {
       "element": "Dark",
@@ -5861,7 +6095,8 @@
       "critchance": 0,
       "range": 12,
       "knockback": 0,
-      "rarity": 12
+      "rarity": -5,
+      "desc": "A bizzare spear from another dimension. \"I am from the Funky Drifting Land.\", it whispers."
     },
     "Ratboy Handgun": {
       "element": "None",
@@ -5876,7 +6111,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 12
+      "rarity": -5,
+      "desc": "A mechanical marvel engineered by the Ratboy people. Divine energy lies untapped within."
     },
     "Red Powerfists": {
       "element": "Metal",
@@ -5891,7 +6127,8 @@
       "critchance": 0,
       "range": 7,
       "knockback": 40,
-      "rarity": 12
+      "rarity": -5,
+      "desc": "Heavy metal fists imbued with powerful red energy. BING BONG!"
     },
     "Wicked Junk Spellbook": {
       "element": "Metal",
@@ -5906,7 +6143,8 @@
       "critchance": 0,
       "range": 0,
       "knockback": 0,
-      "rarity": 12
+      "rarity": -5,
+      "desc": "A profaned tome containing corrupt, though powerful industrial spells"
     },
     "Decaying Eclipse": {
       "element": "Dark",

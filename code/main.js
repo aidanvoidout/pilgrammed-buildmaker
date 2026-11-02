@@ -20,7 +20,7 @@ let currentSortDir = "asc";
 let activeSkillTab = "";
 let extraWeaponCount = 1;
 
-const MAX_POINTS = 36;
+const MAX_POINTS = 50;
 const DEBUG_SORT = false;
 
 const GLOVE_POOL = new Set([
@@ -49,7 +49,7 @@ const stat_label_texts = {
 
 const STAT_DEFAULTS = {
   str: 0, dex: 0, agi: 0, int: 0, def: 0,
-  MaxHealth: 350, MaxMana: 120, Gravity: 100,
+  MaxHealth: 500, MaxMana: 180, Gravity: 100,
   Jumps: 0, FallDamage: 100, DetectionRisk: 100,
   Regeneration: 100, ManaCost: 100,
   MaxSpeed: 0, CritChance: 0, SummonCount: 0,
